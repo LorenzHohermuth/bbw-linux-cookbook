@@ -37,6 +37,7 @@ Um nun zu beginnen mit dem Schreiben deiner Einträge, erstellst du nach simplen
 > ℹ️ Der erste Titel (Heading 1) in der Datei wird auch als Seitentitel verwendet.
 
 2. Falls der Eintrag in ein Unterthema gehört, dann in den jeweiligen Ordner verschieben.
+3. Der Link zu deinem erstellten Eintrag an richtiger Stelle in das `SUMMARY.md` schreiben.
 
 ## Eintrag ins Hauptrepository mergen
 
@@ -60,4 +61,4 @@ Wenn jeder seine Änderungen zum Hauptrepository beiträgt, kann es schnell pass
 
 > ℹ️ Aufpassen, nur synchronisieren wenn alle Änderungen schon im Hauptrepository sind. Ansonsten können diese möglicherweise gelöscht/überschrieben werden.
 
-*Bei Fragen/Problemen, einen Lead anschreiben.*
+_Bei Fragen/Problemen, einen Lead anschreiben._
