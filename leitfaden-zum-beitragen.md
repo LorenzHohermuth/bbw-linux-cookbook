@@ -20,7 +20,7 @@ Bevor du starten kannst mit dem Erstellen deiner Einträge, muss zuerst das Repo
 
 Nun hast du das Hauptrepository auf deinen eigenen Account "geforkt" und hast deine eigene Kopie des **Linux Cookbook**. Im eigenen Fork wird ab jetzt gearbeitet.
 
-1. Eigener Fork auf Desktop clonen
+3. Eigener Fork auf Desktop clonen
 
 ```sh
 git clone https://github.com/<username>/bbw-linux-cookbook
