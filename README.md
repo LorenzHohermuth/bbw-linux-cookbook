@@ -1,4 +1,10 @@
 # 🐧 BBW Linux Cookbook
 
-link to docs:
-https://bbw-linux-cookbook.gitbook.io/docs/
+### Cookbook
+https://bbw-linux-cookbook.gitbook.io/
+### Leitfaden zum Beitragen
+https://bbw-linux-cookbook.gitbook.io/docs/leitfaden-zum-beitragen
+### Geplante Einträge
+https://docs.google.com/spreadsheets/d/1C22z7cna-aCiDo5wpgXeGcKxs4bL-a4K6BgYEdm9hmQ/edit?usp=sharing
+### Markdown Cheatsheet
+https://www.markdownguide.org/cheat-sheet/
