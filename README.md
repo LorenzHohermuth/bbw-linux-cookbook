@@ -1,6 +1,5 @@
 # 🐧 BBW Linux Cookbook
 
-
 ## Links
 ### [CookBook](https://bbw-linux-cookbook.gitbook.io/)
 ### [Leitfaden zum Beitragen](https://bbw-linux-cookbook.gitbook.io/docs/leitfaden-zum-beitragen)
