@@ -16,3 +16,14 @@ In Linux werden Benutzer und Gruppen verwendet, um den Zugriff auf Ressourcen zu
 - `groupadd` fügt eine neue Gruppe hinzu.
 - `groupmod` ändert Eigenschaften einer Gruppe.
 - `groupdel` löscht eine Gruppe.
+
+
+## Berechtigungen und Zugriffskontrolle
+
+- Dateien und Verzeichnisse haben Besitzer- und Gruppeninformationen.
+- Zugriffsrechte werden in drei Kategorien unterteilt: Benutzer, Gruppe und andere.
+- Mit `chmod` ändert man die Berechtigungen einer Datei.
+- Mit `chown` ändert man den Eigentümer einer Datei.
+- Mit `chgrp` ändert man die Gruppenzugehörigkeit einer Datei.
+
+Diese Grundlagen helfen dabei, Benutzer und Gruppen in Linux zu verwalten und Zugriffsrechte auf Ressourcen anzuwenden, um die Sicherheit zu gewährleisten.
