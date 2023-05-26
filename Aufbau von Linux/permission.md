@@ -27,3 +27,9 @@ In Linux werden Benutzer und Gruppen verwendet, um den Zugriff auf Ressourcen zu
 - Mit `chgrp` ändert man die Gruppenzugehörigkeit einer Datei.
 
 Diese Grundlagen helfen dabei, Benutzer und Gruppen in Linux zu verwalten und Zugriffsrechte auf Ressourcen anzuwenden, um die Sicherheit zu gewährleisten.
+
+
+# Linux-Befehle zur Berechtigungsverwaltung
+
+In Linux gibt es mehrere Befehle zur Berechtigungsverwaltung, die dir helfen, die Zugriffsrechte für Dateien und Verzeichnisse zu kontrollieren. Hier sind einige der wichtigsten Befehle und ihre Verwendung:
+
