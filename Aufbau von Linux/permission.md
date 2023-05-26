@@ -40,3 +40,10 @@ In Linux gibt es mehrere Befehle zur Berechtigungsverwaltung, die dir helfen, di
 
 2. `chown` - Verleihe Besitz:
    Ändere den Eigentümer einer Datei oder eines Verzeichnisses. Du kannst entweder den Eigentümername oder die Benutzerkennung (UserID) verwenden. Beispiel: `chown benutzername datei.txt` ändert den Eigentümer der Datei "datei.txt" in den Benutzer mit dem Namen "benutzername".
+
+
+3. `chgrp` - Gruppenzuweisung:
+   Ändere die Gruppenzugehörigkeit einer Datei oder eines Verzeichnisses. Du kannst entweder den Gruppennamen oder die Gruppenkennung (GroupID) verwenden. Beispiel: `chgrp gruppenname datei.txt` ändert die Gruppe der Datei "datei.txt" in die Gruppe mit dem Namen "gruppenname".
+
+4. `chroot` - Auf ins Gefängnis:
+   Ändere das Root-Verzeichnis für einen Prozess und seine Kindprozesse. Dies wird oft verwendet, um eine abgeschottete Umgebung zu erstellen, in der ein Prozess nur auf bestimmte Teile des Dateisystems zugreifen kann.
