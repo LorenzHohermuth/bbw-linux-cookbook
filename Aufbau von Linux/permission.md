@@ -33,3 +33,10 @@ Diese Grundlagen helfen dabei, Benutzer und Gruppen in Linux zu verwalten und Zu
 
 In Linux gibt es mehrere Befehle zur Berechtigungsverwaltung, die dir helfen, die Zugriffsrechte für Dateien und Verzeichnisse zu kontrollieren. Hier sind einige der wichtigsten Befehle und ihre Verwendung:
 
+
+
+1. `chmod` - Kontrolliere die Macht:
+   Ändere die Zugriffsrechte von Dateien und Verzeichnissen. Du kannst festlegen, wer lesen (`r`), schreiben (`w`) und ausführen (`x`) darf. Beispiel: `chmod u+rwx datei.txt` gewährt dem Eigentümer volle Rechte auf die Datei "datei.txt".
+
+2. `chown` - Verleihe Besitz:
+   Ändere den Eigentümer einer Datei oder eines Verzeichnisses. Du kannst entweder den Eigentümername oder die Benutzerkennung (UserID) verwenden. Beispiel: `chown benutzername datei.txt` ändert den Eigentümer der Datei "datei.txt" in den Benutzer mit dem Namen "benutzername".
