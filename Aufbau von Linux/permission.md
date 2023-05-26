@@ -8,3 +8,11 @@ In Linux werden Benutzer und Gruppen verwendet, um den Zugriff auf Ressourcen zu
 - `useradd` wird verwendet, um einen neuen Benutzer hinzuzufügen.
 - `usermod` ändert die Eigenschaften eines Benutzers.
 - Mit `userdel` kann ein Benutzer gelöscht werden.
+
+
+## Gruppenverwaltung
+
+- Gruppen organisieren Benutzer mit ähnlichen Rechten. Gruppeninformationen werden in der Datei `/etc/group` gespeichert.
+- `groupadd` fügt eine neue Gruppe hinzu.
+- `groupmod` ändert Eigenschaften einer Gruppe.
+- `groupdel` löscht eine Gruppe.
