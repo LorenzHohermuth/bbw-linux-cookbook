@@ -24,3 +24,9 @@ In Linux werden Softwaredateien in verschiedenen Verzeichnissen gespeichert. Hie
 
 Linux basiert auf dem Open-Source-Modell, bei dem der Quellcode der Software für jedermann frei zugänglich ist. Das bedeutet, dass Entwickler den Quellcode einsehen, ändern und anpassen können. Diese offene und kollaborative Entwicklungsumgebung hat zu einer lebendigen Community von Entwicklern und Enthusiasten geführt.
 
+
+Weitere Unterkapitel:
+
+- [Installation / Deinstallation]()
+
+- [Aktualisierung]()
