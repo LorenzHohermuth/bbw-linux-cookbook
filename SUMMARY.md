@@ -2,4 +2,4 @@
 
 * [🏠 Home](README.md)
 * [🤝 Leitfaden zum Beitragen](leitfaden-zum-beitragen.md)
-* [ Aufbau / Ausführung Shell Scripting](ShellScripting/Aufgab-Ausführung.md)
+* [  Aufbau / Ausführung Shell Scripting](shell-scripting\aufbau-ausführung.md)
