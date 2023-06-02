@@ -6,9 +6,7 @@ Der Linux-Kernel ist das Kernstück des Betriebssystems Linux. Er stellt die gru
 
 Der Bootloader ist der erste Programmcode, der beim Starten des Computers ausgeführt wird. Er hat die Aufgabe, den Linux-Kernel in den Arbeitsspeicher zu laden und auszuführen.
 
-## 2. Architektur
-
-## 3. Kernkomponenten
+## 2. Kernkomponenten
 
 Die Kernkomponenten des Linux-Kernels umfassen:
 
