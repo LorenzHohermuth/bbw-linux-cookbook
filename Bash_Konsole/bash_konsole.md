@@ -6,6 +6,8 @@
 
 - Die Bash-Konsole ermöglicht es Benutzern, Befehle einzugeben und diese direkt auf dem System auszuführen. Sie bietet eine Vielzahl von Funktionen und Befehlen, darunter die Möglichkeit, Verzeichnisse zu navigieren, Dateien zu erstellen und zu bearbeiten, Prozesse zu verwalten, Netzwerkbefehle auszuführen und vieles mehr.
 
+- Die erste Version von Bash (Shell) wurde in 1989 am 8. Juni veröffentlicht. 
+
 ### Umgebungsvariabeln
 
 - Eine Umgebungs-Variable (Environment-Variable) wird z.B. für Komfortfunktionen in der Shell verwendet, um Suchpfade zu Programmen oder eine zentrale Proxy-Konfiguration zu setzen.
