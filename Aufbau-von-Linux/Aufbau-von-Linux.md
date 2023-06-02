@@ -1,0 +1,2 @@
+# H1 Aufbau von Linux 
+Linux-Systeme bestehen aus drei Komponenten: **Bootloader**, **Linux-Kernel** und **Root-Filesystem**. Der Bootloader hat die Aufgabe beim Booten die Hardware zu initialisieren, den Kernel ins RAM zu kopieren, ihn mit erforderlichen Informationen zu versorgen und zum Starten zu bringen.
