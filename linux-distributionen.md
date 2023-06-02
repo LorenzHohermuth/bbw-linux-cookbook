@@ -18,8 +18,8 @@ Linux-Distributionen unterscheiden sich in mehreren Aspekten:
 
 Um mehr über einzelne wichtige Distributionen zu erfahren, klickt auf die Links:
 
-- [Ubuntu]()
+* [Ubuntu]()
 
-- [Fedora]()
+* [Fedora]()
 
-- [WSL Setup]()
+* [WSL Setup]()

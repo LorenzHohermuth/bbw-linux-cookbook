@@ -27,6 +27,6 @@ Linux basiert auf dem Open-Source-Modell, bei dem der Quellcode der Software fü
 
 Weitere Unterkapitel:
 
-- [Installation / Deinstallation]()
+* [Installation / Deinstallation]()
 
-- [Aktualisierung]()
+* [Aktualisierung]()
