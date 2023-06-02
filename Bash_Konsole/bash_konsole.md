@@ -1,6 +1,6 @@
 # Bash Konsole
 
-![alt text](Images/Bash.jpg)
+![Bash Logo](Images/Bash.png)
 
 - Als Shell ist Bash eine Mensch-Maschine-Schnittstelle, die eine Umgebung bereitstellt, in der zeilenweise Texteingaben und -ausgaben möglich sind.
 
@@ -16,3 +16,4 @@
 * [Bash vs SH (Shell)]()
 * [Umgebungsvariabeln]()
 * [Pipes und Umleitung]()
+sta
