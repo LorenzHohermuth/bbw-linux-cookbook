@@ -12,3 +12,7 @@ Der `ping`-Befehl wird verwendet, um die Erreichbarkeit eines Netzwerkgeräts od
 
 ## Informationen über Datenpaket-Pfad 
 Mit `traceroute` können Sie den Pfad verfolgen, den ein Datenpaket von Ihrem System zu einer Zieladresse nimmt. Es zeigt die IP-Adressen der Geräte (Router), über die das Paket unterwegs ist, sowie die Zeit, die das Paket benötigt, um jedes Gerät zu erreichen.
+
+
+## Netzwerk Informationen
+Mit dem Befehl `netstat` ermöglicht man das Anzeigen von Informationen über Netzwerkverbindungen, Routing-Tabellen, Netzwerkstatistiken und Schnittstellenstatistiken. Sie können offene Verbindungen, lauschende Ports und andere Netzwerkdetails anzeigen.
