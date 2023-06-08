@@ -8,3 +8,7 @@ Mit `ifconfig` können Sie Informationen über Netzwerkschnittstellen abrufen, w
 
 ## Erreichbarkeit testen 
 Der `ping`-Befehl wird verwendet, um die Erreichbarkeit eines Netzwerkgeräts oder einer IP-Adresse zu überprüfen. Er sendet ICMP Echo Request-Pakete an das Ziel und erwartet ICMP Echo Reply-Pakete als Antwort. Dadurch kann überprüft werden, ob ein bestimmtes Netzwerkgerät erreichbar ist.
+
+
+## Informationen über Datenpaket-Pfad 
+Mit `traceroute` können Sie den Pfad verfolgen, den ein Datenpaket von Ihrem System zu einer Zieladresse nimmt. Es zeigt die IP-Adressen der Geräte (Router), über die das Paket unterwegs ist, sowie die Zeit, die das Paket benötigt, um jedes Gerät zu erreichen.
