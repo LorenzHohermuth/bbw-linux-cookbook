@@ -4,3 +4,7 @@ Netzwerkbefehle in Linux sind spezielle Befehle zur Verwaltung, Diagnose und Aus
 
 ## Netzwerkschnittstellen: 
 Mit `ifconfig` können Sie Informationen über Netzwerkschnittstellen abrufen, wie z.B. IP-Adresse, Netzwerkmaske und MAC-Adresse. Es ermöglicht auch das Konfigurieren von Netzwerkschnittstellen, das Aktivieren oder Deaktivieren von Schnittstellen und das Anzeigen von Statistiken.
+
+
+## Erreichbarkeit testen 
+Der `ping`-Befehl wird verwendet, um die Erreichbarkeit eines Netzwerkgeräts oder einer IP-Adresse zu überprüfen. Er sendet ICMP Echo Request-Pakete an das Ziel und erwartet ICMP Echo Reply-Pakete als Antwort. Dadurch kann überprüft werden, ob ein bestimmtes Netzwerkgerät erreichbar ist.
