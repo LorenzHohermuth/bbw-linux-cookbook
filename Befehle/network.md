@@ -20,3 +20,9 @@ Mit dem Befehl `netstat` ermöglicht man das Anzeigen von Informationen über Ne
 
 ## Remote-Verbindung
  Mit dem `ssh`-Befehl können Sie eine sichere Remote-Verbindung zu einem entfernten Linux-System herstellen. Es verwendet das Secure Shell-Protokoll (SSH), um eine verschlüsselte Verbindung herzustellen und ermöglicht die sichere Fernverwaltung des entfernten Systems.
+
+
+## Secure Copy Protocol 
+ Mit dem `scp`-Befehl können Sie Dateien sicher zwischen lokalem und entferntem System übertragen. Es verwendet ebenfalls das SSH-Protokoll, um eine verschlüsselte Übertragung zu gewährleisten.
+
+Dies sind nur einige der grundlegenden Netzwerkbefehle in Linux. Mit ihnen haben Sie die Kontrolle über Ihre Netzwerkumgebung und können verschiedene Aufgaben im Zusammenhang mit Netzwerkverbindungen effektiv durchführen.
