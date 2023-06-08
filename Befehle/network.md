@@ -16,3 +16,7 @@ Mit `traceroute` können Sie den Pfad verfolgen, den ein Datenpaket von Ihrem Sy
 
 ## Netzwerk Informationen
 Mit dem Befehl `netstat` ermöglicht man das Anzeigen von Informationen über Netzwerkverbindungen, Routing-Tabellen, Netzwerkstatistiken und Schnittstellenstatistiken. Sie können offene Verbindungen, lauschende Ports und andere Netzwerkdetails anzeigen.
+
+
+## Remote-Verbindung
+ Mit dem `ssh`-Befehl können Sie eine sichere Remote-Verbindung zu einem entfernten Linux-System herstellen. Es verwendet das Secure Shell-Protokoll (SSH), um eine verschlüsselte Verbindung herzustellen und ermöglicht die sichere Fernverwaltung des entfernten Systems.
