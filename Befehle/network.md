@@ -33,3 +33,7 @@ Dies sind nur einige der grundlegenden Netzwerkbefehle in Linux. Mit ihnen haben
 - `tcpdump`: Mit dem `tcpdump`-Befehl können Sie den Netzwerkdatenverkehr auf einer bestimmten Netzwerkschnittstelle überwachen. Sie können Filter verwenden, um den erfassten Datenverkehr auf bestimmte Protokolle, IP-Adressen oder Ports zu beschränken. Dieser Befehl ist besonders nützlich für die Netzwerkdiagnose und das Debugging.
 
 - `iptraf`: Mit `iptraf` können Sie Echtzeitstatistiken über den Netzwerkdatenverkehr auf Ihrem System anzeigen. Es zeigt detaillierte Informationen über die Übertragungsraten, die Anzahl der Pakete, die Protokolle und vieles mehr. `iptraf` ist ein leistungsstarkes Werkzeug zur Überwachung des Netzwerkverkehrs in Echtzeit.
+
+
+### Netzwerkscanning und Sicherheit
+- `nmap`: Der `nmap`-Befehl ist ein leistungsstarkes Netzwerk-Scanning-Tool. Es kann verwendet werden, um Netzwerke nach offenen Ports, laufenden Diensten und verwendeten Betriebssystemen zu scannen. `nmap` ermöglicht es Ihnen, umfangreiche Informationen über Netzwerke zu sammeln und Schwachstellen oder Sicherheitslücken zu identifizieren.
