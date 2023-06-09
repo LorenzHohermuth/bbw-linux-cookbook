@@ -9,11 +9,7 @@ Jedes digitale Gerät mit einer Internet-Verbindung hat heutzutage eine IP-Adres
 
 ---
 
-## Varianten auf der Konsole
-
-Für folgende Beispiele musst du die Konsole auf deinem Linux System öffnen.
-
-### 1. Der "ip" Command 
+## 1. Der "ip" Command 
 
 Die intuitivste Variante ist der ip-command. Kopieren sie und setzen sie ein (eckige Klammern weglassen):
 
@@ -21,8 +17,36 @@ Die intuitivste Variante ist der ip-command. Kopieren sie und setzen sie ein (ec
 
 Beim Wort "interface" geht bei dir sicher ein Fragezeichen auf, aber es ist gar nicht so kompliziert.
 
-Bei Linux Systemen gibt es drei Arten von Netzwerkverbindungen (oder interfaces).
+Die Haupt-Interfaces sind die Ethernet und WLAN interfaces, weil sie natürlich die einzigen sind, mit denen man sich mit dem Internet verbinden kann. 
 
-1. eth0
-2. eth1
-3. wlan0
+- eth0, eth1 ...
+- wlan0, wlan1 ...
+
+Bevor du den vorherigen command ausführst, solltest du dich für ein Interface entscheiden. So kannst du deine aktiven Verbindungen sehen:
+
+`ip addr`
+
+Folgende könntest du dann manipulieren.
+
+Dann gibst du den Command vom Anfang ein, als Bespiel:
+
+`sudo ip addr add 192.168.56.21/24 dev eth1`
+
+> "sudo" bedeutet "super user do". Manche Sachen kann nur der Admin auf dem Gerät tun, aber dieses Wort erleichtert dir das.
+
+## 3. Der "ifconfig" Command
+
+Um die IP-Adresse auf Linux zu ändern, kan man den Befehl "ifconfig" verwenden. Gib "ifconfig" gefolgt vom interface und der neuen IP-Adresse ein. 
+
+Bsp: `sudo ifconfig eth0 192.168.56.21/24`
+
+Die neue IP-Adresse wird dieser Schnittstelle zugewiesen.
+
+## 3. Mit dem GUI (für Desktop Benutzer) 
+
+Öffne die Einstellungen vom GNOME dashboard und wähle "Netzwerk". Klicke das Zahnrad-Icon auf deiner Verbindung.
+
+Geh zum "IPv4"-Tab und stelle um auf "Manuell", um deine Anpassungen vorzunehmen. 
+
+Wenn du die Verbindung neu startest, sollten die Änderungen Eintreffen! 
+
