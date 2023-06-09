@@ -37,3 +37,7 @@ Dies sind nur einige der grundlegenden Netzwerkbefehle in Linux. Mit ihnen haben
 
 ### Netzwerkscanning und Sicherheit
 - `nmap`: Der `nmap`-Befehl ist ein leistungsstarkes Netzwerk-Scanning-Tool. Es kann verwendet werden, um Netzwerke nach offenen Ports, laufenden Diensten und verwendeten Betriebssystemen zu scannen. `nmap` ermöglicht es Ihnen, umfangreiche Informationen über Netzwerke zu sammeln und Schwachstellen oder Sicherheitslücken zu identifizieren.
+
+
+### Fortgeschrittene Netzwerkkonfiguration
+- `iproute2`: Die `iproute2`-Befehle sind eine erweiterte Alternative zu den veralteten `ifconfig` und `route` Befehlen. Sie bieten umfangreiche Möglichkeiten zur Konfiguration und Verwaltung von Netzwerkschnittstellen, Routing-Tabellen, QoS (Quality of Service), Traffic-Shaping und vielem mehr. Zu den wichtigsten Befehlen gehören `ip`, `tc` und `ss`.
