@@ -2,7 +2,7 @@
 Netzwerkbefehle in Linux sind spezielle Befehle zur Verwaltung, Diagnose und Ausführung von Netzwerkoperationen. Sie ermöglichen es Benutzern, Informationen über Netzwerkschnittstellen, Verbindungen, Konfigurationen und den Datenverkehr abzurufen und zu manipulieren. Zu den grundlegenden Netzwerkbefehlen gehören:
 
 
-## Netzwerkschnittstellen: 
+## Netzwerkschnittstellen
 Mit `ifconfig` können Sie Informationen über Netzwerkschnittstellen abrufen, wie z.B. IP-Adresse, Netzwerkmaske und MAC-Adresse. Es ermöglicht auch das Konfigurieren von Netzwerkschnittstellen, das Aktivieren oder Deaktivieren von Schnittstellen und das Anzeigen von Statistiken.
 
 
@@ -26,3 +26,10 @@ Mit dem Befehl `netstat` ermöglicht man das Anzeigen von Informationen über Ne
  Mit dem `scp`-Befehl können Sie Dateien sicher zwischen lokalem und entferntem System übertragen. Es verwendet ebenfalls das SSH-Protokoll, um eine verschlüsselte Übertragung zu gewährleisten.
 
 Dies sind nur einige der grundlegenden Netzwerkbefehle in Linux. Mit ihnen haben Sie die Kontrolle über Ihre Netzwerkumgebung und können verschiedene Aufgaben im Zusammenhang mit Netzwerkverbindungen effektiv durchführen.
+
+
+# Erweiterte Netzwerk-Befehle und Tools
+### Netzwerküberwachungstools
+- `tcpdump`: Mit dem `tcpdump`-Befehl können Sie den Netzwerkdatenverkehr auf einer bestimmten Netzwerkschnittstelle überwachen. Sie können Filter verwenden, um den erfassten Datenverkehr auf bestimmte Protokolle, IP-Adressen oder Ports zu beschränken. Dieser Befehl ist besonders nützlich für die Netzwerkdiagnose und das Debugging.
+
+- `iptraf`: Mit `iptraf` können Sie Echtzeitstatistiken über den Netzwerkdatenverkehr auf Ihrem System anzeigen. Es zeigt detaillierte Informationen über die Übertragungsraten, die Anzahl der Pakete, die Protokolle und vieles mehr. `iptraf` ist ein leistungsstarkes Werkzeug zur Überwachung des Netzwerkverkehrs in Echtzeit.
