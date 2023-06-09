@@ -41,3 +41,9 @@ Dies sind nur einige der grundlegenden Netzwerkbefehle in Linux. Mit ihnen haben
 
 ### Fortgeschrittene Netzwerkkonfiguration
 - `iproute2`: Die `iproute2`-Befehle sind eine erweiterte Alternative zu den veralteten `ifconfig` und `route` Befehlen. Sie bieten umfangreiche Möglichkeiten zur Konfiguration und Verwaltung von Netzwerkschnittstellen, Routing-Tabellen, QoS (Quality of Service), Traffic-Shaping und vielem mehr. Zu den wichtigsten Befehlen gehören `ip`, `tc` und `ss`.
+
+
+### Netzwerkprotokoll-Analyse
+- `wireshark`: Obwohl `wireshark` eine grafische Anwendung ist, verdient es dennoch eine Erwähnung. Es handelt sich um ein umfassendes Netzwerkprotokoll-Analysetool, mit dem Sie den Netzwerkdatenverkehr aufzeichnen und analysieren können. Mit `wireshark` können Sie detaillierte Einblicke in den Netzwerkverkehr erhalten, Protokolle analysieren, Probleme diagnostizieren und vieles mehr.
+
+Diese erweiterten Netzwerkbefehle bieten umfangreiche Funktionen und ermöglichen es Ihnen, tiefgreifende Analysen, Überwachung, Sicherheitsprüfungen und Konfigurationen in Ihrem Linux-Netzwerk durchzuführen.
