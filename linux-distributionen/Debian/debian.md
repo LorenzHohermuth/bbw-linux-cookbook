@@ -1,4 +1,4 @@
-# ![Debian](debian-logo.png) Debian
+# Debian 🌀
 
 ## Einführung
 
@@ -22,7 +22,7 @@ Vorstellung von die Geschichte von Debian und was es so populär gemacht hat:
 
 - Debian ist weiterhin ein Projekt, das von der Community unterstützt wird. Anstatt sich a feste Veröffentlichungstermine zu halten, verfolgt es einen „Release when ready“-Ansatz, der sich auf Qualität und Stabilität konzentriert. Um den unterschiedlichen Bedürfnissen und Vorlieben der Benutzer gerecht zu werden, hat das Projekt mehrere Zweige, darunter Stable, Testing und Unstable.
 
-- Heutzutage hält Debian a seinen Grundsätzen fest und bietet ein vielseitiges und zuverlässiges Betriebssystem, das eine lebendige Gemeinschaft fördert. Es entwickelt sich weiter und bietet Benutzern eine kostenlose und zuverlässige Computerplattform.
+- Heutzutage hält Debian an seinen Grundsätzen fest und bietet ein vielseitiges und zuverlässiges Betriebssystem, das eine lebendige Gemeinschaft fördert. Es entwickelt sich weiter und bietet Benutzern eine kostenlose und zuverlässige Computerplattform.
 
 ## Was genau macht APT?? 📦
 
@@ -40,7 +40,8 @@ Debian folgt einem Veröffentlichungsmodell, das als "Stable" bekannt ist und de
 2. Package Management:
 Sowohl Debian als auch Ubuntu nutzen das APT-Paketverwaltungssystem, mit dem die Benutzer Softwarepakete einfach installieren, aktualisieren und verwalten können. Das von der Gemeinschaft gepflegte Paketarchiv von Debian konzentriert sich auf Stabilität und Zuverlässigkeit, während Ubuntu seine eigene strukturierte Softwareauswahl hinzufügt, um die Benutzererfahrung zu verbessern. Debians "Testing"- und "Unstable"-Zweige bieten Zugang zu neueren Softwareversionen, während Ubuntu einen benutzerfreundlicheren und vorgefertigten Ansatz bietet, der für Desktop-Benutzer und Anfänger geeignet ist.
 
-3. Sowohl Debian als auch Ubuntu haben grosse und aktive Gemeinschaften, die zu ihrer Entwicklung beitragen und Unterstützung leisten. Der benutzerfreundliche Ansatz von Ubuntu hat jedoch eine breitere Benutzerbasis angezogen, was zu einem einsteigerfreundlicheren Support-Ökosystem führt. Ubuntu verfügt über ein offizielles Supportsystem, das Gemeinschaftsforen, Dokumentation und professionelle Dienste umfasst.
+3. Support
+Debian und Ubuntu haben grosse und aktive Gemeinschaften, die zu ihrer Entwicklung beitragen und Unterstützung leisten. Der benutzerfreundliche Ansatz von Ubuntu hat jedoch eine breitere Benutzerbasis angezogen, was zu einem einsteigerfreundlicheren Support-Ökosystem führt. Ubuntu verfügt über ein offizielles Supportsystem, das Gemeinschaftsforen, Dokumentation und professionelle Dienste umfasst.
 Die Debian-Gemeinschaft ist bekannt für ihr technisches Fachwissen und ihre Hingabe an die Prinzipien freier Software. Während es bei Debian keine offiziellen bezahlten Support-Optionen gibt, sind die Community-Support-Kanäle, Mailinglisten und Foren gut etabliert und bieten umfassende Hilfe für Benutzer.
 
 Debian und Ubuntu haben zwar eine gemeinsame Abstammung, unterscheiden sich aber in dem Veröffentlichungszyklus, der Paketauswahl und den Supportmechanismen. Debian legt den Schwerpunkt auf Stabilität, Sicherheit und Softwarefreiheit, während Ubuntu den Schwerpunkt auf Benutzerfreundlichkeit und einfache Installation legt. Die Wahl zwischen den beiden hängt von individuellen Vorlieben, technischen Anforderungen und dem gewünschten Gleichgewicht zwischen modernster Software und Stabilität ab.
