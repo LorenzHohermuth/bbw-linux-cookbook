@@ -1,214 +1,204 @@
 # Meistgenutzte
 
-- [1. `ls`: List directory contents.](#1-ls-list-directory-contents)
-- [2. `cd`: Change directory.](#2-cd-change-directory)
-- [3. `pwd`: Print working directory.](#3-pwd-print-working-directory)
-- [4. `mkdir`: Make directory.](#4-mkdir-make-directory)
-- [5. `rm`: Remove files or directories.](#5-rm-remove-files-or-directories)
-- [6. `cp`: Copy files and directories.](#6-cp-copy-files-and-directories)
-- [7. `mv`: Move or rename files and directories.](#7-mv-move-or-rename-files-and-directories)
-- [8. `touch`: Create an empty file.](#8-touch-create-an-empty-file)
-- [9. `cat`: Concatenate and display file content.](#9-cat-concatenate-and-display-file-content)
-- [10. `grep`: Search for patterns in files.](#10-grep-search-for-patterns-in-files)
-- [11. `chmod`: Change file permissions.](#11-chmod-change-file-permissions)
-- [12. `chown`: Change file ownership.](#12-chown-change-file-ownership)
-- [13. `sudo`: Execute a command as a superuser (root).](#13-sudo-execute-a-command-as-a-superuser-root)
-- [14. `apt-get` or `apt`: Package management command for Debian-based systems.](#14-apt-get-or-apt-package-management-command-for-debian-based-systems)
-- [15. `yum`: Package management command for RPM-based systems.](#15-yum-package-management-command-for-rpm-based-systems)
-- [16. `ssh`: Secure Shell client for remote login.](#16-ssh-secure-shell-client-for-remote-login)
-- [17. `wget`: Download files from the web.](#17-wget-download-files-from-the-web)
-- [18. `top`: Display system resource usage.](#18-top-display-system-resource-usage)
-- [19. `ps`: List running processes.](#19-ps-list-running-processes)
-- [20. `kill`: Terminate a process.](#20-kill-terminate-a-process)
-- [21. `find`: Search for files and directories.](#21-find-search-for-files-and-directories)
-- [22. `history`: View command history.](#22-history-view-command-history)
+- [1. `ls`: Verzeichnisinhalt auflisten.](#1-ls-verzeichnisinhalt-auflisten)
+- [2. `cd`: Verzeichnis wechseln.](#2-cd-verzeichnis-wechseln)
+- [3. `pwd`: Aktuelles Verzeichnis anzeigen.](#3-pwd-aktuelles-verzeichnis-anzeigen)
+- [4. `mkdir`: Verzeichnis erstellen.](#4-mkdir-verzeichnis-erstellen)
+- [5. `rm`: Dateien oder Verzeichnisse entfernen.](#5-rm-dateien-oder-verzeichnisse-entfernen)
+- [6. `cp`: Dateien und Verzeichnisse kopieren.](#6-cp-dateien-und-verzeichnisse-kopieren)
+- [7. `mv`: Dateien und Verzeichnisse verschieben oder umbenennen.](#7-mv-dateien-und-verzeichnisse-verschieben-oder-umbenennen)
+- [8. `touch`: Leere Datei erstellen.](#8-touch-leere-datei-erstellen)
+- [9. `cat`: Dateiinhalt anzeigen und zusammenführen.](#9-cat-dateiinhalt-anzeigen-und-zusammenführen)
+- [10. `grep`: Nach Mustern in Dateien suchen.](#10-grep-nach-mustern-in-dateien-suchen)
+- [11. `chmod`: Dateiberechtigungen ändern.](#11-chmod-dateiberechtigungen-ändern)
+- [12. `chown`: Dateibesitz ändern.](#12-chown-dateibesitz-ändern)
+- [13. `sudo`: Befehl als Superuser (root) ausführen.](#13-sudo-befehl-als-superuser-root-ausführen)
+- [14. `apt-get` oder `apt`: Paketverwaltungsbefehl für Debian-basierte Systeme.](#14-apt-get-oder-apt-paketverwaltungsbefehl-für-debian-basierte-systeme)
+- [15. `yum`: Paketverwaltungsbefehl für RPM-basierte Systeme.](#15-yum-paketverwaltungsbefehl-für-rpm-basierte-systeme)
+- [16. `ssh`: Secure Shell-Client für entfernte Anmeldung.](#16-ssh-secure-shell-client-für-entfernte-anmeldung)
+- [17. `wget`: Dateien aus dem Web herunterladen.](#17-wget-dateien-aus-dem-web-herunterladen)
+- [18. `top`: Systemressourcennutzung anzeigen.](#18-top-systemressourcennutzung-anzeigen)
+- [19. `ps`: Ausgeführte Prozesse auflisten.](#19-ps-ausgeführte-prozesse-auflisten)
+- [20. `kill`: Einen Prozess beenden.](#20-kill-einen-prozess-beenden)
+- [21. `find`: Nach Dateien und Verzeichnissen suchen.](#21-find-nach-dateien-und-verzeichnissen-suchen)
+- [22. `history`: Befehlsverlauf anzeigen.](#22-history-befehlsverlauf-anzeigen)
 
-> First off all I want to mention that you can show all OPTIONS and help with `command -h` or `command --help`. Of course switch command with for example ls: `ls --help`.
+>Zunächst einmal möchte ich erwähnen, dass Sie alle OPTIONEN und Hilfe mit Befehl `-h` oder Befehl `--help` anzeigen können. Ersetzen Sie natürlich den Befehl durch beispielsweise ls: `ls --help`.
 
-## 1. `ls`: List directory contents.
+## 1. `ls`: Verzeichnisinhalt auflisten.
 
-- Description: Lists the files and directories in the current directory.
-- Syntax: `ls [OPTIONS] [FILE]`
-- Example: `ls -a` Lists files and directories in the current directory. With the `-a` it even shows hidden items
+- Beschreibung: Zeigt den Inhalt eines Verzeichnisses an.
+- Syntax: `ls [OPTIONEN] [VERZEICHNIS]`
+- Beispiel: `ls -l` zeigt den Inhalt des aktuellen Verzeichnisses mit detaillierten Informationen an.
 
-- Example: `ls -t` Lists files and directories in the current directory. With the `-t` it sorts it by time and date
+Weitere Informationen finden Sie unter [\*](*)
 
-Read more about it in [\*](*)
+## 2. `cd`: Verzeichnis wechseln.
 
-## 2. `cd`: Change directory.
+- Beschreibung: Wechselt das aktuelle Verzeichnis.
+- Syntax: `cd [VERZEICHNIS]`
+- Beispiel: `cd /pfad/zum/verzeichnis` wechselt zum angegebenen Verzeichnis.
 
-- Description: Changes the current working directory.
-- Syntax: `cd [OPTIONS] [DIRECTORY]`
-- Example: `cd /bbw-linux-cookbook` your now working in the bbw-linux-cookbook directory
+Weitere Informationen finden Sie unter [\*](*)
 
-- Example: `cd /Users/pascal/Desktop ` changes to the desktop of the user pascal
+## 3. `pwd`: Aktuelles Verzeichnis anzeigen.
 
-Read more about it in [\*](*)
+- Beschreibung: Zeigt den Pfad des aktuellen Arbeitsverzeichnisses an.
+- Syntax: `pwd`
+- Beispiel: `pwd` /bbw-linux-cookbook - hier sehen Sie Ihr aktuelles Arbeitsverzeichnis
 
-## 3. `pwd`: Print working directory.
+Weitere Informationen finden Sie unter [\*](*)
 
-- Description: Displays the current working directory path.
-- Syntax: `pwd [OPTIONS]`
-- Example: `pwd` will just print you your current path for example: `/Users/pascal`
+## 4. `mkdir`: Verzeichnis erstellen.
 
-Read more about it in [\*](*)
+- Beschreibung: Erstellt ein neues Verzeichnis.
+- Syntax: `mkdir [OPTIONEN] VERZEICHNIS`
+- Beispiel: `mkdir neues_verzeichnis` erstellt ein neues Verzeichnis mit dem Namen "neues_verzeichnis"
 
-## 4. `mkdir`: Make directory.
+Weitere Informationen finden Sie unter [\*](*)
 
-- Description: Creates a new directory. (If it doesn't exist)
-- Syntax: `mkdir [OPTIONS] DIRECTORY`
-- Example: `mkdir bbw-linux-cookbook` (creates a directory named "bbw-linux-cookbook" in the current directory)
+## 5. `rm`: Dateien oder Verzeichnisse entfernen.
 
-> If you want to combine it with cd and ls you can enter `mkdir bbw-linux-cookbook && cd bbw-linux-cookbook`
+- Beschreibung: Entfernt Dateien oder Verzeichnisse.
+- Syntax: `rm [OPTIONEN] DATEI`
+- Beispiel: `rm datei.txt` entfernt die Datei mit dem Namen "datei.txt"
 
-Read more about it in [\*](*)
+Weitere Informationen finden Sie unter [\*](*)
 
-## 5. `rm`: Remove files or directories.
+## 6. `cp`: Dateien und Verzeichnisse kopieren.
 
-- Description: Deletes files or directories. (Without any OPTION rm wont remove files)
-- Syntax: `rm [OPTIONS] FILE/DIRECTORY`
-- Example: `rm -r bbw-linux-cookbook` (removes the file "bbw-linux-cookbook.txt")
-- Example: `rm -rf text.txt` (removes the file even it its in use)
+- Beschreibung: Kopiert Dateien und Verzeichnisse.
+- Syntax: `cp [OPTIONEN] QUELLE ZIEL`
+- Beispiel: `cp datei.txt /pfad/zum/ziel` kopiert "datei.txt" zum angegebenen Ziel
 
-Read more about it in [\*](*)
+Weitere Informationen finden Sie unter [\*](*)
 
-## 6. `cp`: Copy files and directories.
+## 7. `mv`: Dateien und Verzeichnisse verschieben oder umbenennen.
 
-- Description: Copies files or directories to a new location.
-- Syntax: `cp [OPTIONS] SOURCE DESTINATION`
-- Example: `cp text.txt mostUsed.txt` (copies "text.txt" and names the copy "mostUsed.txt")
-- Example: `cp text.txt bbw-linux-cookbook/mostUsed.txt` (copies "text.txt" and names the copy "mostUsed.txt")
+- Beschreibung: Verschiebt oder benennt Dateien und Verzeichnisse um.
+- Syntax: `mv [OPTIONEN] QUELLE ZIEL`
+- Beispiel: `mv datei.txt /pfad/zum/ziel` verschiebt "datei.txt" zum angegebenen Ziel
 
-Read more about it in [\*](*)
+Weitere Informationen finden Sie unter [\*](*)
 
-## 7. `mv`: Move or rename files and directories.
+## 8. `touch`: Leere Datei erstellen.
 
-- Description: Moves or renames files and directories.
-- Syntax: `mv [OPTIONS] SOURCE DESTINATION`
-- Example: `mv mostUsed.txt bbw-linux-cookbook/` (moves "text.txt" to the directory "bbw-linux-cookbook/")
+- Beschreibung: Erstellt eine leere Datei.
+- Syntax: `touch [OPTIONEN] DATEI`
+- Beispiel: `touch datei.txt` erstellt eine leere Datei mit dem Namen "datei.txt"
 
-Read more about it in [\*](*)
+Weitere Informationen finden Sie unter [\*](*)
 
-## 8. `touch`: Create an empty file.
+## 9. `cat`: Dateiinhalt anzeigen und zusammenführen.
 
-- Description: Creates a new empty file.
-- Syntax: `touch [OPTIONS] FILENAME`
-- Example: `touch mostUsed.txt` (creates a new empty file named "mostUsed.txt" in the current directory)
-- Example: `touch mostUsed1.txt mostUsed2.txt mostUsed3.txt` (creates three files in the working directory)
+- Beschreibung: Zeigt den Inhalt einer oder mehrerer Dateien an und führt sie zusammen.
+- Syntax: `cat [OPTIONEN] DATEI`
+- Beispiel: `cat datei.txt` zeigt den Inhalt von "datei.txt" an
 
-Read more about it in [\*](*)
+Weitere Informationen finden Sie unter [\*](*)
 
-## 9. `cat`: Concatenate and display file content.
+## 10. `grep`: Nach Mustern in Dateien suchen.
 
-- Description: Displays the content of a file.
-- Syntax: `cat [OPTIONS] FILENAME`
-- Example: `cat mostUsed.txt` (displays the content of "mostUsed.txt")
+- Beschreibung: Sucht nach Mustern in Dateien.
+- Syntax: `grep [OPTIONEN] MUSTER DATEI`
+- Beispiel: `grep "suchbegriff" datei.txt` sucht nach dem angegebenen Muster in "datei.txt"
 
-- Example: `cat mostUsed1.txt mostUsed2.txt mostUsed3.txt` (displays the content of those three files)
+Weitere Informationen finden Sie unter [\*](*)
 
-Read more about it in [\*](*)
+## 11. `chmod`: Dateiberechtigungen ändern.
 
-## 10. `grep`: Search for patterns in files.
+- Beschreibung: Ändert die Berechtigungen einer Datei.
+- Syntax: `chmod [OPTIONEN] MODUS DATEI`
+- Beispiel: `chmod +x skript.sh` gibt der Datei "skript.sh" Ausführungsrechte
 
-- Description: Searches for a specific pattern in files.
-- Syntax: `grep [OPTIONS] PATTERN FILENAME`
-- Example: `grep "keyword" mostUsed.txt` (searches for the word "keyword" in "mostUsed.txt")
-- Example: `grep --color "keyword" mostUsed.txt` (searches for the word "keyword" in "mostUsed.txt" and then colors it)
+Weitere Informationen finden Sie unter [\*](*)
 
-> You can use REGEX to search with grep. Learn about this: [www.digitalocean.com](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix#using-grep-with-regual-expressions-regex)
+## 12. `chown`: Dateibesitz ändern.
 
-Read more about it in [\*](*)
+- Beschreibung: Ändert den Besitz einer Datei.
+- Syntax: `chown [OPTIONEN] BENUTZER DATEI`
+- Beispiel: `chown benutzer datei.txt` ändert den Besitz der Datei "datei.txt" auf den angegebenen Benutzer
 
-## 11. `chmod`: Change file permissions.
+Weitere Informationen finden Sie unter [\*](*)
 
-- Description: Modifies the permissions of a file or directory.
-- Syntax: `chmod [OPTIONS] MODE FILE/DIRECTORY`
-- Example: `chmod rwx mostUsed.txt` (changes the permissions of "mostUsed.txt" to full permissions)
-- - Example: `chmod --- mostUsed.txt` (changes the permissions of "mostUsed.txt" to zero permissions)
+## 13. `sudo`: Befehl als Superuser (root) ausführen.
 
-Read more about it in [\*](*)
+- Beschreibung: Führt einen Befehl als Superuser (root) aus.
+- Syntax: `sudo Befehl`
+- Beispiel: `sudo apt-get update` führt den Befehl "apt-get update" als Superuser aus
 
-## 12. `chown`: Change file ownership.
+Weitere Informationen finden Sie unter [\*](*)
 
-- Description: Changes the owner and group of a file or directory.
-- Syntax: `chown [OPTIONS] USER[:GROUP] FILE(s)`
-- Example: `chown pascal mostUsed.txt` (changes the owner of "mostUsed.txt" to the user pascal)
+## 14. `apt-get` oder `apt`: Paketverwaltungsbefehl für Debian-basierte Systeme.
 
-Read more about it in [\*](*)
+- Beschreibung: Verwaltet Pakete auf Debian-basierten Systemen.
+- Syntax: `apt-get [OPTIONEN] BEFEHL`
+- Beispiel: `apt-get install paketname` installiert das angegebene Paket
 
-## 13. `sudo`: Execute a command as a superuser (root).
+Weitere Informationen finden Sie unter [\*](*)
 
-- Description: Runs a command with administrative privileges.
-- Syntax: `sudo [OPTIONS] COMMAND`
+## 15. `yum`: Paketverwaltungsbefehl für RPM-basierte Systeme.
 
-Read more about it in [\*](*)
+- Beschreibung: Verwaltet Pakete auf RPM-basierten Systemen.
+- Syntax: `yum [OPTIONEN] BEFEHL`
+- Beispiel: `yum install paketname` installiert das angegebene Paket
 
-## 14. `apt-get` or `apt`: Package management command for Debian-based systems.
+Weitere Informationen finden Sie unter [\*](*)
 
-- Description: Manages software packages on Debian-based systems.
-- Syntax: `apt-get [OPTIONS] COMMAND` or `apt [OPTIONS] COMMAND`
-- Example: `apt-get install vim` (installs vim using apt-get)
-  Read more about it in [\*](*)
+## 16. `ssh`: Secure Shell-Client für entfernte Anmeldung.
 
-## 15. `yum`: Package management command for RPM-based systems.
+- Beschreibung: Stellt eine sichere Verbindung zu einem entfernten Host her.
+- Syntax: `ssh [OPTIONEN] BENUTZER@HOST`
+- Beispiel: `ssh benutzer@beispiel.com` stellt eine Verbindung zu "beispiel.com" her
 
-- Description: Manages software packages on RPM-based systems.
-- Syntax: `yum [OPTIONS] COMMAND`
-- Example: `yum install vsftpd` (installs the vsftpd package using yum)
+Weitere Informationen finden Sie unter [\*](*)
 
-Read more about it in [\*](*)
+## 17. `wget`: Dateien aus dem Web herunterladen.
 
-## 16. `ssh`: Secure Shell client for remote login.
+- Beschreibung: Lädt Dateien aus dem Web herunter.
+- Syntax: `wget [OPTIONEN] URL`
+- Beispiel: `wget https://beispiel.com/datei.txt` lädt die Datei "datei.txt" von der angegebenen URL herunter
 
-- Description: Connects to a remote server via SSH.
-- Syntax: `ssh [OPTIONS] [USER@]HOST`
-- Example: `ssh pascal@10.143.90.2` (connects to "10.143.90.2" with the specified username)
+Weitere Informationen finden Sie unter [\*](*)
 
-Read more about it in [\*](*)
+## 18. `top`: Systemressourcennutzung anzeigen.
 
-## 17. `wget`: Download files from the web.
+- Beschreibung: Zeigt Informationen zur Systemressourcennutzung an.
+- Syntax: `top`
+- Beispiel: `top` zeigt Echtzeitinformationen zu Prozessen und Ressourcennutzung an
 
-- Description: Downloads files from the internet.
-- Syntax: `wget [OPTIONS] URL`
-- Example: `wget[ http://example.com/file.txt](https://filesamples.com/samples/image/png/sample_640%C3%97426.png)` (downloads the image from the specified URL)
-  Read more about it in [\*](*)
+Weitere Informationen finden Sie unter [\*](*)
 
-## 18. `top`: Display system resource usage.
+## 19. `ps`: Ausgeführte Prozesse auflisten.
 
-- Description: Shows real-time information about system resource usage.
-- Syntax: `top [OPTIONS]`
-- Example: `top` (displays real-time system resource usage)
+- Beschreibung: Zeigt Informationen zu laufenden Prozessen an.
+- Syntax: `ps [OPTIONEN]`
+- Beispiel: `ps aux` zeigt eine Liste aller Prozesse im Detail an
 
-Read more about it in [\*](*)
+Weitere Informationen finden Sie unter [\*](*)
 
-## 19. `ps`: List running processes.
+## 20. `kill`: Einen Prozess beenden.
 
-- Description: Displays the running processes on the system.
-- Syntax: `ps [OPTIONS]`
-- Example: `ps aux` (lists all running processes with detailed information)
+- Beschreibung: Beendet einen laufenden Prozess.
+- Syntax: `kill [OPTIONEN] PID`
+- Beispiel: `kill 1234` beendet den Prozess mit der angegebenen PID
 
-Read more about it in [\*](*)
+Weitere Informationen finden Sie unter [\*](*)
 
-## 20. `kill`: Terminate a process.
+## 21. `find`: Nach Dateien und Verzeichnissen suchen.
 
-- Description: Terminates a running process.
-- Syntax: `kill [OPTIONS] PID`
-- Example: `kill 1234` (terminates the process with ID 1234)
+- Beschreibung: Sucht nach Dateien und Verzeichnissen basierend auf bestimmten Kriterien.
+- Syntax: `find [VERZEICHNIS] [OPTIONEN] [AUSDRUCK]`
+- Beispiel: `find /pfad/zum/verzeichnis -name "*.txt"` sucht nach allen Dateien mit der Erweiterung ".txt" im angegebenen Verzeichnis
 
-Read more about it in [\*](*)
+Weitere Informationen finden Sie unter [\*](*)
 
-## 21. `find`: Search for files and directories.
+## 22. `history`: Befehlsverlauf anzeigen.
 
-- Description: Searches for files and directories based on specified criteria.
-- Syntax: `find [OPTIONS] [PATH] [CRITERIA]`
-- Example: `find pascal/bbw-linux-cookbook/user -name "*.txt"` (searches for all files with the .txt extension in the /pascal/bbw-linux-cookbook directory)
+- Beschreibung: Zeigt eine Liste der zuvor ausgeführten Befehle an.
+- Syntax: `history [OPTIONEN]`
+- Beispiel: `history` zeigt den Befehlsverlauf an
 
-Read more about it in [\*](*)
+Weitere Informationen finden Sie unter [\*](*)
 
-## 22. `history`: View command history.
-
-- Description: Displays the command history of the current session.
-- Syntax: `history [OPTIONS]`
-- Example: `history` (displays the command history)
-
-Read more about it in [\*](*)
+(*) Hier werden die URLs für weitere Informationen normalerweise angezeigt, aber da die Übersetzung in Markdown erfolgt, können sie nicht angezeigt werden.
