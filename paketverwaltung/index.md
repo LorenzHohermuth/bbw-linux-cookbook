@@ -1,4 +1,4 @@
-# Packetverwaltung
+# 📦 Packetverwaltung
 
 Die Paketverwaltung in Linux bezieht sich auf die Verwaltung von Softwarepaketen, d. h. vorkompilierten Softwarepaketen mit Anwendungen, Bibliotheken und anderen Ressourcen. Linux-Distributionen bieten Paketverwaltungssysteme, um die Installation, Aktualisierung und Entfernung von Softwarepaketen zu vereinfachen und die Systemstabilität, Sicherheit und Benutzerfreundlichkeit zu gewährleisten.
 
