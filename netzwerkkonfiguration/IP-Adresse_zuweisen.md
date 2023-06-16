@@ -34,6 +34,8 @@ Dann gibst du den Command vom Anfang ein, als Bespiel:
 
 > "sudo" bedeutet "super user do". Manche Sachen kann nur der Admin auf dem Gerät tun, aber dieses Wort erleichtert dir das.
 
+---
+
 ## 3. Der "ifconfig" Command
 
 Um die IP-Adresse auf Linux zu ändern, kan man den Befehl "ifconfig" verwenden. Gib "ifconfig" gefolgt vom interface und der neuen IP-Adresse ein. 
@@ -42,6 +44,8 @@ Bsp: `sudo ifconfig eth0 192.168.56.21/24`
 
 Die neue IP-Adresse wird dieser Schnittstelle zugewiesen.
 
+---
+
 ## 3. Mit dem GUI (für Desktop Benutzer) 
 
 Öffne die Einstellungen vom GNOME dashboard und wähle "Netzwerk". Klicke das Zahnrad-Icon auf deiner Verbindung.
@@ -49,4 +53,45 @@ Die neue IP-Adresse wird dieser Schnittstelle zugewiesen.
 Geh zum "IPv4"-Tab und stelle um auf "Manuell", um deine Anpassungen vorzunehmen. 
 
 Wenn du die Verbindung neu startest, sollten die Änderungen Eintreffen! 
+
+---
+
+## 4. IP-Adressen permanent machen
+
+Leider verschwindet deine IP-Adresse bei einem System Reboot wieder, nach den zwei obigen Methoden. So kannst du sie permanent machen (keine Angst, es ist umkehrbar):
+
+Im file "/etc/network/interfaces" wirst du sehen, dass deine IP gerade noch von einem DHCP-Client gesetzt würde werden.
+
+So sollte der File-Content aussehen:
+
+``` 
+auto eth0 
+iface eth0 inet dhcp
+```
+
+Editiere das File, dass es sich neu so liest: 
+
+```
+auto enp0s3
+
+iface enp0s3 inet static
+
+address 192.168.56.20
+
+netmask 255.255.255.0
+
+gateway 192.168.40.31
+```
+
+Dann, damit die Änderungen in Kraft treten, führst du folgenden Command in der Konsole aus:
+
+`sudo systemctl restart networking.service`
+
+---
+
+## 5. VPNs 
+
+Mit einer VPN (Virtual Private Network) kannst du unter anderem deine Daten schützen, dazu gehört dein Standort. 
+
+Wenn du die VPN einschaltest, wählst du ein Land aus, drückst auf den Start Button und zack! Du hast eine neue IP-Adresse, die nicht auf dich zurückführbar ist.
 
