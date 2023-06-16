@@ -8,6 +8,14 @@
 
 - Die erste Version von Bash (Shell) wurde in 1989 am 8. Juni veröffentlicht, in der Programier sprache C und es war möglich Bash für mehrer Betriebsysteme zu benutzen. Bash steht für "Bourne Again Shell" und wurde von Brian Fox entwickelt. 
 
+### Bash vs KSH 
+
+- Bash und KSH sind Shell-Programmiersprachen, die auf der Unix-Shell (sh) basieren. Bash ist die Standard-Shell für Linux und macOS, während KSH, insbesondere KSH93, erweiterte Funktionen bietet. Bash ist weit verbreitet und bekannt für seine Kompatibilität und Erweiterungen. KSH93 wird in spezialisierten Umgebungen verwendet, bietet aber weniger Verbreitung.
+
+### Bash vs SH
+
+- Bash ist im Grunde genommen die Bourne Shell mit mehr Funktionen. Die meisten Befehle funktionieren zwar ähnlich, es gibt jedoch Unterschiede bei den Schnittstellen und der Skriptkompatibilität. Bash unterstützt beispielsweise Befehlshistory, Tab-Vervollständigung und weiteres. Die Bourne-Shell wird möglicherweise nicht standardmäßig installiert oder verwendet, kann aber dennoch verfügbar sein.
+
 ### Umgebungsvariabeln
 
 - Eine Umgebungs-Variable (Environment-Variable) wird z.B. für Komfortfunktionen in der Shell verwendet, um Suchpfade zu Programmen oder eine zentrale Proxy-Konfiguration zu setzen.
