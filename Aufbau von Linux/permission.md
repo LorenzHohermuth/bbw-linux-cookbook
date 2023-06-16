@@ -32,24 +32,36 @@ Diese Grundlagen helfen dabei, Benutzer und Gruppen in Linux zu verwalten und Zu
 
 # Linux-Befehle zur Berechtigungsverwaltung
 
-In Linux gibt es mehrere Befehle zur Berechtigungsverwaltung, die dir helfen, die Zugriffsrechte für Dateien und Verzeichnisse zu kontrollieren. Hier sind einige der wichtigsten Befehle und ihre Verwendung:
+*In Linux gibt es mehrere Befehle zur Berechtigungsverwaltung, die dir helfen, die Zugriffsrechte für Dateien und Verzeichnisse zu kontrollieren. Hier sind einige der wichtigsten Befehle und ihre Verwendung:*
 
 
 
 1. `chmod` - Kontrolliere die Macht:
    Ändere die Zugriffsrechte von Dateien und Verzeichnissen. Du kannst festlegen, wer lesen (`r`), schreiben (`w`) und ausführen (`x`) darf. Beispiel: `chmod u+rwx datei.txt` gewährt dem Eigentümer volle Rechte auf die Datei "datei.txt".
+   
+
+   ![chmod command](Img/chmod.png)
+
 
 2. `chown` - Verleihe Besitz:
    Ändere den Eigentümer einer Datei oder eines Verzeichnisses. Du kannst entweder den Eigentümername oder die Benutzerkennung (UserID) verwenden. Beispiel: `chown benutzername datei.txt` ändert den Eigentümer der Datei "datei.txt" in den Benutzer mit dem Namen "benutzername".
 
+   ![chown command](Img/chown.png)
+
 3. `chgrp` - Gruppenzuweisung:
    Ändere die Gruppenzugehörigkeit einer Datei oder eines Verzeichnisses. Du kannst entweder den Gruppennamen oder die Gruppenkennung (GroupID) verwenden. Beispiel: `chgrp gruppenname datei.txt` ändert die Gruppe der Datei "datei.txt" in die Gruppe mit dem Namen "gruppenname".
 
+   ![chgrp command](Img/chgrp.png)
+
 4. `chroot` - Auf ins Gefängnis:
    Ändere das Root-Verzeichnis für einen Prozess und seine Kindprozesse. Dies wird oft verwendet, um eine abgeschottete Umgebung zu erstellen, in der ein Prozess nur auf bestimmte Teile des Dateisystems zugreifen kann.
+
+   ![chroot command](Img/chroot.png)
 
 
 5. `setfacl` - Erweitere die Kontrolle:
    Verwende erweiterte Zugriffssteuerungslisten (ACLs), um detaillierte Zugriffsrechte für Dateien und Verzeichnisse festzulegen. Mit ACLs kannst du individuelle Zugriffsrechte für bestimmte Benutzer definieren. Beispiel: `setfacl -m u:benutzername:rwx datei.txt` gewährt dem Benutzer "benutzername" volle Rechte auf die Datei "datei.txt".
 
-Diese Befehle geben dir die nötigen Werkzeuge, um die Berechtigungen in deinem Linux-System anzupassen. Achte darauf, dass einige Befehle Superuser-Rechte erfordern. Experimentiere und behalte die Kontrolle über deine Dateien und Verzeichnisse!
+   ![setfacl command](Img/setfacl.png)
+
+**Diese Befehle geben dir die nötigen Werkzeuge, um die Berechtigungen in deinem Linux-System anzupassen. Achte darauf, dass einige Befehle Superuser-Rechte erfordern. Experimentiere und behalte die Kontrolle über deine Dateien und Verzeichnisse!**
