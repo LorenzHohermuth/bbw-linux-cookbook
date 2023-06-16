@@ -46,4 +46,4 @@ Die Dateistruktur von Linux folgt einem hierarchischen System, das als "Filesyst
 
 **/tmp**: Ein temporäres Verzeichnis, in dem Programme temporäre Dateien ablegen können. Der Inhalt wird normalerweise beim Neust
 
-### Es gibt natürlich weiter Verzeichnisse das sind die wichtigsten und die, die am meisten verwendet werden.
+> ℹ️ Es gibt natürlich weiter Verzeichnisse das sind die wichtigsten und die, die am meisten verwendet werden.
