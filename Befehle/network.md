@@ -8,35 +8,42 @@ Netzwerkbefehle in Linux sind spezielle Befehle zur Verwaltung, Diagnose und Aus
 
     Mit `ifconfig` können Sie Informationen über Netzwerkschnittstellen abrufen, wie z.B. IP-Adresse, Netzwerkmaske und MAC-Adresse. Es ermöglicht auch das Konfigurieren von Netzwerkschnittstellen, das Aktivieren oder Deaktivieren von Schnittstellen und das Anzeigen von Statistiken.
 
+    ![ifconfig command](<../Aufbau von Linux/Img/ifconfig.png>)
 
 ## *Erreichbarkeit testen*
 - `ping`: 
 
     Der `ping`-Befehl wird verwendet, um die Erreichbarkeit eines Netzwerkgeräts oder einer IP-Adresse zu überprüfen. Er sendet ICMP Echo Request-Pakete an das Ziel und erwartet ICMP Echo Reply-Pakete als Antwort. Dadurch kann überprüft werden, ob ein bestimmtes Netzwerkgerät erreichbar ist.
 
+    ![ping command](<../Aufbau von Linux/Img/ping.png>)
 
 ## *Informationen über Datenpaket-Pfad*
 - `traceroute`: 
 
     Mit `traceroute` können Sie den Pfad verfolgen, den ein Datenpaket von Ihrem System zu einer Zieladresse nimmt. Es zeigt die IP-Adressen der Geräte (Router), über die das Paket unterwegs ist, sowie die Zeit, die das Paket benötigt, um jedes Gerät zu erreichen.
 
+    ![traceroute](<../Aufbau von Linux/Img/traceroute.png>)
 
 ## *Netzwerk Informationen*
 - `netstat`: 
 
     Mit dem Befehl `netstat` ermöglicht man das Anzeigen von Informationen über Netzwerkverbindungen, Routing-Tabellen, Netzwerkstatistiken und Schnittstellenstatistiken. Sie können offene Verbindungen, lauschende Ports und andere Netzwerkdetails anzeigen.
 
+    ![netstat command](<../Aufbau von Linux/Img/netstat.png>)
 
 ## *Remote-Verbindung*
 - `ssh`: 
 
     Mit dem `ssh`-Befehl können Sie eine sichere Remote-Verbindung zu einem entfernten Linux-System herstellen. Es verwendet das Secure Shell-Protokoll (SSH), um eine verschlüsselte Verbindung herzustellen und ermöglicht die sichere Fernverwaltung des entfernten Systems.
 
+    ![ssh command](<../Aufbau von Linux/Img/ssh.png>)
 
 ## *Secure Copy Protocol*
 - `scp`: 
 
     Mit dem `scp`-Befehl können Sie Dateien sicher zwischen lokalem und entferntem System übertragen. Es verwendet ebenfalls das SSH-Protokoll, um eine verschlüsselte Übertragung zu gewährleisten.
+
+    ![ssh command](<../Aufbau von Linux/Img/scp.png>)
 
 **Dies sind nur einige der grundlegenden Netzwerkbefehle in Linux. Mit ihnen haben Sie die Kontrolle über Ihre Netzwerkumgebung und können verschiedene Aufgaben im Zusammenhang mit Netzwerkverbindungen effektiv durchführen.**
 
