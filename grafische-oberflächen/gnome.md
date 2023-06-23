@@ -1,11 +1,11 @@
 # 👣 GNOME
 
-Gnome ist eine grafische Oberfläche die für einfachheit des Linux system stehen.
-Das Ziel von Gnome ist das auch die personen die keine Technischekenntnisse haben auch Linux benutzen können.
+Gnome ist eine grafische Oberfläche, die für Einfachheit des Linux System stehen.
+Das Ziel von Gnome ist, dass auch die Personen, die keine technischen Kenntnisse haben, auch Linux benutzen können.
 
 ## Architektur
 
-Gnome basiert auf einer modularend struktur das bedeutet es ist in Module und Libraries eigeteilt.
+Gnome basiert auf einer modularen Struktur, das bedeutet, es ist in Module und Libraries eingeteilt.
 
 ## Installation
 
@@ -41,3 +41,18 @@ sudo apt-get install ubuntu-desktop
 ![gnome-desktop](gnome-calendar.webp)
 ### Ubuntu Desktop
 ![gnome-desktop](ubuntu.webp)
+
+## Ursprung
+
+Das Gnome Projekt wurde im Jahr 1997 gestartet und war eine Antwort auf [KDE](kde.md).
+Anfangs hatte Gnome keine freie Software-Lizenz 
+
+Im November 1998 änderten sie die Lizenz auf QPL und
+
+Im September 2000 veröffentlichen Gnome dazu auch eine GNU Version.
+
+Ab Juni 2005 im dualen Lizenzsystem.
+
+In Gnome hat man sich entschieden, das GTK (Gimp-Toolkit) zu verwenden.
+Der Hauptvorteil ist, dass sie unter eine Open-Source-Lizenz steht, durch das hat das Gnome-Team mehr Möglichkeiten für Lizenzen.
+Dazu basiert das GTK auf C, das auf den meisten Geräten laufen kann und bessere Anbindungen an andere Programmiersprachen hat.
