@@ -2,6 +2,8 @@
 
 Im Linux-Ökosystem bezieht sich der Begriff Distributionsfamilien auf Gruppen von Linux-Distributionen, die ein gemeinsames Erbe, eine gemeinsame Codebasis oder gemeinsame Grundprinzipien haben. Diese Familien bestehen aus mehreren Linux-Distributionen, die auf einer ähnlichen Grundlage aufgebaut sind und oft ähnliche Eigenschaften, Paketverwaltungssysteme und Unterstützung durch die Community haben.
 
+![Übersicht von den Distributionsfamilien](distributionsfamilien-img.png)
+
 ## Überblick
 
 Linux-Distributionen werden von Einzelpersonen, Organisationen oder Gemeinschaften mit unterschiedlichen Zielen und Philosophien entwickelt. Im Laufe der Zeit haben verschiedene Gruppen ihre eigenen Distributionen entwickelt, was zu einem vielfältigen und lebendigen Ökosystem geführt hat. Viele dieser Distributionen lassen sich jedoch auf der Grundlage gemeinsamer Abstammung oder technischer Ähnlichkeiten in Familien einteilen.
