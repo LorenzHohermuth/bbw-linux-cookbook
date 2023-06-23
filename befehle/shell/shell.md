@@ -1,6 +1,7 @@
 # Shell ⚙️
 
 ## Einführung
+
 Die Linux-Shell, auch als Terminal bekannt, ist ein leistungsfähiges Werkzeug, das Benutzer verwenden können, um mit dem Linux-Betriebssystem zu interagieren. Sie kommuniziert direkt mit dem Kernel des Computers und ermöglicht es Benutzern, Aufgaben auszuführen, das System zu verwalten und Skripte zu automatisieren. Flexibilität, Automatisierungsmöglichkeiten und Zugang zu einer Vielzahl von Dienstprogrammen und Tools werden von Shell angeboten. Obwohl die Beherrschung der Linux-Shell anfangs eine Herausforderung darstellt, erhöht sie die Produktivität und ermöglicht eine effektive Systemverwaltung, Entwicklung und Forschung.
 
 ## Common Shells
@@ -20,6 +21,7 @@ Die Linux-Shell, auch als Terminal bekannt, ist ein leistungsfähiges Werkzeug
 ## Shell Prompt
 
 Der Shell-Prompt ist ein angezeigtes Zeichen oder eine Reihe von Zeichen, die anzeigen, dass die Shell bereit ist, Befehle anzunehmen. Er enthält normalerweise Informationen wie den Benutzernamen, den Hostnamen und das aktuelle Verzeichnis. Der Prompt kann je nach verwendeter Shell variieren und kann angepasst werden. Er bietet Kontext und dient als visueller Hinweis für Benutzer, die mit der Shell interagieren.
+
 ## Befehlszeile
 
 Die Befehlszeile ist eine textbasierte Schnittstelle, mit der Benutzer mit dem Betriebssystem interagieren können, indem sie Befehle eingeben. Sie bietet eine direkte und effektive Möglichkeit, Aufgaben auszuführen, Prozesse zu automatisieren und auf Systemressourcen zuzugreifen. Zu den gängigen Befehlen gehören Datei- und Verzeichnisoperationen (ls, cd, mkdir, cp, rm), Systeminformationen (uname, top, df, free), Dateimanipulation (cat, grep, head, tail) und Systemverwaltung. Durch Shell-Skripting bietet die Kommandozeile Effizienz, Automatisierungsmöglichkeiten, Flexibilität und Erweiterbarkeit.
