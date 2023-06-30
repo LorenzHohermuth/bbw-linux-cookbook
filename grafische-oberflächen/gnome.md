@@ -1,7 +1,7 @@
 # 👣 GNOME
 
 Gnome ist eine grafische Oberfläche, die für Einfachheit des Linux System stehen.
-Das Ziel von Gnome ist, dass auch die Personen, die keine technischen Kenntnisse haben, auch Linux benutzen können.
+Das Ziel von Gnome ist es, dass auch Personen, die keine technischen Kenntnisse haben, Linux benutzen können.
 
 ## Architektur
 
