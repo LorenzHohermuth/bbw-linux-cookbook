@@ -12,6 +12,7 @@
     - [👨‍👩‍👧 Distributionsfamilien](paketverwaltung/distributionsfamilien.md)
 - [Befehle]()
     - [Processes Ubuntu Linux](befehle/processes-ubuntu-linux.md)
+    - [Paketverwaltung](befehle/paketverwaltung.md)
 - [🖼️ Grafische Oberflächen](grafische-oberflächen/grafische-oberflächen.md)
     - [👣GNOME](grafische-oberflächen/gnome.md)
     - [⚙️KDE](grafische-oberflächen/kde.md)
