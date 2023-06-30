@@ -59,6 +59,8 @@ Als dritte Option, falls du dein Passwort nicht auf dem Screen zeigen willst, nu
 
 Das Programm wird dich dann nach deinem Passwort fragen. Während man es eintippt sieht man nur Punkte für jedes Zeichen.
 
+---
+
 ## 2. **Für GUI-User (Ubuntu)**
 
 Öffne das System Menu und wähle die WLAN-Sektion.
