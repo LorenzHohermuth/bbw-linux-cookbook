@@ -10,3 +10,4 @@
 - [🖼️ Grafische Oberflächen](grafische-oberflächen/grafische-oberflächen.md)
   - [👣GNOME](grafische-oberflächen/gnome.md)
   - [⚙️KDE](grafische-oberflächen/kde.md)
+  - [Linux Distribution](linux-distributionen/wsl.md)
