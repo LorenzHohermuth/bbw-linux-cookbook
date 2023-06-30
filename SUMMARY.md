@@ -2,7 +2,6 @@
 
 - [🏠 Home](README.md)
 - [🤝 Leitfaden zum Beitragen](leitfaden-zum-beitragen.md)
-* [Processes Ubuntu Linux](befehle/processes-ubuntu-linux.md)
 - [Bash Scripting](bash-scripting/index.md)
     - [Aufbau / Ausführung Bash Scripting](bash-scripting\aufbau-ausführung.md)
     - [Variablen](bash-scripting\variablen.md)
@@ -11,6 +10,8 @@
 - [📁 Dateistruktur](aufbau-von-linux/datei-struktur.md)
 - [📦 Paketverwaltung](paketverwaltung/index.md)
     - [👨‍👩‍👧 Distributionsfamilien](paketverwaltung/distributionsfamilien.md)
+- [Befehle]()
+    - [Processes Ubuntu Linux](befehle/processes-ubuntu-linux.md)
 - [🖼️ Grafische Oberflächen](grafische-oberflächen/grafische-oberflächen.md)
     - [👣GNOME](grafische-oberflächen/gnome.md)
     - [⚙️KDE](grafische-oberflächen/kde.md)
