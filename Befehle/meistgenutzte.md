@@ -200,5 +200,3 @@ Weitere Informationen finden Sie unter [\*](*)
 - Beispiel: `history` zeigt den Befehlsverlauf an
 
 Weitere Informationen finden Sie unter [\*](*)
-
-(*) Hier werden die URLs für weitere Informationen normalerweise angezeigt, aber da die Übersetzung in Markdown erfolgt, können sie nicht angezeigt werden.
