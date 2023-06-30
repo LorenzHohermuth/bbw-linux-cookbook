@@ -15,11 +15,12 @@ Ein Bash-Shell-Script ist eine reine Textdatei, die eine Reihe verschiedener Bef
 - Um ein leeres Bash-Script zu erstellen, ändern Sie zunächst mit dem Befehl *cd* das Verzeichnis, in dem Sie Ihr Script speichern möchten . Versuchen Sie, einen Texteditor wie **gedit** zu verwenden , in den Sie die Shell-Befehle eingeben möchten.
 - Verwenden Sie den **Touch** -Befehl, um das Script mit der Grösse Null Bytes zu erstellen.
 
-        touch file_name
+        
+        `touch file_name`
         
 - Geben Sie Folgendes ein, um das Script im Texteditor (z. B. gedit) zu öffnen:
 
-        gedit file_name.sh  
+        `gedit file_name.sh`
 
 Hier wird **.sh** als Erweiterung angehängt, die Sie für die Ausführung bereitstellen müssen.
 
@@ -27,7 +28,7 @@ Hier wird **.sh** als Erweiterung angehängt, die Sie für die Ausführung berei
 
 Jedes Bash-basierte Linux-Script beginnt mit der Zeile-
 
-        #! /bin/bash  
+        `#! /bin/bash`
 
 Wo #! wird als **Shebang** bezeichnet und der Rest der Zeile ist der Path zum Interpreter, der den Speicherort der Bash-Shell in unserem Betriebssystem angibt.
 
@@ -48,7 +49,7 @@ Wenn unter Unix-ähnlichen Betriebssystemen ein Script mit einem Shebang als Pro
 
 Hier ist das richtige SheBang-Format für das besprochene Bash-Script.
 
-    #!/bin/bash  
+    `#!/bin/bash`
 
 Die Formatierung für Shebang ist am wichtigsten. Das falsche Format kann dazu führen, dass Befehle nicht ordnungsgemäss funktionieren. Denken Sie also beim Erstellen eines Scripts immer an diese beiden Punkte der SheBang-Formatierung:
 
@@ -62,10 +63,10 @@ echo ist ein in Bash integrierter Befehl, der zur Anzeige der Standardausgabe du
 
 **Syntax:**
 
-    echo [Option] [String]  
-    echo [String]  
+    `echo [Option] [String]  
+    echo [String]` 
 
 *Hinwies:*
 >Wenn Sie Leerzeichen zwischen zwei beliebigen Zeilen Ihres Scripts drucken möchten. Geben Sie dann echo wie unten angegeben ein:
 
-    echo
+    `echo`
