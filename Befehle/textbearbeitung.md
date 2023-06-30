@@ -47,6 +47,8 @@ Um eine Datei mit Vim zu öffnen, benutzen Sie den Befehl: `vim filename`
 ### Navigieren im Dokument
 
 - Verwenden Sie die Pfeiltasten, um innerhalb des Dokuments zu navigieren.
+- Benutzen Sie `j` und `k` um im Dokument zu scrollen.
+- Benutzen Sie `h`und `l`um im Dokument horizontal zu scrollen.
 - Benutzen Sie `gg`, um an den Anfang des Dokuments zu springen.
 - Benutzen Sie die Taste `G`, um an das Ende des Dokuments zu springen.
 - Verwenden Sie `Strg + F`, um eine Seite nach unten zu blättern oder `Strg + B`, um eine Seite nach oben zu blättern.
@@ -70,3 +72,7 @@ Um eine Datei mit Vim zu öffnen, benutzen Sie den Befehl: `vim filename`
 ## Schlussfolgerung
 
 Die Texteditoren Nano und Vim sind leistungsstarke Werkzeuge für die Textbearbeitung unter Linux. Nano bietet eine benutzerfreundliche Oberfläche und ist ideal für Anfänger, während Vim eine breite Palette von fortgeschrittenen Funktionen bietet und für erfahrene Benutzer geeignet ist. Mit diesem Kochbuchbeitrag sollten Sie in der Lage sein, Ihre Linux-Textdateien mit Nano und Vim effektiv zu bearbeiten und anzupassen.
+
+> Dieser Artikel wurde mit Vim geschrieben 😉
+
+![](https://preview.redd.it/2ojelnv08qm61.jpg?width=640&crop=smart&auto=webp&s=6c61b12222bc9f18e64cae6c7a88f7614fffce14)
