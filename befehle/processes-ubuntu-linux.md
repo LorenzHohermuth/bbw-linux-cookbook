@@ -1,7 +1,5 @@
 # Processes Ubuntu Linux
 
-[[TOC]]
-
 text
 
 ## h2
