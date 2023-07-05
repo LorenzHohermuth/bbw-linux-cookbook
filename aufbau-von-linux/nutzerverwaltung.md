@@ -8,10 +8,10 @@ Unter Linux können mehrere Benutzerkonten erstellt werden, um verschiedene Benu
 - **Benutzer hinzufügen:**
 Um einen neuen Benutzer hinzuzufügen, kann das Befehlszeilenprogramm `adduser` oder `useradd` verwendet werden. Der Befehl `adduser` führt zusätzliche Konfigurationsschritte aus, während `useradd` nur das Benutzerkonto erstellt.
 
-1. Beispiel mit zusätzlichen Konfigurationsschritten
+- Beispiel mit zusätzlichen Konfigurationsschritten
 `sudo adduser benutzername`
 
-2. Beispiel ohne zusätzliche Konfigurationsschritte
+- Beispiel ohne zusätzliche Konfigurationsschritte
 `sudo useradd benutzername`
 
 
