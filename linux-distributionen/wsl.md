@@ -12,7 +12,7 @@ Insgesamt bietet WSL eine flexible und bequeme Möglichkeit, eine Linux-Umgebung
 
 ## Nutzen
 
-Mit WSL können Benutzer eine Vielzahl von Linux-Distributionen, wie Ubuntu, Debian, Fedora und mehr, auf ihren auf Windows basierenden Computern installieren und ausführen. Diese Distributionen laufen jedoch nicht in einer vollständig separaten Umgebung, sondern teilen sich den Kernel des Windows-Betriebssystems. Dadurch wird eine nahtlose Integration von Linux- und Windows-Anwendungen ermöglicht.
+Mit WSL können Benutzer eine Vielzahl von Linux-Distributionen, wie Ubuntu, Debian, Fedora und mehr, auf Windows basierenden Computern installieren und ausführen. Diese Distributionen laufen jedoch nicht in einer vollständig separaten Umgebung, sondern teilen sich den Kernel des Windows-Betriebssystems. Dadurch wird eine nahtlose Integration von Linux- und Windows-Anwendungen ermöglicht.
 
 ## Vorteile
 
