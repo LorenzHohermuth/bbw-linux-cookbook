@@ -123,17 +123,27 @@ In der Sudo-Konfigurationsdatei können Sie Benutzern oder Gruppen Sudo-Berechti
 
 - **Kürzel mit Erklärungen**
 
-`-l`: Ändert den Benutzernamen eines bestehenden Benutzers. Zum Beispiel: `usermod -l neuerbenutzername alterbenutzername`.
-`-n`: Ändert den Gruppennamen einer vorhandenen Gruppe. Zum Beispiel: `groupmod -n neuergruppenname altergruppenname`.
-`-u`: Ändert die Benutzer-ID (UID) eines Benutzers. Zum Beispiel: `usermod -u neue_uid benutzername`.
-`-g`: Ändert die primäre Gruppenzugehörigkeit eines Benutzers. Beispiel: `usermod -g neueprimärguppenname benutzername`.
-`-aG`: Fügt einen Benutzer zu einer zusätzlichen Gruppe hinzu. Beispiel: `usermod -aG zusätzlichegruppe benutzername`.
-`-d`: Ändert das Heimatverzeichnis eines Benutzers. Zum Beispiel: `usermod -d /neuesverzeichnis benutzername`.
-`-p`: Setzt das Passwort eines Benutzers. Zum Beispiel: `passwd benutzername`.
-`-R`: Wendet rekursiv Änderungen auf Unterverzeichnisse und Dateien an. Wird oft in Kombination mit `chmod` verwendet. Zum Beispiel: `chmod -R <zugriffsrechte>` verzeichnisname.
-`-C`: Legt das Kontingent für den Benutzer fest, d.h. die maximale Größe des Home-Verzeichnisses. Zum Beispiel: `edquota -u benutzername`.
-`-s`: Ändert die Standard-Shell für einen Benutzer. Zum Beispiel: `usermod -s /bin/bash benutzername`.
-`-i`: Ändert den Kommentar oder die Beschreibung eines Benutzers. Zum Beispiel: `usermod -c "Neuer Kommentar" benutzername`.
+- `-l`: Ändert den Benutzernamen eines bestehenden Benutzers. Zum Beispiel: `usermod -l neuerbenutzername alterbenutzername`.
+
+- `-n`: Ändert den Gruppennamen einer vorhandenen Gruppe. Zum Beispiel: `groupmod -n neuergruppenname altergruppenname`.
+
+- `-u`: Ändert die Benutzer-ID (UID) eines Benutzers. Zum Beispiel: `usermod -u neue_uid benutzername`.
+
+- `-g`: Ändert die primäre Gruppenzugehörigkeit eines Benutzers. Beispiel: `usermod -g neueprimärguppenname benutzername`.
+
+- `-aG`: Fügt einen Benutzer zu einer zusätzlichen Gruppe hinzu. Beispiel: `usermod -aG zusätzlichegruppe benutzername`.
+
+- `-d`: Ändert das Heimatverzeichnis eines Benutzers. Zum Beispiel: `usermod -d /neuesverzeichnis benutzername`.
+
+- `-p`: Setzt das Passwort eines Benutzers. Zum Beispiel: `passwd benutzername`.
+
+- `-R`: Wendet rekursiv Änderungen auf Unterverzeichnisse und Dateien an. Wird oft in Kombination mit `chmod` verwendet. Zum Beispiel: `chmod -R <zugriffsrechte>` verzeichnisname.
+
+- `-C`: Legt das Kontingent für den Benutzer fest, d.h. die maximale Größe des Home-Verzeichnisses. Zum Beispiel: `edquota -u benutzername`.
+
+- `-s`: Ändert die Standard-Shell für einen Benutzer. Zum Beispiel: `usermod -s /bin/bash benutzername`.
+
+- `-i`: Ändert den Kommentar oder die Beschreibung eines Benutzers. Zum Beispiel: `usermod -c "Neuer Kommentar" benutzername`.
 
 Diese Kürzel und Optionen können je nach Linux-Distribution und Version variieren. Es wird empfohlen, die entsprechende Dokumentation oder die Hilfe der einzelnen Befehle zu konsultieren, um spezifische Informationen zu erhalten.
 
