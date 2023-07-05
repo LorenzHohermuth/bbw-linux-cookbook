@@ -11,12 +11,12 @@ Um einen neuen Benutzer hinzuzufügen, kann das Befehlszeilenprogramm `adduser` 
 - Beispiel mit zusätzlichen Konfigurationsschritten
 
 ```bash
-export sudo adduser benutzername
+sudo adduser benutzername
 ```
 
 - Beispiel ohne zusätzliche Konfigurationsschritte
 ```bash
-export sudo useradd benutzername
+sudo useradd benutzername
 ```
 
 
@@ -25,7 +25,7 @@ Nachdem der Befehl ausgeführt wurde, werden Sie aufgefordert, einen Passwort f�
 - **Benutzer löschen:**
 Um einen Benutzer zu löschen, kann der Befehl `userdel` verwendet werden. Beispiel:
 ```bash
-export sudo userdel benutzername
+sudo userdel benutzername
 ```
 
 Dieser Befehl löscht das Benutzerkonto, entfernt die zugehörigen Dateien aus dem Home-Verzeichnis des Benutzers und entfernt ihn aus den Gruppen, denen er angehört.
@@ -36,7 +36,7 @@ Gruppen in Linux ermöglichen es, Benutzer mit ähnlichen Zugriffsrechten zu org
 - **Gruppe erstellen:**
 Um eine neue Gruppe zu erstellen, kann der Befehl `groupadd` verwendet werden. Beispiel:
 ```bash
-export sudo groupadd gruppe
+sudo groupadd gruppe
 ```
 
 Dieser Befehl erstellt eine neue Gruppe mit dem Namen "gruppe".
@@ -44,7 +44,7 @@ Dieser Befehl erstellt eine neue Gruppe mit dem Namen "gruppe".
 - **Gruppe löschen:**
 Um eine Gruppe zu löschen, kann der Befehl `groupdel` verwendet werden. Beispiel:
 ```bash
-export sudo groupdel gruppe
+sudo groupdel gruppe
 ```
 
 Dieser Befehl löscht die Gruppe "gruppe".
@@ -55,7 +55,7 @@ Die Linux Nutzerverwaltung ermöglicht es, Zugriffsrechte auf Dateien und Verzei
 - **Zugriffsrechte ändern:**
 Um die Zugriffsrechte einer Datei oder eines Verzeichnisses zu ändern, kann der Befehl `chmod` verwendet werden. Beispiel:
 ```bash
-export chmod u+rwx dateiname
+chmod u+rwx dateiname
 ``` 
 
 Dieser Befehl gewährt dem Eigentümer (user, `u`) Lese-, Schreib- und Ausführungsrechte (`rwx`) für die Datei "dateiname". Weitere Optionen sind `g` für die Gruppe und `o` für andere Benutzer.
@@ -68,7 +68,7 @@ Die Befehle `usermod` und `groupmod` ermöglichen die Modifikation von Benutzer-
 - **usermod:**
 Der Befehl `usermod` ermöglicht die Änderung verschiedener Benutzerattribute wie Benutzername, Benutzer-ID, Gruppenzugehörigkeit und Heimatverzeichnis. Beispiel:
 ```bash
-export sudo usermod -l neuerbenutzername alterbenutzername
+sudo usermod -l neuerbenutzername alterbenutzername
 ```
 
 Dieser Befehl ändert den Benutzernamen des Benutzers von "alterbenutzername" in "neuerbenutzername". Weitere Optionen können verwendet werden, um andere Attribute zu ändern.
@@ -76,7 +76,7 @@ Dieser Befehl ändert den Benutzernamen des Benutzers von "alterbenutzername" in
 - **groupmod:**
 Der Befehl `groupmod` ermöglicht die Änderung von Gruppenattributen wie Gruppenname und Gruppen-ID. Beispiel:
 ```bash
-export sudo groupmod -n neuergruppenname altergruppenname
+sudo groupmod -n neuergruppenname altergruppenname
 ```
 
 Dieser Befehl ändert den Gruppennamen von "altergruppenname" in "neuergruppenname". Weitere Optionen können verwendet werden, um andere Attribute zu ändern.
@@ -88,7 +88,7 @@ Der Befehl `passwd` ermöglicht die Änderung des Passworts eines Benutzers in e
 - **Passwort ändern:**
 Um das Passwort für einen Benutzer zu ändern, kann der Befehl `passwd` verwendet werden. Beispiel:
 ```bash
-export passwd benutzername
+passwd benutzername
 ```
 
 Nach der Eingabe des Befehls werden Sie aufgefordert, das neue Passwort zweimal einzugeben. Beachten Sie, dass beim Eingeben des Passworts keine Zeichen angezeigt werden.
@@ -100,7 +100,7 @@ Der Befehl `chmod` ermöglicht die Änderung von Zugriffsrechten für Dateien un
 - **Rekursive Änderung von Zugriffsrechten:**
 Um die Zugriffsrechte eines Verzeichnisses und aller darin enthaltenen Dateien und Unterverzeichnisse rekursiv zu ändern, verwenden Sie den Befehl `chmod` mit dem Parameter `-R`. Beispiel:
 ```bash
-export chmod -R <zugriffsrechte> verzeichnisname
+chmod -R <zugriffsrechte> verzeichnisname
 ```
     
 Ersetzen Sie `<zugriffsrechte>` durch die gewünschten Zugriffsrechte und `verzeichnisname` durch den Namen des Verzeichnisses, für das die Änderungen gelten sollen.
@@ -112,7 +112,7 @@ Der Befehl `visudo` wird verwendet, um die Konfigurationsdatei `/etc/sudoers` si
 - **Bearbeiten der Sudo-Konfigurationsdatei:**
 Um die Sudo-Konfigurationsdatei zu bearbeiten, verwenden Sie den Befehl `visudo`. Beispiel:
 ```bash
-export sudo visudo
+sudo visudo
 ```
 
 Dieser Befehl öffnet die Konfigurationsdatei in einem Texteditor. Sie sollten nur `visudo` verwenden, da dieser Befehl die Datei vor dem Speichern auf Fehler überprüft und so verhindert, dass Sie den Zugriff auf das System verlieren.
