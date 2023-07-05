@@ -31,7 +31,7 @@
 - Syntax: `ls [OPTIONEN] [VERZEICHNIS]`
 - Beispiel: `ls -l` zeigt den Inhalt des aktuellen Verzeichnisses mit detaillierten Informationen an.
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 2. `cd`: Verzeichnis wechseln.
 
@@ -39,7 +39,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `cd [VERZEICHNIS]`
 - Beispiel: `cd /pfad/zum/verzeichnis` wechselt zum angegebenen Verzeichnis.
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 3. `pwd`: Aktuelles Verzeichnis anzeigen.
 
@@ -47,7 +47,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `pwd`
 - Beispiel: `pwd` /bbw-linux-cookbook - hier sehen Sie Ihr aktuelles Arbeitsverzeichnis
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 4. `mkdir`: Verzeichnis erstellen.
 
@@ -55,7 +55,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `mkdir [OPTIONEN] VERZEICHNIS`
 - Beispiel: `mkdir neues_verzeichnis` erstellt ein neues Verzeichnis mit dem Namen "neues_verzeichnis"
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 5. `rm`: Dateien oder Verzeichnisse entfernen.
 
@@ -63,7 +63,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `rm [OPTIONEN] DATEI`
 - Beispiel: `rm datei.txt` entfernt die Datei mit dem Namen "datei.txt"
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 6. `cp`: Dateien und Verzeichnisse kopieren.
 
@@ -71,7 +71,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `cp [OPTIONEN] QUELLE ZIEL`
 - Beispiel: `cp datei.txt /pfad/zum/ziel` kopiert "datei.txt" zum angegebenen Ziel
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 7. `mv`: Dateien und Verzeichnisse verschieben oder umbenennen.
 
@@ -79,7 +79,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `mv [OPTIONEN] QUELLE ZIEL`
 - Beispiel: `mv datei.txt /pfad/zum/ziel` verschiebt "datei.txt" zum angegebenen Ziel
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 8. `touch`: Leere Datei erstellen.
 
@@ -87,7 +87,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `touch [OPTIONEN] DATEI`
 - Beispiel: `touch datei.txt` erstellt eine leere Datei mit dem Namen "datei.txt"
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 9. `cat`: Dateiinhalt anzeigen und zusammenführen.
 
@@ -95,7 +95,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `cat [OPTIONEN] DATEI`
 - Beispiel: `cat datei.txt` zeigt den Inhalt von "datei.txt" an
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 10. `grep`: Nach Mustern in Dateien suchen.
 
@@ -103,7 +103,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `grep [OPTIONEN] MUSTER DATEI`
 - Beispiel: `grep "suchbegriff" datei.txt` sucht nach dem angegebenen Muster in "datei.txt"
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 11. `chmod`: Dateiberechtigungen ändern.
 
@@ -111,7 +111,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `chmod [OPTIONEN] MODUS DATEI`
 - Beispiel: `chmod +x skript.sh` gibt der Datei "skript.sh" Ausführungsrechte
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 12. `chown`: Dateibesitz ändern.
 
@@ -119,7 +119,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `chown [OPTIONEN] BENUTZER DATEI`
 - Beispiel: `chown benutzer datei.txt` ändert den Besitz der Datei "datei.txt" auf den angegebenen Benutzer
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 13. `sudo`: Befehl als Superuser (root) ausführen.
 
@@ -127,7 +127,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `sudo Befehl`
 - Beispiel: `sudo apt-get update` führt den Befehl "apt-get update" als Superuser aus
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 14. `apt-get` oder `apt`: Paketverwaltungsbefehl für Debian-basierte Systeme.
 
@@ -135,7 +135,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `apt-get [OPTIONEN] BEFEHL`
 - Beispiel: `apt-get install paketname` installiert das angegebene Paket
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 15. `yum`: Paketverwaltungsbefehl für RPM-basierte Systeme.
 
@@ -143,7 +143,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `yum [OPTIONEN] BEFEHL`
 - Beispiel: `yum install paketname` installiert das angegebene Paket
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 16. `ssh`: Secure Shell-Client für entfernte Anmeldung.
 
@@ -151,7 +151,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `ssh [OPTIONEN] BENUTZER@HOST`
 - Beispiel: `ssh benutzer@beispiel.com` stellt eine Verbindung zu "beispiel.com" her
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 17. `wget`: Dateien aus dem Web herunterladen.
 
@@ -159,7 +159,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `wget [OPTIONEN] URL`
 - Beispiel: `wget https://beispiel.com/datei.txt` lädt die Datei "datei.txt" von der angegebenen URL herunter
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 18. `top`: Systemressourcennutzung anzeigen.
 
@@ -167,7 +167,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `top`
 - Beispiel: `top` zeigt Echtzeitinformationen zu Prozessen und Ressourcennutzung an
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 19. `ps`: Ausgeführte Prozesse auflisten.
 
@@ -175,7 +175,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `ps [OPTIONEN]`
 - Beispiel: `ps aux` zeigt eine Liste aller Prozesse im Detail an
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 20. `kill`: Einen Prozess beenden.
 
@@ -183,7 +183,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `kill [OPTIONEN] PID`
 - Beispiel: `kill 1234` beendet den Prozess mit der angegebenen PID
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 21. `find`: Nach Dateien und Verzeichnissen suchen.
 
@@ -191,7 +191,7 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `find [VERZEICHNIS] [OPTIONEN] [AUSDRUCK]`
 - Beispiel: `find /pfad/zum/verzeichnis -name "*.txt"` sucht nach allen Dateien mit der Erweiterung ".txt" im angegebenen Verzeichnis
 
-Weitere Informationen finden Sie unter [\*](*)
+
 
 ## 22. `history`: Befehlsverlauf anzeigen.
 
@@ -199,4 +199,3 @@ Weitere Informationen finden Sie unter [\*](*)
 - Syntax: `history [OPTIONEN]`
 - Beispiel: `history` zeigt den Befehlsverlauf an
 
-Weitere Informationen finden Sie unter [\*](*)
