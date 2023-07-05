@@ -8,7 +8,7 @@ Insgesamt bietet WSL eine flexible und bequeme Möglichkeit, eine Linux-Umgebung
 
 - **Installation via Microsoft Store:**
 
-- **Installation via CMD/Powershell** Öffnen sie das CMD oder die Powershell mit Administratorrechten. Danach können sie innerhalb mit dem Befehl `code` wsl --install `code` WSL installieren. Dadurch werden die nötigen Features für WSL aktiviert und eine Ubuntu Distribution von Linux installiert.
+- **Installation via CMD/Powershell** Öffnen sie das CMD oder die Powershell mit Administratorrechten. Danach können sie innerhalb mit dem Befehl ```bash wsl --install ``` WSL installieren. Dadurch werden die nötigen Features für WSL aktiviert und eine Ubuntu Distribution von Linux installiert.
 
 ## Nutzen
 
@@ -26,6 +26,8 @@ Mit WSL können Benutzer eine Vielzahl von Linux-Distributionen, wie Ubuntu, Deb
 
 ## WSL 1 vs WSL 2
 
-- **WSL 1** WSL 1 emuliert den Linux-Kernel auf Windows und bietet eine gute Kompatibilität.
+- **WSL 1:** 
+emuliert den Linux-Kernel auf Windows und bietet eine gute Kompatibilität.
 
-- **WSL 2** WSL 2 verwendet eine vollständige Linux-Kernel-Virtualisierung und bietet eine verbesserte Leistung und Kompatibilität.
+- **WSL 2:** 
+verwendet eine vollständige Linux-Kernel-Virtualisierung und bietet eine verbesserte Leistung und Kompatibilität.
