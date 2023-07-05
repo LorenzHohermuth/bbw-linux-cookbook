@@ -129,7 +129,7 @@ Dieser Befehl öffnet die Konfigurationsdatei in einem Texteditor. Sie sollten n
 
 In der Sudo-Konfigurationsdatei können Sie Benutzern oder Gruppen Sudo-Berechtigungen erteilen, um bestimmte Aufgaben mit erhöhten Rechten auszuführen. Es ist wichtig, die Syntax der Datei korrekt zu befolgen, da Fehler zu Problemen beim Ausführen von Sudo-Befehlen führen können.
 
-## Verwaltung des Kontingents für den benutzer
+## Verwaltung des Kontingents für den Benutzer
 
 Der Befehl `edquota` wird verwendet, um das Speicherkontingent für Benutzer in Linux zu bearbeiten. Mit diesem Befehl können Administratoren die maximale Speichernutzung für einzelne Benutzer festlegen und verwalten. Es ermöglicht die Festlegung von Soft- und Hard-Limits sowie die Überwachung von Kontingentüberschreitungen. Der Befehl öffnet einen Texteditor, in dem die Kontingentwerte bearbeitet werden können. es werden administrative Rechte benötigt, um `edquota` auszuführen.
 
