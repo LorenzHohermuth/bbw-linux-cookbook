@@ -8,9 +8,11 @@ Insgesamt bietet WSL eine flexible und bequeme Möglichkeit, eine Linux-Umgebung
 
 - **Installation via Microsoft Store**
 
-- **Installation via CMD/Powershell** Öffnen sie das CMD oder die Powershell mit Administratorrechten. Danach können sie innerhalb mit dem Befehl  ```bash
+- **Installation via CMD/Powershell** Öffnen sie das CMD oder die Powershell mit Administratorrechten. Danach können sie innerhalb mit dem Befehl: 
+
+```bash
 wsl --install
-``` 
+```
  
  WSL installieren. Dadurch werden die nötigen Features für WSL aktiviert und eine Ubuntu Distribution von Linux installiert.
 
