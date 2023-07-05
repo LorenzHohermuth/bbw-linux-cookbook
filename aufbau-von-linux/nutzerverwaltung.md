@@ -15,6 +15,7 @@ sudo adduser benutzername
 ```
 
 - Beispiel ohne zusätzliche Konfigurationsschritte
+
 ```bash
 sudo useradd benutzername
 ```
@@ -24,6 +25,7 @@ Nachdem der Befehl ausgeführt wurde, werden Sie aufgefordert, einen Passwort f�
 
 - **Benutzer löschen:**
 Um einen Benutzer zu löschen, kann der Befehl `userdel` verwendet werden. Beispiel:
+
 ```bash
 sudo userdel benutzername
 ```
@@ -35,6 +37,7 @@ Gruppen in Linux ermöglichen es, Benutzer mit ähnlichen Zugriffsrechten zu org
 
 - **Gruppe erstellen:**
 Um eine neue Gruppe zu erstellen, kann der Befehl `groupadd` verwendet werden. Beispiel:
+
 ```bash
 sudo groupadd gruppe
 ```
@@ -43,6 +46,7 @@ Dieser Befehl erstellt eine neue Gruppe mit dem Namen "gruppe".
 
 - **Gruppe löschen:**
 Um eine Gruppe zu löschen, kann der Befehl `groupdel` verwendet werden. Beispiel:
+
 ```bash
 sudo groupdel gruppe
 ```
@@ -54,6 +58,7 @@ Die Linux Nutzerverwaltung ermöglicht es, Zugriffsrechte auf Dateien und Verzei
 
 - **Zugriffsrechte ändern:**
 Um die Zugriffsrechte einer Datei oder eines Verzeichnisses zu ändern, kann der Befehl `chmod` verwendet werden. Beispiel:
+
 ```bash
 chmod u+rwx dateiname
 ``` 
@@ -67,6 +72,7 @@ Die Befehle `usermod` und `groupmod` ermöglichen die Modifikation von Benutzer-
 
 - **usermod:**
 Der Befehl `usermod` ermöglicht die Änderung verschiedener Benutzerattribute wie Benutzername, Benutzer-ID, Gruppenzugehörigkeit und Heimatverzeichnis. Beispiel:
+
 ```bash
 sudo usermod -l neuerbenutzername alterbenutzername
 ```
@@ -75,6 +81,7 @@ Dieser Befehl ändert den Benutzernamen des Benutzers von "alterbenutzername" in
 
 - **groupmod:**
 Der Befehl `groupmod` ermöglicht die Änderung von Gruppenattributen wie Gruppenname und Gruppen-ID. Beispiel:
+
 ```bash
 sudo groupmod -n neuergruppenname altergruppenname
 ```
@@ -87,6 +94,7 @@ Der Befehl `passwd` ermöglicht die Änderung des Passworts eines Benutzers in e
 
 - **Passwort ändern:**
 Um das Passwort für einen Benutzer zu ändern, kann der Befehl `passwd` verwendet werden. Beispiel:
+
 ```bash
 passwd benutzername
 ```
@@ -99,6 +107,7 @@ Der Befehl `chmod` ermöglicht die Änderung von Zugriffsrechten für Dateien un
 
 - **Rekursive Änderung von Zugriffsrechten:**
 Um die Zugriffsrechte eines Verzeichnisses und aller darin enthaltenen Dateien und Unterverzeichnisse rekursiv zu ändern, verwenden Sie den Befehl `chmod` mit dem Parameter `-R`. Beispiel:
+
 ```bash
 chmod -R <zugriffsrechte> verzeichnisname
 ```
@@ -111,6 +120,7 @@ Der Befehl `visudo` wird verwendet, um die Konfigurationsdatei `/etc/sudoers` si
 
 - **Bearbeiten der Sudo-Konfigurationsdatei:**
 Um die Sudo-Konfigurationsdatei zu bearbeiten, verwenden Sie den Befehl `visudo`. Beispiel:
+
 ```bash
 sudo visudo
 ```
@@ -118,6 +128,10 @@ sudo visudo
 Dieser Befehl öffnet die Konfigurationsdatei in einem Texteditor. Sie sollten nur `visudo` verwenden, da dieser Befehl die Datei vor dem Speichern auf Fehler überprüft und so verhindert, dass Sie den Zugriff auf das System verlieren.
 
 In der Sudo-Konfigurationsdatei können Sie Benutzern oder Gruppen Sudo-Berechtigungen erteilen, um bestimmte Aufgaben mit erhöhten Rechten auszuführen. Es ist wichtig, die Syntax der Datei korrekt zu befolgen, da Fehler zu Problemen beim Ausführen von Sudo-Befehlen führen können.
+
+## Verwaltung des Kontingents für den benutzer
+
+Der Befehl `edquota` wird verwendet, um das Speicherkontingent für Benutzer in Linux zu bearbeiten. Mit diesem Befehl können Administratoren die maximale Speichernutzung für einzelne Benutzer festlegen und verwalten. Es ermöglicht die Festlegung von Soft- und Hard-Limits sowie die Überwachung von Kontingentüberschreitungen. Der Befehl öffnet einen Texteditor, in dem die Kontingentwerte bearbeitet werden können. es werden administrative Rechte benötigt, um `edquota` auszuführen.
 
 ## Kürzelsammlung
 
