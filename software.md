@@ -1,10 +1,12 @@
-# Software
+# 💻 Software
 
 Linux ist ein Open-Source-Betriebssystem mit einer Vielzahl verfügbarer Software. Hier ist ein Überblick über einige der gängigen Kategorien von Software in Linux:
 
 ## Paketverwaltung
 
 Linux verwendet Paketverwaltungssysteme wie APT oder YUM, um Softwarepakete herunterzuladen und zu installieren.
+
+![](img/APT.png)
 
 ## Kernel
 Linux verwendet einen monolithischen Kernel, der mehr Speicherplatz verbraucht, während Windows einen Mikrokernel verwendet, der weniger Speicherplatz benötigt, aber die Effizienz des Systems im Vergleich zu Linux verringert.
@@ -19,6 +21,8 @@ In Linux werden Softwaredateien in verschiedenen Verzeichnissen gespeichert. Hie
 - /usr/sbin: Ausführbare Binärdateien für erweiterte Systemaufgaben.
 - /usr/local: Lokal installierte Software vom Systemadministrator.
 - /opt: Zusätzliche Software von Drittanbietern.
+
+![](img/linux_ordner.jpg)
 
 ## Open Source und Linux
 
