@@ -1,0 +1,108 @@
+# Linux Nutzerverwaltung
+
+Die Linux Nutzerverwaltung ist ein wichtiger Punkt bei der Verwaltung von Benutzerkonten und Zugriffsrechten in einem Linux-basierten Betriebssystem. Sie ermöglicht die effiziente Verwaltung von Benutzern, Gruppen und deren Berechtigungen. In diesem Beitrag werden die Grundlagen der Linux Nutzerverwaltung erläutert.
+
+## Benutzer
+Unter Linux können mehrere Benutzerkonten erstellt werden, um verschiedene Benutzer zu identifizieren und deren Zugriff auf das System zu steuern. Jeder Benutzer erhält eine eindeutige Benutzerkennung (UserID oder UID) und einen Benutzernamen. Die Benutzerkonteninformationen werden in der Datei `/etc/passwd` gespeichert. 
+
+- **Benutzer hinzufügen:**
+Um einen neuen Benutzer hinzuzufügen, kann das Befehlszeilenprogramm `adduser` oder `useradd` verwendet werden. Der Befehl `adduser` führt zusätzliche Konfigurationsschritte aus, während `useradd` nur das Benutzerkonto erstellt. Ein Beispiel zur Verwendung des Befehls `adduser`:
+
+`sudo adduser meinbenutzername`
+
+Nachdem der Befehl ausgeführt wurde, werden Sie aufgefordert, einen Passwort für den neuen Benutzer festzulegen und optional zusätzliche Informationen wie Vor- und Nachname einzugeben.
+
+- **Benutzer löschen:**
+Um einen Benutzer zu löschen, kann der Befehl `userdel` verwendet werden:
+
+`sudo userdel meinbenutzername`
+
+Dieser Befehl löscht das Benutzerkonto, entfernt die zugehörigen Dateien aus dem Home-Verzeichnis des Benutzers und entfernt ihn aus den Gruppen, denen er angehört.
+
+## Gruppen
+Gruppen in Linux ermöglichen es, Benutzer mit ähnlichen Zugriffsrechten zu organisieren. Jeder Benutzer kann einer oder mehreren Gruppen angehören. Die Gruppeninformationen werden in der Datei `/etc/group` gespeichert.
+
+- **Gruppe erstellen:**
+Um eine neue Gruppe zu erstellen, kann der Befehl `groupadd` verwendet werden:
+
+`sudo groupadd meinegruppe`
+
+Dieser Befehl erstellt eine neue Gruppe mit dem Namen "meinegruppe".
+
+- **Gruppe löschen:**
+Um eine Gruppe zu löschen, kann der Befehl `groupdel` verwendet werden:
+
+`sudo groupdel meinegruppe`
+
+Dieser Befehl löscht die Gruppe "meinegruppe".
+
+## Berechtigungen
+Die Linux Nutzerverwaltung ermöglicht es, Zugriffsrechte auf Dateien und Verzeichnisse zu verwalten. Jede Datei und jedes Verzeichnis hat Eigentümer und Gruppenberechtigungen sowie Berechtigungen für andere Benutzer (auch bekannt als "Weltberechtigungen").
+
+- **Zugriffsrechte ändern**
+Um die Zugriffsrechte einer Datei oder eines Verzeichnisses zu ändern, kann der Befehl `chmod` verwendet werden. Hier ist ein Beispiel:
+
+`chmod u+rwx dateiname` 
+
+Dieser Befehl gewährt dem Eigentümer (user, `u`) Lese-, Schreib- und Ausführungsrechte (`rwx`) für die Datei "dateiname". Weitere Optionen sind `g` für die Gruppe und `o` für andere Benutzer.
+
+
+## Benutzer- und Gruppenattribute ändern mit `usermod` und `groupmod`
+
+Die Befehle `usermod` und `groupmod` ermöglichen die Modifikation von Benutzer- und Gruppenattributen in einem Linux-Betriebssystem. Diese Befehle bieten eine flexible Möglichkeit, vorhandene Benutzer- und Gruppeninformationen anzupassen, ohne die Konten zu löschen und neu zu erstellen.
+
+- **usermod:**
+Der Befehl `usermod` ermöglicht die Änderung verschiedener Benutzerattribute wie Benutzername, Benutzer-ID, Gruppenzugehörigkeit und Heimatverzeichnis. Hier ist ein Beispiel:
+
+`sudo usermod -l neuerbenutzername alterbenutzername`
+
+Dieser Befehl ändert den Benutzernamen des Benutzers von "alterbenutzername" in "neuerbenutzername". Weitere Optionen können verwendet werden, um andere Attribute zu ändern.
+
+- **groupmod:**
+Der Befehl `groupmod` ermöglicht die Änderung von Gruppenattributen wie Gruppenname und Gruppen-ID. Hier ist ein Beispiel:
+
+`sudo groupmod -n neuergruppenname altergruppenname`
+
+Dieser Befehl ändert den Gruppennamen von "altergruppenname" in "neuergruppenname". Weitere Optionen können verwendet werden, um andere Attribute zu ändern.
+
+## Passwortänderung mit `passwd`
+
+Der Befehl `passwd` ermöglicht die Änderung des Passworts eines Benutzers in einem Linux-System. Jeder Benutzer kann sein eigenes Passwort ändern, und ein Administrator kann das Passwort eines anderen Benutzers ändern.
+
+- **Passwort ändern:**
+Um das Passwort für einen Benutzer zu ändern, kann der Befehl `passwd` verwendet werden:
+
+`passwd benutzername`
+
+Nach der Eingabe des Befehls werden Sie aufgefordert, das neue Passwort zweimal einzugeben. Beachten Sie, dass beim Eingeben des Passworts keine Zeichen angezeigt werden.
+
+## Rekursive Änderung von Zugriffsrechten mit `chmod` und `-R`
+
+Der Befehl `chmod` ermöglicht die Änderung von Zugriffsrechten für Dateien und Verzeichnisse in einem Linux-System. Durch die Verwendung des Parameters `-R` können die Änderungen rekursiv auf Unterverzeichnisse und Dateien angewendet werden.
+
+- **Rekursive Änderung von Zugriffsrechten:**
+Um die Zugriffsrechte eines Verzeichnisses und aller darin enthaltenen Dateien und Unterverzeichnisse rekursiv zu ändern, verwenden Sie den Befehl `chmod` mit dem Parameter `-R`:
+
+`chmod -R <zugriffsrechte> verzeichnisname`
+
+Ersetzen Sie `<zugriffsrechte>` durch die gewünschten Zugriffsrechte und `verzeichnisname` durch den Namen des Verzeichnisses, für das die Änderungen gelten sollen.
+
+## Verwaltung von Sudo-Berechtigungen mit `visudo`
+
+Der Befehl `visudo` wird verwendet, um
+
+ die Konfigurationsdatei `/etc/sudoers` sicher zu bearbeiten. Diese Datei enthält Informationen über die Sudo-Berechtigungen für Benutzer und Gruppen.
+
+- **Bearbeiten der Sudo-Konfigurationsdatei**
+Um die Sudo-Konfigurationsdatei zu bearbeiten, verwenden Sie den Befehl `visudo`:
+
+`sudo visudo`
+
+Dieser Befehl öffnet die Konfigurationsdatei in einem Texteditor. Sie sollten nur `visudo` verwenden, da dieser Befehl die Datei vor dem Speichern auf Fehler überprüft und so verhindert, dass Sie den Zugriff auf das System verlieren.
+
+In der Sudo-Konfigurationsdatei können Sie Benutzern oder Gruppen Sudo-Berechtigungen erteilen, um bestimmte Aufgaben mit erhöhten Rechten auszuführen. Es ist wichtig, die Syntax der Datei korrekt zu befolgen, da Fehler zu Problemen beim Ausführen von Sudo-Befehlen führen können.
+
+
+
+## Zusammenfassung
+Die Linux Nutzerverwaltung bietet die Möglichkeit, Benutzerkonten, Gruppen und Zugriffsrechte effizient zu verwalten. Benutzer können hinzugefügt, gelöscht und verwaltet werden. Gruppen ermöglichen eine einfache Organisation von Benutzern mit ähnlichen Zugriffsrechten. Durch die Verwendung von Zugriffsrechten können Dateien und Verzeichnisse geschützt und der Zugriff auf sie gesteuert werden. Eine solide Kenntnis der Linux Nutzerverwaltung ist für Systemadministratoren und Benutzer wichtig, um ein sicheres und effizientes Betriebssystem zu gewährleisten.
