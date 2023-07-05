@@ -1,4 +1,4 @@
-Aufbau von Linux 
+## Linux Geschichte
 
 **Linux** ist ein **quelloffenes Betriebssystem**, das auf dem **Unix-Betriebssystem** basiert. Es wurde in den frühen 1990er Jahren von **Linus Torvalds** entwickelt. Torvalds, ein finnischer Informatiker, begann mit der Entwicklung von Linux im Jahr 1991 als persönliches Projekt, um ein Betriebssystem zu schaffen, das seinen eigenen Anforderungen entsprach.
 
@@ -13,6 +13,8 @@ Ein bekanntes Symbol für Linux ist das Maskottchen **Tux**, ein **Pinguin**. Tu
 Die Entwicklung von Linux erfolgt in einer **offenen** und **kollaborativen** Art und Weise. Tausende von Entwicklern auf der ganzen Welt tragen zur Weiterentwicklung des Linux-Kernels und anderer Komponenten bei. Das Open-Source-Modell von Linux hat zu einer lebendigen und engagierten Gemeinschaft geführt, die sich für die Freiheit, Flexibilität und Zusammenarbeit einsetzt.
 
 Insgesamt hat Linux eine bemerkenswerte Erfolgsgeschichte geschrieben und ist zu einem der **wichtigsten Betriebssysteme** der heutigen Zeit geworden. Es hat eine große Anzahl von Anwendern, Entwicklern und Unternehmen angezogen, die von den Vorteilen eines offenen und **frei zugänglichen** Betriebssystems profitieren.
+
+## Aufbau von Linux 
 
 Linux-Systeme bestehen aus **drei Hauptkomponenten**, die beim Booten und Betrieb des Systems eine entscheidende Rolle spielen: dem **Bootloader**, dem **Linux-Kernel** und dem **Root-Dateisystem**.
 
