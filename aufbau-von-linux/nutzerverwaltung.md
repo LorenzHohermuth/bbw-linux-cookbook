@@ -161,7 +161,6 @@ Der Befehl `edquota` wird verwendet, um das Speicherkontingent für Benutzer in 
 
 Diese Kürzel und Optionen können je nach Linux-Distribution und Version variieren. Es wird empfohlen, die entsprechende Dokumentation oder die Hilfe der einzelnen Befehle zu konsultieren, um spezifische Informationen zu erhalten.
 
+## Zusammenfassung Nutzerverwaltung
 
-
-## Zusammenfassung
 Die Linux Nutzerverwaltung bietet die Möglichkeit, Benutzerkonten, Gruppen und Zugriffsrechte effizient zu verwalten. Benutzer können hinzugefügt, gelöscht und verwaltet werden. Gruppen ermöglichen eine einfache Organisation von Benutzern mit ähnlichen Zugriffsrechten. Durch die Verwendung von Zugriffsrechten können Dateien und Verzeichnisse geschützt und der Zugriff auf sie gesteuert werden. Eine solide Kenntnis der Linux Nutzerverwaltung ist für Systemadministratoren und Benutzer wichtig, um ein sicheres und effizientes Betriebssystem zu gewährleisten.
