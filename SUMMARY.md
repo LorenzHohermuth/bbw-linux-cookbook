@@ -1,5 +1,4 @@
 # Table of contents
-
 - [🏠 Home](README.md)
 - [🤝 Leitfaden zum Beitragen](leitfaden-zum-beitragen.md)
 - [🐧 Aufbau von Linux](/aufbau-von-Linux/aufbau-von-Linux.md)
@@ -11,6 +10,8 @@
     - [Aufbau / Ausführung Bash Scripting](bash-scripting\aufbau-ausführung.md)
     - [Variablen](bash-scripting\variablen.md)
     - [🌱 Umgebungsvariablen](bash-konsole/umgebungsvariablen.md)
+    - [Funktionen](bash-scripting/functions/functions.md)
+    - [Kontroll Strukturen](bash-scripting/control-structures/control-structures.md)
 - [📦 Paketverwaltung](paketverwaltung/index.md)
     - [👨‍👩‍👧 Distributionsfamilien](paketverwaltung/distributionsfamilien.md)
 - [🖼️ Grafische Oberflächen](grafische-oberflächen/grafische-oberflächen.md)
