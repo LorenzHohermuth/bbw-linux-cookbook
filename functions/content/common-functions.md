@@ -1,27 +1,15 @@
-<a id="math"></a>
-# Math Functions {#math}
+# Math Functions
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat sagittis faucibus. Ut rutrum lorem aliquam urna mattis tempus. Maecenas eu consectetur magna, quis volutpat metus. Praesent ac nisl sagittis, consectetur lacus nec, auctor nulla. Sed sodales auctor accumsan. Quisque efficitur ipsum tempor tellus luctus congue. Mauris et eleifend dolor. Suspendisse bibendum sem nisi.
-
-Nulla condimentum commodo purus, eget tempus nulla sagittis ac. Donec at enim sapien. Integer et sem nunc. Pellentesque vestibulum cursus ex vitae auctor. In venenatis est id enim pretium sodales. Proin feugiat turpis at interdum semper. Nullam auctor vestibulum ante, vitae mattis nibh dapibus id. Fusce ultricies massa rutrum quam pretium, et ultrices nunc efficitur. Morbi neque lacus, placerat eu augue at, sagittis egestas lorem. Etiam pharetra, justo vitae fringilla pharetra, nibh augue rhoncus elit, non tristique velit nisi et ipsum. Suspendisse eget metus nunc.
-
-Donec congue, massa vitae facilisis lobortis, erat mi volutpat mauris, at venenatis dui libero non ex. Phasellus eu lectus id metus luctus tincidunt. Pellentesque eu scelerisque libero, in pharetra ante. Pellentesque maximus iaculis lorem vel posuere. Nunc vehicula lorem ac lacus sagittis, non porttitor diam lobortis. Quisque non dignissim nibh. Maecenas feugiat mollis est, nec accumsan libero rutrum vitae. Nam placerat rutrum iaculis. Aliquam sit amet nisl mauris. Fusce iaculis tincidunt varius. Suspendisse tortor turpis, ultricies id sollicitudin eu, vehicula vitae dui. Fusce mauris tortor, consectetur dictum sapien non, iaculis pellentesque sem.
-
-Phasellus laoreet, urna sed viverra pharetra, sapien dui tincidunt lorem, eu dictum libero purus sed mauris. Integer faucibus tincidunt neque id sagittis. Donec tellus justo, vulputate pharetra tincidunt mollis, auctor sit amet est. Pellentesque id suscipit arcu. Ut imperdiet ante ac lectus tristique pellentesque. Phasellus diam sapien, vulputate at volutpat vitae, auctor id mauris. Proin euismod diam placerat, mattis augue et, suscipit ligula. Aenean erat diam, varius lobortis tempus ornare, dapibus in eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus rhoncus semper diam vel pretium. Ut laoreet felis sed sagittis aliquam. Aenean tincidunt malesuada nisi in consequat. Donec nec tortor sit amet lorem gravida facilisis. Quisque massa diam, dignissim ut laoreet quis, aliquam quis ligula. Curabitur quis gravida erat, eu porttitor odio.
-
-Fusce congue tempor vehicula. Ut vel vehicula dui, vel tincidunt massa. Donec laoreet dapibus pellentesque. Proin id laoreet sem, in tincidunt ante. Suspendisse bibendum enim dapibus nisi ullamcorper, ac luctus lacus cursus. Maecenas vulputate consectetur ultrices. Donec felis ligula, consequat quis purus ac, convallis cursus dui. Sed laoreet a magna pretium faucibus. Integer elementum leo eu leo condimentum bibendum.
+<!-- common Math Functions -->
 
 
+# String Functions
 
-<a id="meth"></a>
-# Meth
-meth is good and also  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat sagittis faucibus. Ut rutrum lorem aliquam urna mattis tempus. Maecenas eu consectetur magna, quis volutpat metus. Praesent ac nisl sagittis, consectetur lacus nec, auctor nulla. Sed sodales auctor accumsan. Quisque efficitur ipsum tempor tellus luctus congue. Mauris et eleifend dolor. Suspendisse bibendum sem nisi.
+<!-- common String Functions -->
 
-Nulla condimentum commodo purus, eget tempus nulla sagittis ac. Donec at enim sapien. Integer et sem nunc. Pellentesque vestibulum cursus ex vitae auctor. In venenatis est id enim pretium sodales. Proin feugiat turpis at interdum semper. Nullam auctor vestibulum ante, vitae mattis nibh dapibus id. Fusce ultricies massa rutrum quam pretium, et ultrices nunc efficitur. Morbi neque lacus, placerat eu augue at, sagittis egestas lorem. Etiam pharetra, justo vitae fringilla pharetra, nibh augue rhoncus elit, non tristique velit nisi et ipsum. Suspendisse eget metus nunc.
+### `concat`
 
-Donec congue, massa vitae facilisis lobortis, erat mi volutpat mauris, at venenatis dui libero non ex. Phasellus eu lectus id metus luctus tincidunt. Pellentesque eu scelerisque libero, in pharetra ante. Pellentesque maximus iaculis lorem vel posuere. Nunc vehicula lorem ac lacus sagittis, non porttitor diam lobortis. Quisque non dignissim nibh. Maecenas feugiat mollis est, nec accumsan libero rutrum vitae. Nam placerat rutrum iaculis. Aliquam sit amet nisl mauris. Fusce iaculis tincidunt varius. Suspendisse tortor turpis, ultricies id sollicitudin eu, vehicula vitae dui. Fusce mauris tortor, consectetur dictum sapien non, iaculis pellentesque sem.
-
-Phasellus laoreet, urna sed viverra pharetra, sapien dui tincidunt lorem, eu dictum libero purus sed mauris. Integer faucibus tincidunt neque id sagittis. Donec tellus justo, vulputate pharetra tincidunt mollis, auctor sit amet est. Pellentesque id suscipit arcu. Ut imperdiet ante ac lectus tristique pellentesque. Phasellus diam sapien, vulputate at volutpat vitae, auctor id mauris. Proin euismod diam placerat, mattis augue et, suscipit ligula. Aenean erat diam, varius lobortis tempus ornare, dapibus in eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus rhoncus semper diam vel pretium. Ut laoreet felis sed sagittis aliquam. Aenean tincidunt malesuada nisi in consequat. Donec nec tortor sit amet lorem gravida facilisis. Quisque massa diam, dignissim ut laoreet quis, aliquam quis ligula. Curabitur quis gravida erat, eu porttitor odio.
-
-Fusce congue tempor vehicula. Ut vel vehicula dui, vel tincidunt massa. Donec laoreet dapibus pellentesque. Proin id laoreet sem, in tincidunt ante. Suspendisse bibendum enim dapibus nisi ullamcorper, ac luctus lacus cursus. Maecenas vulputate consectetur ultrices. Donec felis ligula, consequat quis purus ac, convallis cursus dui. Sed laoreet a magna pretium faucibus. Integer elementum leo eu leo condimentum bibendum.
+```bash
+$ echo "Hello" "World"
+#output: Hello World
+```
