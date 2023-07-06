@@ -6,4 +6,4 @@ Control structures in Linux Bash scripting allow you to control the flow of your
 
 ## **[Loops](content/ctrlStrct-loops.md "about loops")**
 
-## **[Chase](content/ctrlStrct-chase.md "about Chase Statements")**
+## **[Case](content/ctrlStrct-case.md "about Case Statements")**
