@@ -61,7 +61,7 @@ In diesem Skript gibt die `while`-Schleife weiterhin den Wert von `counter` aus 
 
 ## Until-Schleife
 
-Die `until`-Schleife wird verwendet, wenn Sie einen Satz von Befehlen wiederholen möchten, bis eine bestimmte Bedingung wahr ist. Sie ist das Gegenteil einer `while`-Schleife, da der Codeblock ausgeführt wird, solange die Bedingung falsch ist. Die grundlegende Syntax lautet:
+Die `until`-Schleife wird verwendet, wenn man ein Satz von Befehlen wiederholen möchten, bis eine bestimmte Bedingung wahr ist. Sie ist das Gegenteil einer `while`-Schleife, da der Codeblock ausgeführt wird, solange die Bedingung falsch ist. Die grundlegende Syntax lautet:
 
 ```bash
 until [bedingung]

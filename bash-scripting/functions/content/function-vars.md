@@ -50,8 +50,6 @@ produkt=$(multiplizieren 5 3)  # Rufen Sie die Funktion 'multiplizieren' auf und
 echo "Das Produkt ist: $produkt"
 ```
 
-In diesem Beispiel multipliziert die Funktion `multiplizieren` die ersten beiden Argumente (`$1` und `$2`) und speichert das Ergebnis in der Variablen `ergebnis`. Die `return`-Anweisung wird verwendet, um den Wert von `ergebnis` aus der Funktion zurückzugeben. Der zurückgegebene Wert wird dann mit der Zuweisung `$(multiplizieren 5 3)` in der Variablen `produkt` er
+In diesem Beispiel multipliziert die Funktion `multiplizieren` die ersten beiden Argumente (`$1` und `$2`) und speichert das Ergebnis in der Variablen `ergebnis`. Die `return`-Anweisung wird verwendet, um den Wert von `ergebnis` aus der Funktion zurückzugeben. Der zurückgegebene Wert wird dann mit der Zuweisung `$(multiplizieren 5 3)` in der Variablen `produkt` erfasst. Schließlich wird der Wert in der Variablen `produkt` ausgegeben.
 
-fasst. Schließlich wird der Wert in der Variablen `produkt` ausgegeben.
-
-Die Verwendung von Variablen in Funktionen ermöglicht es Ihnen, Daten zu speichern, zu manipulieren und zurückzugeben, wie es erforderlich ist. Sie bieten Flexibilität und ermöglichen Ihnen, verschiedene Operationen basierend auf Eingabewerten durchzuführen. Dadurch werden Ihre Funktionen leistungsfähiger und wiederverwendbar.
+Die Verwendung von Variablen in Funktionen ermöglicht es Ihnen, Daten zu speichern, zu manipulieren und zurückzugeben, wie es erforderlich ist. Sie bieten Flexibilität und ermöglichen Ihnen, verschiedene Operationen basierend auf Eingabewerten durchzuführen. Dadurch werden die Funktionen leistungsfähiger und wiederverwendbar.

@@ -1,6 +1,6 @@
 # Funktionen
 
-Funktionen in Linux sind ein grundlegendes Konzept, das es Ihnen ermöglicht, Ihren Code zu organisieren und zu modularisieren. Es handelt sich um Codeblöcke, die einmal definiert werden und dann mehrmals im Skript aufgerufen werden können. Funktionen bieten mehrere Vorteile, darunter Code-Wiederverwendbarkeit, verbesserte Lesbarkeit und einfachere Wartung.
+Funktionen in Linux sind ein grundlegendes Konzept, das es einem ermöglicht, Ihren Code zu organisieren und zu modularisieren. Es handelt sich um Codeblöcke, die einmal definiert werden und dann mehrmals im Skript aufgerufen werden können. Funktionen bieten mehrere Vorteile, darunter Code-Wiederverwendbarkeit, verbesserte Lesbarkeit und einfachere Wartung.
 
 
 ## **Grundlagen**

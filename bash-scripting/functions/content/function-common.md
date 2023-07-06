@@ -336,7 +336,7 @@ done < "$filename"
 
 ### Schreiben in eine Datei
 
-Um Daten in eine Datei zu schreiben, können Sie den Befehl `echo` oder `printf` verwenden. Hier ist ein Beispiel:
+Um Daten in eine Datei zu schreiben, kann man den Befehl `echo` oder `printf` verwenden. Hier ist ein Beispiel:
 
 ```bash
 filename="beispiel.txt"
@@ -348,7 +348,7 @@ echo "Text wurde in die Datei geschrieben."
 
 ### Datei umbenennen
 
-Um den Namen einer Datei zu ändern, können Sie den Befehl `mv` verwenden. Hier ist ein Beispiel:
+Um den Namen einer Datei zu ändern, kann man den Befehl `mv` verwenden. Hier ist ein Beispiel:
 
 ```bash
 oldname="beispiel.txt"
@@ -359,4 +359,4 @@ mv "$oldname" "$newname"
 echo "Die Datei wurde umbenannt in: $newname"
 ```
 
-Dies sind nur einige Beispiele für die in Linux verfügbaren Datei-Funktionen. Sie können weitere Dateioperationen und -techniken erkunden, um Dateien effektiv zu verwalten und zu manipulieren.
+Dies sind nur einige Beispiele für die in Linux verfügbaren Datei-Funktionen. Man kann weitere Dateioperationen und -techniken erkunden, um Dateien effektiv zu verwalten und zu manipulieren.

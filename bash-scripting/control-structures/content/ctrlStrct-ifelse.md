@@ -84,4 +84,4 @@ In diesem Skript wird, wenn das erste Argument der Befehlszeile nicht größer a
 
 als 100 ist, wird eine andere Nachricht angezeigt.
 
-In all diesen Beispielen beachten Sie die Verwendung von eckigen Klammern `[...]` für Bedingungen. Im Bash-Skripting werden Bedingungen oft innerhalb dieser Klammern ausgedrückt. Sie können verschiedene Bedingungen testen, wie den Wert von Variablen, arithmetische Vergleiche oder den Status einer Datei. Die Bedingungen in den Beispielen sind arithmetische Vergleiche. Andere Formen von Bedingungen können genauso einfach in `if/else`-Anweisungen implementiert werden.
+In all diesen Beispielen beachten Sie die Verwendung von eckigen Klammern `[...]` für Bedingungen. Im Bash-Skripting werden Bedingungen oft innerhalb dieser Klammern ausgedrückt. Es können verschiedene Bedingungen getestet werden, wie den Wert von Variablen, arithmetische Vergleiche oder den Status einer Datei. Die Bedingungen in den Beispielen sind arithmetische Vergleiche. Andere Formen von Bedingungen können genauso einfach in `if/else`-Anweisungen implementiert werden.

@@ -13,7 +13,7 @@ Lassen Sie uns jeden dieser Punkte genauer betrachten:
 
 Standardmäßig werden in Linux Argumente, die an eine Funktion übergeben werden, per Wert übergeben, was bedeutet, dass die Funktion eine Kopie des Argumentwerts erhält. Es ist jedoch auch möglich, Argumente per Referenz zu übergeben, sodass die Funktion den ursprünglichen Wert des Arguments direkt ändern kann.
 
-Um ein Argument per Referenz zu übergeben, können Sie das `&`-Symbol vor dem Argumentnamen verwenden, wenn Sie die Funktion definieren. Hier ist ein Beispiel:
+Um ein Argument per Referenz zu übergeben, kann man das `&`-Symbol vor dem Argumentnamen verwenden, um die Funktion definieren. Hier ist ein Beispiel:
 
 ```bash
 increment() {
@@ -34,7 +34,7 @@ Das Übergeben von Argumenten per Referenz kann nützlich sein, wenn eine Funkti
 
 In Funktionen können sowohl lokale als auch globale Variablen verwendet werden. Lokale Variablen werden innerhalb des Gültigkeitsbereichs der Funktion deklariert und sind nur innerhalb der Funktion zugänglich. Globale Variablen werden hingegen außerhalb von Funktionen deklariert und können von allen Funktionen im Skript verwendet werden.
 
-Um auf eine globale Variable innerhalb einer Funktion zuzugreifen, können Sie einfach den Namen verwenden. Hier ist ein Beispiel:
+Um auf eine globale Variable innerhalb einer Funktion zuzugreifen, kann man einfach den Namen verwenden. Hier ist ein Beispiel:
 
 ```bash
 global_var=42
@@ -59,9 +59,7 @@ print_local() {
 print_local
 ```
 
-In diesem Beispiel deklari
-
-ert die Funktion `print_local` eine lokale Variable `local_var` und weist ihr einen Wert zu. Der Wert wird innerhalb der Funktion ausgegeben. Die lokale Variable `local_var` beeinflusst keine Variable mit demselben Namen außerhalb der Funktion.
+In diesem Beispiel deklariert die Funktion `print_local` eine lokale Variable `local_var` und weist ihr einen Wert zu. Der Wert wird innerhalb der Funktion ausgegeben. Die lokale Variable `local_var` beeinflusst keine Variable mit demselben Namen außerhalb der Funktion.
 
 ### Behandlung des Gültigkeitsbereichs von Variablen
 
@@ -90,7 +88,7 @@ Wert der globalen Variable: 42
 Wert der lokalen Variable: 10
 ```
 
-Wie Sie sehen können, ist die lokale Variable `local_var` nur innerhalb der Funktion `change_var` zugänglich, während die globale Variable `global_var` sowohl innerhalb als auch außerhalb der Funktion zugänglich ist.
+Wie man sieht, ist die lokale Variable `local_var` nur innerhalb der Funktion `change_var` zugänglich, während die globale Variable `global_var` sowohl innerhalb als auch außerhalb der Funktion zugänglich ist.
 
 ### Rückgabe von Werten aus Funktionen
 
@@ -112,4 +110,4 @@ In diesem Beispiel multipliziert die Funktion `multiply` die ersten beiden Argum
 
 Die Rückgabe von Werten aus Funktionen ermöglicht es Ihnen, Berechnungen oder Operationen innerhalb der Funktion durchzuführen und Ergebnisse zu erhalten, die in Ihrem Skript weiterverwendet werden können.
 
-Mit den oben diskutierten erweiterten Syntaxoptionen können Sie die Möglichkeiten von Funktionen in Linux nutzen, um flexibleren und wiederverwendbaren Code zu erstellen. Diese Funktionen bieten eine größere Kontrolle über die Handhabung von Variablen und ermöglichen es Ihnen, Funktionen zu entwerfen, die Variablen ändern, auf globale Werte zugreifen und Ergebnisse zurückgeben können.
+Mit den oben diskutierten erweiterten Syntaxoptionen kann man die Möglichkeiten von Funktionen in Linux nutzen, um flexibleren und wiederverwendbaren Code zu erstellen. Diese Funktionen bieten eine größere Kontrolle über die Handhabung von Variablen und ermöglichen es Ihnen, Funktionen zu entwerfen, die Variablen ändern, auf globale Werte zugreifen und Ergebnisse zurückgeben können.

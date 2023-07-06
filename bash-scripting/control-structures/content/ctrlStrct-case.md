@@ -20,6 +20,7 @@ esac
 
 Die `case`-Anweisung bewertet den gegebenen `expression` anhand der angegebenen Muster. Jedes Muster kann ein wörtlicher Wert oder ein regulärer Ausdruck sein. Der Codeblock für das erste Muster, das mit dem Ausdruck übereinstimmt, wird ausgeführt. Nach jedem Codeblock werden doppelte Semikolons `;;` verwendet, um das Ende dieses Abschnitts zu kennzeichnen.
 
+
 Hier ist ein Beispiel:
 
 ```bash
