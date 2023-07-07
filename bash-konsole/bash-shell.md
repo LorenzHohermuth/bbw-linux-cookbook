@@ -2,7 +2,7 @@
 
 ## Kurzfassung
 
-ie Bash-Shell ist eine weit verbreitete Unix-Shell, die als Weiterentwicklung der SH-Shell entwickelt wurde. Sie bietet umfangreiche Funktionen und wird auf Unix-Systemen häufig eingesetzt.
+Die Bash-Shell ist eine weit verbreitete Unix-Shell, die als Weiterentwicklung der SH-Shell entwickelt wurde. Sie bietet umfangreiche Funktionen und wird auf Unix-Systemen häufig eingesetzt.
 
 ## Features
 
