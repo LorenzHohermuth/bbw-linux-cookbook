@@ -2,7 +2,7 @@
 - [🏠 Home](README.md)
 - [🤝 Leitfaden zum Beitragen](leitfaden-zum-beitragen.md)
 - [🤖Linux Distribution](linux-distributionen/wsl.md)
-    - [🌀Debian]() 
+    - [🌀Debian](linux-distributionen/debian/debian.md) 
     - [🎩Fedora]() 
     - [🐧WSL Setup]()
 - [🐧 Aufbau von Linux](aufbau-von-Linux/aufbau-von-Linux.md)
@@ -22,7 +22,7 @@
     - [📎Textbearbeitung](linux-befehle/textbearbeitung.md)
     - [🌐Netzwerk]()
     - [🏗️Prozessmanagement]()
-    - [🐢Shell]()
+    - [🐢Shell](befehle/shell.md)
     - [📦Paketverwaltung]()
 - [🚧Bash Konsole]()
   - [🥊Bash vs KSH (Kornshell)]()
@@ -42,4 +42,3 @@
 - [🖼️ Grafische Oberflächen](grafische-oberflächen/grafische-oberflächen.md)
     - [👣GNOME](grafische-oberflächen/gnome.md)
     - [⚙️KDE](grafische-oberflächen/kde.md)
-
