@@ -7,7 +7,7 @@ ___
 
 ## Features
 
-#### Korn Shell
+### Korn Shell
 Korn Shell bietet eine Vielzahl von Features. Hier sind einige wichtige Beispiele:
 
 **Assoziative Arrays**
@@ -26,7 +26,7 @@ Korn Shell bietet eine Vielzahl von Features. Hier sind einige wichtige Beispiel
  Mit der Korn Shell können komplexe Skripts erstellt werden, die bedingte Anweisungen, Funktionen, Dateioperationen und andere fortgeschrittene Programmierkonstrukte enthalten. Dies ermöglicht die Automatisierung von Aufgaben und die Entwicklung umfangreicher Skripts.
 
 <br>
-#### Bash Shell
+### Bash Shell
 Die Bash Shell verfügt ebenfalls über eine Reihe nützlicher Features. Hier sind einige wichtige Beispiele:
 
 **History-Funktion**
