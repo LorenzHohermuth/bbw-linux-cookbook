@@ -38,7 +38,12 @@ Dann gibst du den Command vom Anfang ein, als Bespiel:
 
 ## 3. Der "ifconfig" Command
 
-Um die IP-Adresse auf Linux zu ändern, kan man den Befehl "ifconfig" verwenden. Gib "ifconfig" gefolgt vom interface und der neuen IP-Adresse ein. 
+Um die IP-Adresse auf Linux zu ändern, kan man den Befehl "ifconfig" verwenden. 
+
+Um herauszufinden, welche Interfaces welche IP-Adressen haben, gib `ifconfig -a` ein. 
+Es sollte dir eine Liste aller Verbindungen geben.
+
+Um eine Adresse zu ändern, gib "ifconfig" gefolgt vom interface und der neuen IP-Adresse ein. 
 
 Bsp: `sudo ifconfig eth0 192.168.56.21/24`
 
