@@ -45,9 +45,9 @@ Jetzt kannst du dich mit dem Internet verbinden. Falls du nicht schon genau weis
 
 ``nmcli dev wifi list``
 
-Und das ist der Command, der dich verbindet. Ersetze [deine SSID]:
+Und das ist der Command, der dich verbindet. Ersetze YOUR_SSID:
 
-``sudo nmcli dev wifi connect [deine SSID]`` 
+``sudo nmcli dev wifi connect YOUR_SSID`` 
 
 Falls du ein Passwort brauchst, frage den Verantwortlichen für das Netzwerk, dann benutze den hier und ersetze [dein Passwort]:
 
