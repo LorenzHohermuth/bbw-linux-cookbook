@@ -1,6 +1,5 @@
 # DNS-Konfiguration
 
-<span style="color: white">.</span>
 
 - *Was heisst DNS?*
 Domain Name System
