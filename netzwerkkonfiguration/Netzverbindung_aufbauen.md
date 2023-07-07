@@ -49,9 +49,9 @@ Und das ist der Command, der dich verbindet. Ersetze YOUR_SSID:
 
 ``sudo nmcli dev wifi connect YOUR_SSID`` 
 
-Falls du ein Passwort brauchst, frage den Verantwortlichen für das Netzwerk, dann benutze den hier und ersetze [dein Passwort]:
+Falls du ein Passwort brauchst, frage den Verantwortlichen für das Netzwerk, dann benutze den hier und ersetze YOUR_PASSWORD:
 
-``sudo nmcli dev wifi connect network-ssid password "[dein Passwort]"``
+``sudo nmcli dev wifi connect network-ssid password "YOUR_PASSWORD"``
 
 Als dritte Option, falls du dein Passwort nicht auf dem Screen zeigen willst, nutze diesen hier:
 
