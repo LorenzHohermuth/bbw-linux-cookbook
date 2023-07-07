@@ -1,5 +1,7 @@
 # Table of contents
 
-* [🏠 Home](README.md)
-* [🤝 Leitfaden zum Beitragen](leitfaden-zum-beitragen.md)
 * [🤖 Linux Distributionen](linux-distributionen/distributions.md)
+* [🤖 Linux Distributionen](linux-distributionen/distributions.md)
+* [🌀 Debian](linux-distributionen/debian/debian.md)
+
+

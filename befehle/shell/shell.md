@@ -6,15 +6,15 @@ Die Linux-Shell, auch als Terminal bekannt, ist ein leistungsfähiges Werkzeug
 
 ## Common Shells
 
-##### Bourne Again SHell
+### Bourne Again SHell
 
 - Die Bash ist die in Linux-Distributionen am häufigsten verwendete Shell. Sie bietet eine Vielzahl von Funktionen, darunter Befehlszeilenbearbeitung, Verlauf, Tabulatorvervollständigung und Skripting-Funktionen.
 
-##### Z-Shell
+### Z-Shell
 
 - Zsh ist eine erweiterte Version der Bash mit zusätzlichen Funktionen und Anpassungsmöglichkeiten. Sie bietet leistungsstarke Vervollständigungsmechanismen, Rechtschreibkorrektur, Theming und Plugin-Unterstützung.
 
-##### Friendly Interactive SHell
+### Friendly Interactive SHell
 
 - Fish ist eine benutzerfreundliche Shell, die für ihre Einfachheit bekannt ist. Sie bietet eine intuitive Befehlszeilenschnittstelle mit automatischen Vorschlägen, Syntaxhervorhebung und einem integrierten Hilfesystem.
 
@@ -46,13 +46,13 @@ Beispiel: rm debian
 
 ## Datei und Verzeichnis
 
-##### Dateisystem-Hierarchie
+### Dateisystem-Hierarchie
 
 - Das Linux-Dateisystem ist hierarchisch aufgebaut, wobei das Wurzelverzeichnis ("/") die oberste Ebene darstellt.
 
 - Übliche Verzeichnisse sind /bin, /etc, /home, /tmp, /var, /usr, /dev und /proc.
 
-##### Dateioperationen
+### Dateioperationen
 
 - 'touch', um eine leere Datei zu erstellen.
 - 'cat', um den Inhalt einer Datei anzuzeigen.
@@ -61,7 +61,7 @@ Beispiel: rm debian
 - 'rm', um Dateien zu löschen.
 - 'chmod', um die Dateiberechtigungen zu ändern.
 
-##### Verzeichnisoperationen
+### Verzeichnisoperationen
 
 - 'mkdir', um Verzeichnisse zu erstellen.
 - 'ls', um den Inhalt von Verzeichnissen aufzulisten.

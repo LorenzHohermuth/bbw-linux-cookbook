@@ -45,5 +45,3 @@ Debian und Ubuntu haben grosse und aktive Gemeinschaften, die zu ihrer Entwicklu
 Die Debian-Gemeinschaft ist bekannt für ihr technisches Fachwissen und ihre Hingabe an die Prinzipien freier Software. Während es bei Debian keine offiziellen bezahlten Support-Optionen gibt, sind die Community-Support-Kanäle, Mailinglisten und Foren gut etabliert und bieten umfassende Hilfe für Benutzer.
 
 Debian und Ubuntu haben zwar eine gemeinsame Abstammung, unterscheiden sich aber in dem Veröffentlichungszyklus, der Paketauswahl und den Supportmechanismen. Debian legt den Schwerpunkt auf Stabilität, Sicherheit und Softwarefreiheit, während Ubuntu den Schwerpunkt auf Benutzerfreundlichkeit und einfache Installation legt. Die Wahl zwischen den beiden hängt von individuellen Vorlieben, technischen Anforderungen und dem gewünschten Gleichgewicht zwischen modernster Software und Stabilität ab.
-<!--
-<a target="_blank" href="https://icons8.com/icon/17838/debian">Debian</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> !-->
