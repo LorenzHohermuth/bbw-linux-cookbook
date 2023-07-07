@@ -11,23 +11,30 @@
 * **systemctl** :Der Befehl "systemctl" wird verwendet, um Systemd-Dienste auf Linux-Systemen zu verwalten. Es ermöglicht das Starten, Stoppen, Neustarten, Aktivieren oder Deaktivieren von Diensten, das Anzeigen des Status von Diensten und das Verwalten von Systemeinheiten.
 
     * Starten eines Dienstes
-    ![start](start.PNG)
+    ```
+        sytemctl start <servicename>
+    ```
     * Stoppen eines Dienstes
-    ![stop](stop.PNG)
-    * Neustarten eines Dienstes 
-    ![restart](restart.PNG)
+    ```
+    systemctl stop <servicename>
+    ```
+    * Neustarten eines Dienstes
+    ```    
+    systemctl restart <servicename>
+    ```    
     * Aktivieren eines Dienstes, damit er beim Systemstart automatisch gestartet wird
-    ![enable](enable.PNG)
+    ```
+    systemctl enable <servicename>
+    ```
     * Deaktivieren eines Dienstes, sodass er beim Systemstart nicht mehr automatisch gestartet wird
-    ![disable](disable.PNG)
+    ```
+    systemctl disable <servicename>
+    ```
     * Anzeigen des Status eines Dienstes
-    ![status](status.PNG)
+    ```
+    systemctl status <servicename>
+    ```
 
 <br>
 
 * **kill** :Der Befehl "kill" wird verwendet, um laufende Prozesse auf einem Linux-System zu beenden. Mit diesem Befehl können Prozesse anhand ihrer Prozess-ID (PID) gezielt beendet oder signale gesendet werden, um bestimmte Aktionen auf den Prozess auszuführen.
-
-
-
-
-

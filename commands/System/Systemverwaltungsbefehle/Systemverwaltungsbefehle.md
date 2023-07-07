@@ -9,7 +9,3 @@
 * **du** :Der Befehl "du" wird verwendet, um die Speicherplatznutzung von Dateien und Verzeichnissen auf einem Linux-System zu ermitteln. Es zeigt die Größe von Dateien und Verzeichnissen sowie die Gesamtgröße eines Verzeichnisses und seiner Unterverzeichnisse an.
 
 * **free** :Der Befehl "free" wird verwendet, um Informationen über den Speicher (RAM) und den Swap-Speicher auf einem Linux-System anzuzeigen. Es zeigt den verfügbaren, belegten und freien Speicherplatz sowie Informationen über die Speicherauslastung und Auslagerung an.
-
-
-
-

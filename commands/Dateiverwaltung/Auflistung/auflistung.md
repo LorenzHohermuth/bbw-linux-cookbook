@@ -23,5 +23,3 @@ Die Option "-F" fügt dem Dateinamen ein spezielles Zeichen hinzu, um den Dateit
 * **ls -lR** : Listet Dateien und Verzeichnisse im aktuellen Verzeichnis sowie alle Unterverzeichnisse in rekursiv auf.<br> --> Alle Verzeichnisse im aktuellen Verzeichniss werden ebenfalls geöffnet.
 
 * **tree** : Erstellt eine hierarchische Baumstruktur der Dateien und Verzeichnisse im angegebenen Verzeichnis oder im aktuellen Verzeichnis.
-
-![tree Befehl](tree.PNG)
