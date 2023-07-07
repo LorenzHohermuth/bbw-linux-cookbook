@@ -41,7 +41,7 @@ Einstellungen und Regeln, die in einer Firewall implementiert werden, um den Net
 
 ### In den Unter Themen findet ihr mehr Infos über: 
  
-* [IP-Adresse zuweisen)]()
+* [IP-Adresse zuweisen]()
 * [Netzverbindung aufbauen]()
 * [DNS-Konfiguration]()
 * [Firewall-Konfiguration]()
