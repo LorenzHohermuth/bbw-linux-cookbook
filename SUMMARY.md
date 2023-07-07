@@ -1,3 +1,5 @@
+# Table of contents
+
 - [🏠 Home](README.md)
 - [🤝 Leitfaden zum Beitragen](leitfaden-zum-beitragen.md)
 - [🤖Linux Distribution](linux-distributionen/wsl.md)
@@ -16,8 +18,8 @@
     - [🔄Aktualisierung]()
 - [💻 Linux Befehle](linux-befehle/linux-befehle.md)
     - [🦸Meistgenutzte](linux-befehle/meistgenutzte.md)
-    - [🖱️System]()
-    - [📰Dateiverwaltung]()
+    - [🖱️System](commands/system.md)
+    - [📰Dateiverwaltung](commands/dateiverwaltung.md)
     - [📎Textbearbeitung](linux-befehle/textbearbeitung.md)
     - [🌐Netzwerk]()
     - [🏗️Prozessmanagement](befehle/processes-ubuntu-linux.md)
