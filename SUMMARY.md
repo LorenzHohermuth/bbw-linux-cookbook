@@ -1,5 +1,4 @@
 # Table of contents
-
 - [🏠Home](README.md)
 - [🤝Leitfaden zum Beitragen](leitfaden-zum-beitragen.md)
 - [🤖Linux Distribution](linux-distributionen/wsl.md)
@@ -26,7 +25,7 @@
     - [🏗️Prozessmanagement](befehle/processes-ubuntu-linux.md)
     - [🐢Shell]()
     - [📦Paketverwaltung](befehle/paketverwaltung.md)
-- [🚧Bash Konsole]()
+- [🚧Bash Konsole](Bash_Konsole/bash_konsole.md)
   - [🥊Bash vs KSH (Kornshell)](bash-konsole/kornshell-bash.md)
   - [🆚Bash vs SH (Shell)](bash-konsole/bash-shell.md)
   - [🌱 Umgebungsvariablen](bash-konsole/umgebungsvariablen.md)
