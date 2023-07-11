@@ -15,8 +15,8 @@
   * [👨👩👧 Distributionsfamilien](paketverwaltung/distributionsfamilien/distributionsfamilien.md)
   * [📚 Repositories](paketverwaltung/repositories.md)
 * [🖥 Software](software/README.md)
-  * [🛠 Installation / Deinstallation](<README (1).md>)
-  *
+  * [🛠 Installation / Deinstallation](#)
+  * [🔄 Aktualisierung](#)
 * [💻 Linux Befehle](linux-befehle/index.md)
   * [🦸 Meistgenutzte](linux-befehle/meistgenutzte.md)
   * [🖱 System](linux-befehle/system.md)
