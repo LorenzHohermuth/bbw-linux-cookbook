@@ -1,4 +1,4 @@
-# 🌱 Umgebungsvariablen
+# Umgebungsvariablen
 
 Umgebungsvariablen in Bash sind dynamische Werte, die das Verhalten und die Konfiguration einer Bash-Konsolen-Sitzung und der darin ausgeführten Programme beeinflussen können. Sie werden verwendet, um Informationen wie Systempfade, Benutzereinstellungen und Konfigurationseinstellungen zu speichern.
 
