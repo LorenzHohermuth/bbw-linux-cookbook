@@ -1,4 +1,4 @@
-# Umgebungsvariablen
+# 🌱 Umgebungsvariablen
 
 Umgebungsvariablen in Bash sind dynamische Werte, die das Verhalten und die Konfiguration einer Bash-Konsolen-Sitzung und der darin ausgeführten Programme beeinflussen können. Sie werden verwendet, um Informationen wie Systempfade, Benutzereinstellungen und Konfigurationseinstellungen zu speichern.
 
@@ -9,7 +9,6 @@ In der Bash sind Umgebungsvariablen Variablen, die in der Konsolen-Umgebung gese
 Umgebungsvariablen können in zwei Typen unterteilt werden:
 
 1. **Systemumgebungsvariablen**: Diese Variablen werden vom Betriebssystem gesetzt und sind für alle Benutzer und Programme auf dem System verfügbar. Sie definieren typischerweise systemweite Einstellungen wie Systempfade, Standardeditoren und Spracheinstellungen.
-
 2. **Benutzer-Umgebungsvariablen**: Diese Variablen sind benutzerspezifisch und werden in der Umgebung des Benutzers gesetzt. Sie können verwendet werden, um benutzerspezifische Konfigurationen oder temporäre Variablen zu definieren, die von bestimmten Anwendungen benötigt werden.
 
 ## Umgebungsvariablen setzen
@@ -29,7 +28,6 @@ export PATH=$PATH:/pfad/zu/weiteren/verzeichnissen
 ```
 
 2. **Dauerhaftes Setzen von Variablen**: Um Umgebungsvariablen zu setzen, die auch in zukünftigen Konsolen-Sitzungen verfügbar sein sollen, können die Variablen zur Konsolen-Konfigurationsdatei (`~/.bashrc` oder `~/.bash_profile`) hinzugefügt werden. Durch Hinzufügen des Befehls `export` zu einer dieser Dateien werden die Variablen automatisch gesetzt, wenn eine neue Konsolen-Sitzung gestartet wird.
-
 3. **Temporäre Variablenzuweisung**: Umgebungsvariablen können auch temporär für die Dauer eines Befehls gesetzt werden. Dies wird erreicht, indem die Variable unmittelbar vor dem Befehl definiert wird, ohne `export` zu verwenden. Zum Beispiel:
 
 ```bash
@@ -42,24 +40,24 @@ Sobald eine Umgebungsvariable gesetzt ist, kann auf sie innerhalb eines Konsolen
 
 Hier ist ein simples Beispiel für den Zugriff auf eine Umgebungsvariable in Bash:
 
--   Um den Wert einer bestimmten Umgebungsvariablen anzuzeigen, können Sie den Befehl `echo` verwenden:
+* Um den Wert einer bestimmten Umgebungsvariablen anzuzeigen, können Sie den Befehl `echo` verwenden:
 
 ```bash
 echo $VARIABLE_NAME
 ```
 
--   Umgebungsvariablen können auch innerhalb von Skripten für bedingte Anweisungen, Schleifen oder jede andere erforderliche Verarbeitung verwendet werden.
+* Umgebungsvariablen können auch innerhalb von Skripten für bedingte Anweisungen, Schleifen oder jede andere erforderliche Verarbeitung verwendet werden.
 
 ## Allgemeine Umgebungsvariablen
 
 Bash stellt mehrere allgemeine Umgebungsvariablen zur Verfügung, von denen einige enthalten sind:
 
--   `HOME`: Repräsentiert das Home-Verzeichnis des Benutzers.
--   `PATH`: Gibt die Verzeichnisse an, in denen nach ausführbaren Programmen gesucht werden soll.
--   `USER`: Enthält den Benutzernamen des aktuell angemeldeten Benutzers.
--   `PWD`: Speichert das aktuelle Arbeitsverzeichnis.
--   `LANG` und `LC_*`: Bestimmen die Sprach- und Gebietsschemaeinstellungen.
--   `TERM`: Legt den Terminaltyp fest.
+* `HOME`: Repräsentiert das Home-Verzeichnis des Benutzers.
+* `PATH`: Gibt die Verzeichnisse an, in denen nach ausführbaren Programmen gesucht werden soll.
+* `USER`: Enthält den Benutzernamen des aktuell angemeldeten Benutzers.
+* `PWD`: Speichert das aktuelle Arbeitsverzeichnis.
+* `LANG` und `LC_*`: Bestimmen die Sprach- und Gebietsschemaeinstellungen.
+* `TERM`: Legt den Terminaltyp fest.
 
 Dies sind nur einige Beispiele, und es gibt noch viele weitere Umgebungsvariablen, die je nach System und Konfiguration verfügbar sind.
 

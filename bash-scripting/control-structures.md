@@ -1,16 +1,16 @@
-# Kontrollstrukturen
+# 🎛 Kontrollstrukturen
 
 Kontrollstrukturen in der Linux Bash-Skripting ermöglichen es Ihnen, den Ablauf des Skripts basierend auf Bedingungen und Iterationen zu steuern. Sie bieten die Möglichkeit, Entscheidungen zu treffen, Codeblöcke bedingt auszuführen und Code wiederholt auszuführen. Das Verständnis von Kontrollstrukturen ist für das Schreiben effizienter und flexibler Skripte unerlässlich.
 
-- [If/Else-Anweisungen](#ifelse-anweisungen)
-  - [Grundlegende if-Anweisung](#grundlegende-if-anweisung)
-  - [If/Else-Anweisung](#ifelse-anweisung)
-  - [If/Else If/Else-Anweisung](#ifelse-ifelse-anweisung)
-- [Schleifen](#schleifen)
-  - [For-Schleife](#for-schleife)
-  - [While-Schleife](#while-schleife)
-  - [Until-Schleife](#until-schleife)
-- [Fall-Anweisungen](#fall-anweisungen)
+* [If/Else-Anweisungen](control-structures.md#ifelse-anweisungen)
+  * [Grundlegende if-Anweisung](control-structures.md#grundlegende-if-anweisung)
+  * [If/Else-Anweisung](control-structures.md#ifelse-anweisung)
+  * [If/Else If/Else-Anweisung](control-structures.md#ifelse-ifelse-anweisung)
+* [Schleifen](control-structures.md#schleifen)
+  * [For-Schleife](control-structures.md#for-schleife)
+  * [While-Schleife](control-structures.md#while-schleife)
+  * [Until-Schleife](control-structures.md#until-schleife)
+* [Fall-Anweisungen](control-structures.md#fall-anweisungen)
 
 ## If/Else-Anweisungen
 
@@ -104,12 +104,12 @@ In all diesen Beispielen beachten Sie die Verwendung von eckigen Klammern `[...]
 
 Schleifen im Bash-Skripting werden verwendet, wenn Sie einen bestimmten Block von Befehlen mehrmals wiederholen müssen. Sie ermöglichen die Automatisierung wiederkehrender Aufgaben und machen Ihre Skripte effizienter und einfacher zu warten. Es gibt drei Arten von Schleifen, die in Bash häufig verwendet werden: `for`, `while` und `until`.
 
-- [Schleifen](#schleifen)
-  - [For-Schleife](#for-schleife)
-  - [While-Schleife](#while-schleife)
-  - [Until-Schleife](#until-schleife)
+* [Schleifen](control-structures.md#schleifen)
+  * [For-Schleife](control-structures.md#for-schleife)
+  * [While-Schleife](control-structures.md#while-schleife)
+  * [Until-Schleife](control-structures.md#until-schleife)
 
----
+***
 
 ### For-Schleife
 
@@ -133,7 +133,7 @@ done
 
 In diesem Skript durchläuft die `for`-Schleife die Liste der Zahlen (1, 2, 3, 4, 5) und gibt für jede Iteration den aktuellen Wert von `i` aus.
 
----
+***
 
 ### While-Schleife
 
@@ -160,7 +160,7 @@ done
 
 In diesem Skript gibt die `while`-Schleife weiterhin den Wert von `counter` aus und erhöht ihn, solange der Zähler kleiner oder gleich 5 ist.
 
----
+***
 
 ### Until-Schleife
 
@@ -208,7 +208,6 @@ esac
 ```
 
 Die `case`-Anweisung bewertet den gegebenen `expression` anhand der angegebenen Muster. Jedes Muster kann ein wörtlicher Wert oder ein regulärer Ausdruck sein. Der Codeblock für das erste Muster, das mit dem Ausdruck übereinstimmt, wird ausgeführt. Nach jedem Codeblock werden doppelte Semikolons `;;` verwendet, um das Ende dieses Abschnitts zu kennzeichnen.
-
 
 Hier ist ein Beispiel:
 

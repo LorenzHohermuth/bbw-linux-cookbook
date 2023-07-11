@@ -1,13 +1,13 @@
-# Paketverwaltung
+# 📦 Paketverwaltung
 
 ## Übersicht
 
-- [Einleitung](#einleitung)
-- [Fortgeschrittenes Packaging Tool - APT](#fortgeschrittenes-packaging-tool---apt)
-- [Paket installieren](#paket-installieren)
-- [Paket entfernen](#paket-entfernen)
-- [Aktualisieren des Paketindexes](#aktualisieren-des-paketindexes)
-- [Paket-Upgrades](#paket-upgrades)
+* [Einleitung](paketverwaltung.md#einleitung)
+* [Fortgeschrittenes Packaging Tool - APT](paketverwaltung.md#fortgeschrittenes-packaging-tool---apt)
+* [Paket installieren](paketverwaltung.md#paket-installieren)
+* [Paket entfernen](paketverwaltung.md#paket-entfernen)
+* [Aktualisieren des Paketindexes](paketverwaltung.md#aktualisieren-des-paketindexes)
+* [Paket-Upgrades](paketverwaltung.md#paket-upgrades)
 
 ## Einleitung
 

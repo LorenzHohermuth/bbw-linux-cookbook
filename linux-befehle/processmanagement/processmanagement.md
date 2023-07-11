@@ -1,12 +1,12 @@
-# Prozessmanagement Ubuntu Linux
+# 🏗 Prozessmanagement
 
 ## Übersicht
 
-- [Einleitung](#einleitung)
-- [Auflisten und Verwalten von Prozessen mit dem System-Monitor](#auflisten-und-verwalten-von-prozessen-mit-dem-system-monitor)
-- [Das Töten eines Prozesses mit "kill" und "killall"](#das-töten-eines-prozesses-mit-kill-und-killall)
-- [Verwendung des Befehls "kill" zum Senden eines Signals an einen Prozess anhand der PID](#verwendung-des-befehls-kill-zum-senden-eines-signals-an-einen-prozess-anhand-der-pid)
-- [Verwendung des Befehls "killall" zum Senden eines Signals an einen Prozess anhand des Namens](#verwendung-des-befehls-killall-zum-senden-eines-signals-an-einen-prozess-anhand-des-namens)
+* [Einleitung](processmanagement.md#einleitung)
+* [Auflisten und Verwalten von Prozessen mit dem System-Monitor](processmanagement.md#auflisten-und-verwalten-von-prozessen-mit-dem-system-monitor)
+* [Das Töten eines Prozesses mit "kill" und "killall"](processmanagement.md#das-töten-eines-prozesses-mit-kill-und-killall)
+* [Verwendung des Befehls "kill" zum Senden eines Signals an einen Prozess anhand der PID](processmanagement.md#verwendung-des-befehls-kill-zum-senden-eines-signals-an-einen-prozess-anhand-der-pid)
+* [Verwendung des Befehls "killall" zum Senden eines Signals an einen Prozess anhand des Namens](processmanagement.md#verwendung-des-befehls-killall-zum-senden-eines-signals-an-einen-prozess-anhand-des-namens)
 
 ## Einleitung
 
@@ -14,30 +14,29 @@ Das Verwalten von Prozessen in Linux ist ein wichtiges Thema, das es zu erlernen
 
 ## Auflisten und Verwalten von Prozessen mit dem System-Monitor
 
-Linux verfügt über einen Systemmonitor namens GNOME, der die laufenden Prozesse dynamisch anzeigt. Um den Systemmonitor zu starten, drücken Sie die Windows-Taste und geben Sie "Systemmonitor" ein. Klicken Sie dann auf das entsprechende Symbol, um ihn zu öffnen. Dort können Sie die Prozesse in Spalten anzeigen.
-Durch einen Rechtsklick auf die Prozesse können Sie diese beenden, anhalten oder die Prozesspriorität (renice) ändern.
+Linux verfügt über einen Systemmonitor namens GNOME, der die laufenden Prozesse dynamisch anzeigt. Um den Systemmonitor zu starten, drücken Sie die Windows-Taste und geben Sie "Systemmonitor" ein. Klicken Sie dann auf das entsprechende Symbol, um ihn zu öffnen. Dort können Sie die Prozesse in Spalten anzeigen. Durch einen Rechtsklick auf die Prozesse können Sie diese beenden, anhalten oder die Prozesspriorität (renice) ändern.
 
-![System Monitor](pul-system_monitor.webp)
+![System Monitor](../../befehle/pul-system\_monitor.webp)
 
 Die laufenden Prozesse werden mit den Benutzerkonten in alphabetischer Reihenfolge angezeigt. Sie können die Prozesse nach beliebigen Spaltenüberschriften wie CPU, Speicher usw. sortieren. Klicken Sie einfach auf die entsprechende Überschrift, und die Prozesse werden sortiert. Wenn Sie beispielsweise auf "CPU" klicken, können Sie sehen, welcher Prozess die meiste CPU-Leistung verbraucht. Um Prozesse zu verwalten, klicken Sie mit der rechten Maustaste auf sie und wählen Sie die gewünschte Option aus. Um den Prozess zu verwalten, wählen Sie die folgenden Optionen.
 
-- Eigenschaften(Properties): Zeigt weitere Einstellungen in Bezug auf einen Prozess an.
-- Speicherkarten(Memory Maps): Zeigt die System-Speicherkarten an, um zu sehen, welche Bibliotheken und andere Komponenten im Speicher für den Prozess verwendet werden.
-- Geöffnete Dateien(Open file): Zeigt an, welche Dateien vom Prozess geöffnet sind.
-- Priorität ändern(Change Priority): Zeigt eine Seitenleiste an, über die Sie die Priorität des Prozesses mit Optionen von sehr hoch bis sehr niedrig und benutzerdefiniert ändern können.
-- Anhalten(Stop): Pausiert den Prozess, bis Sie wählen, fortzufahren.
-- Fortsetzen(Continue): Startet einen pausierten Prozess wieder.
-- Beenden(Kill): Beendet einen Prozess sofort erzwungen.
+* Eigenschaften(Properties): Zeigt weitere Einstellungen in Bezug auf einen Prozess an.
+* Speicherkarten(Memory Maps): Zeigt die System-Speicherkarten an, um zu sehen, welche Bibliotheken und andere Komponenten im Speicher für den Prozess verwendet werden.
+* Geöffnete Dateien(Open file): Zeigt an, welche Dateien vom Prozess geöffnet sind.
+* Priorität ändern(Change Priority): Zeigt eine Seitenleiste an, über die Sie die Priorität des Prozesses mit Optionen von sehr hoch bis sehr niedrig und benutzerdefiniert ändern können.
+* Anhalten(Stop): Pausiert den Prozess, bis Sie wählen, fortzufahren.
+* Fortsetzen(Continue): Startet einen pausierten Prozess wieder.
+* Beenden(Kill): Beendet einen Prozess sofort erzwungen.
 
 ## Das Töten eines Prozesses mit "kill" und "killall"
 
 Die Befehle "kill" und "killall" werden verwendet, um einen laufenden Prozess zu beenden/beenden. Diese Befehle können auch verwendet werden, um einem laufenden Prozess ein gültiges Signal zu senden, wie z.B. einem Prozess mitzuteilen, dass er fortgesetzt, beendet oder Konfigurationsdateien erneut gelesen werden soll, usw. Signale können sowohl durch Zahlen als auch durch Namen angegeben werden. Hier sind einige häufig verwendete Signale:
 
-- SIGTERM (15): Dieses Signal wird verwendet, um einen Prozess ordnungsgemäß zu beenden. Dem Prozess wird die Möglichkeit gegeben, Aufräumarbeiten durchzuführen, bevor er beendet wird.
-- SIGKILL (9): Dieses Signal wird verwendet, um einen Prozess sofort und erzwungen zu beenden, ohne ihm die Möglichkeit zu geben, Aufräumarbeiten durchzuführen.
-- SIGSTOP (19): Dieses Signal wird verwendet, um einen Prozess anzuhalten. Der Prozess wird vorübergehend angehalten und kann mit dem Signal SIGCONT fortgesetzt werden.
-- SIGCONT (18): Dieses Signal wird verwendet, um einen zuvor angehaltenen Prozess fortzusetzen.
-- SIGHUP (1): Dieses Signal wird verwendet, um einem Prozess mitzuteilen, dass er seine Konfigurationsdateien erneut lesen soll.
+* SIGTERM (15): Dieses Signal wird verwendet, um einen Prozess ordnungsgemäß zu beenden. Dem Prozess wird die Möglichkeit gegeben, Aufräumarbeiten durchzuführen, bevor er beendet wird.
+* SIGKILL (9): Dieses Signal wird verwendet, um einen Prozess sofort und erzwungen zu beenden, ohne ihm die Möglichkeit zu geben, Aufräumarbeiten durchzuführen.
+* SIGSTOP (19): Dieses Signal wird verwendet, um einen Prozess anzuhalten. Der Prozess wird vorübergehend angehalten und kann mit dem Signal SIGCONT fortgesetzt werden.
+* SIGCONT (18): Dieses Signal wird verwendet, um einen zuvor angehaltenen Prozess fortzusetzen.
+* SIGHUP (1): Dieses Signal wird verwendet, um einem Prozess mitzuteilen, dass er seine Konfigurationsdateien erneut lesen soll.
 
 Bitte beachten Sie, dass die Verwendung von "kill" und "killall" sorgfältig erfolgen sollte, da das Beenden von Prozessen irreversible Auswirkungen haben kann.
 
@@ -49,8 +48,8 @@ Der Befehl "kill" in Linux wird verwendet, um Signale an laufende Prozesse zu se
 kill SIGNAL PID
 ```
 
-- "SIGNAL" steht für das gewünschte Signal, das an den Prozess gesendet werden soll. Sie können das Signal entweder numerisch (z. B. 15 für SIGTERM) oder durch seinen Namen (z. B. SIGTERM) angeben.
-- "PID" steht für die Prozess-ID des Ziels, an den das Signal gesendet werden soll.
+* "SIGNAL" steht für das gewünschte Signal, das an den Prozess gesendet werden soll. Sie können das Signal entweder numerisch (z. B. 15 für SIGTERM) oder durch seinen Namen (z. B. SIGTERM) angeben.
+* "PID" steht für die Prozess-ID des Ziels, an den das Signal gesendet werden soll.
 
 Ein Beispiel für die Verwendung des Befehls "kill", um ein Signal an einen Prozess anhand der PID zu senden:
 

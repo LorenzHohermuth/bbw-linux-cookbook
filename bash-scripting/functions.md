@@ -1,40 +1,40 @@
-# Funktionen
+# 🎱 Funktionen
 
 Funktionen in Linux sind ein grundlegendes Konzept, das es einem ermöglicht, Ihren Code zu organisieren und zu modularisieren. Es handelt sich um Codeblöcke, die einmal definiert werden und dann mehrmals im Skript aufgerufen werden können. Funktionen bieten mehrere Vorteile, darunter Code-Wiederverwendbarkeit, verbesserte Lesbarkeit und einfachere Wartung.
 
-- [Grundlegende Syntax](#grundlegende-syntax)
-- [Variablen in Funktionen](#variablen-in-funktionen)
-  - [Variablennamen](#variablennamen)
-  - [Lokale Variablen](#lokale-variablen)
-  - [Funktionsparameter](#funktionsparameter)
-  - [Rückgabewerte](#rückgabewerte)
-- [Erweiterte Syntax](#erweiterte-syntax)
-  - [Übergabe von Argumenten per Referenz](#übergabe-von-argumenten-per-referenz)
-  - [Verwendung von lokalen und globalen Variablen](#verwendung-von-lokalen-und-globalen-variablen)
-  - [Behandlung des Gültigkeitsbereichs von Variablen](#behandlung-des-gültigkeitsbereichs-von-variablen)
-  - [Rückgabe von Werten aus Funktionen](#rückgabe-von-werten-aus-funktionen)
-- [Häufig verwendete Funktionen](#häufig-verwendete-funktionen)
-  - [Mathematische Funktionen](#mathematische-funktionen)
-    - [Arithmetische Operationen](#arithmetische-operationen)
-    - [Vergleichsoperatoren](#vergleichsoperatoren)
-    - [Mathematische Funktionen](#mathematische-funktionen-1)
-  - [Zeichenkettenfunktionen](#zeichenkettenfunktionen)
-    - [Zeichenkettenlänge](#zeichenkettenlänge)
-    - [Zeichenkettenverkettung](#zeichenkettenverkettung)
-    - [Teilzeichenkette extrahieren](#teilzeichenkette-extrahieren)
-    - [Zeichenkettenmanipulation](#zeichenkettenmanipulation)
-    - [Zeichenkettenvergleich](#zeichenkettenvergleich)
-  - [Array-Funktionen](#array-funktionen)
-    - [Array-Deklaration](#array-deklaration)
-    - [Array-Länge](#array-länge)
-    - [Elemente zu einem Array hinzufügen](#elemente-zu-einem-array-hinzufügen)
-    - [Durch ein Array iterieren](#durch-ein-array-iterieren)
-    - [Elemente aus einem Array entfernen](#elemente-aus-einem-array-entfernen)
-  - [Datei-Funktionen](#datei-funktionen)
-    - [Erstellen einer Datei](#erstellen-einer-datei)
-    - [Lesen einer Datei](#lesen-einer-datei)
-    - [Schreiben in eine Datei](#schreiben-in-eine-datei)
-    - [Datei umbenennen](#datei-umbenennen)
+* [Grundlegende Syntax](functions.md#grundlegende-syntax)
+* [Variablen in Funktionen](functions.md#variablen-in-funktionen)
+  * [Variablennamen](functions.md#variablennamen)
+  * [Lokale Variablen](functions.md#lokale-variablen)
+  * [Funktionsparameter](functions.md#funktionsparameter)
+  * [Rückgabewerte](functions.md#rückgabewerte)
+* [Erweiterte Syntax](functions.md#erweiterte-syntax)
+  * [Übergabe von Argumenten per Referenz](functions.md#übergabe-von-argumenten-per-referenz)
+  * [Verwendung von lokalen und globalen Variablen](functions.md#verwendung-von-lokalen-und-globalen-variablen)
+  * [Behandlung des Gültigkeitsbereichs von Variablen](functions.md#behandlung-des-gültigkeitsbereichs-von-variablen)
+  * [Rückgabe von Werten aus Funktionen](functions.md#rückgabe-von-werten-aus-funktionen)
+* [Häufig verwendete Funktionen](functions.md#häufig-verwendete-funktionen)
+  * [Mathematische Funktionen](functions.md#mathematische-funktionen)
+    * [Arithmetische Operationen](functions.md#arithmetische-operationen)
+    * [Vergleichsoperatoren](functions.md#vergleichsoperatoren)
+    * [Mathematische Funktionen](functions.md#mathematische-funktionen-1)
+  * [Zeichenkettenfunktionen](functions.md#zeichenkettenfunktionen)
+    * [Zeichenkettenlänge](functions.md#zeichenkettenlänge)
+    * [Zeichenkettenverkettung](functions.md#zeichenkettenverkettung)
+    * [Teilzeichenkette extrahieren](functions.md#teilzeichenkette-extrahieren)
+    * [Zeichenkettenmanipulation](functions.md#zeichenkettenmanipulation)
+    * [Zeichenkettenvergleich](functions.md#zeichenkettenvergleich)
+  * [Array-Funktionen](functions.md#array-funktionen)
+    * [Array-Deklaration](functions.md#array-deklaration)
+    * [Array-Länge](functions.md#array-länge)
+    * [Elemente zu einem Array hinzufügen](functions.md#elemente-zu-einem-array-hinzufügen)
+    * [Durch ein Array iterieren](functions.md#durch-ein-array-iterieren)
+    * [Elemente aus einem Array entfernen](functions.md#elemente-aus-einem-array-entfernen)
+  * [Datei-Funktionen](functions.md#datei-funktionen)
+    * [Erstellen einer Datei](functions.md#erstellen-einer-datei)
+    * [Lesen einer Datei](functions.md#lesen-einer-datei)
+    * [Schreiben in eine Datei](functions.md#schreiben-in-eine-datei)
+    * [Datei umbenennen](functions.md#datei-umbenennen)
 
 ## Grundlegende Syntax
 
@@ -49,15 +49,11 @@ funktionsname() {
 
 Lassen Sie uns die Syntax aufschlüsseln:
 
-- `funktionsname`: Dies ist der Name der Funktion, die man definieren möchten. Wähle einen aussagekräftigen Namen, der den Zweck der Funktion beschreibt.
-
-- `()`: Die Klammern zeigen an, dass man eine Funktion definiert. Man kann Parameter innerhalb dieser Klammern übergeben, wenn Ihre Funktion Eingaben erfordert.
-
-- `{}`: Die geschweiften Klammern umschließen den Körper der Funktion. Hier schreibt man die Anweisungen oder Befehle, die die Funktion ausführen soll.
-
-- `# Funktionskörper`: Dies ist ein Kommentar, den man hinzufügen kann, um eine kurze Beschreibung oder den Zweck der Funktion anzugeben. Es ist optional, aber empfohlen, um eine bessere Dokumentation des Codes zu ermöglichen.
-
-- `# Auszuführende Anweisungen`: Dies sind die tatsächlichen Befehle oder Anweisungen, die die Funktion ausführen wird, wenn sie aufgerufen wird.
+* `funktionsname`: Dies ist der Name der Funktion, die man definieren möchten. Wähle einen aussagekräftigen Namen, der den Zweck der Funktion beschreibt.
+* `()`: Die Klammern zeigen an, dass man eine Funktion definiert. Man kann Parameter innerhalb dieser Klammern übergeben, wenn Ihre Funktion Eingaben erfordert.
+* `{}`: Die geschweiften Klammern umschließen den Körper der Funktion. Hier schreibt man die Anweisungen oder Befehle, die die Funktion ausführen soll.
+* `# Funktionskörper`: Dies ist ein Kommentar, den man hinzufügen kann, um eine kurze Beschreibung oder den Zweck der Funktion anzugeben. Es ist optional, aber empfohlen, um eine bessere Dokumentation des Codes zu ermöglichen.
+* `# Auszuführende Anweisungen`: Dies sind die tatsächlichen Befehle oder Anweisungen, die die Funktion ausführen wird, wenn sie aufgerufen wird.
 
 Hier ist ein Beispiel für eine einfache Funktion, die eine Nachricht ausgibt:
 
@@ -137,10 +133,10 @@ Die Verwendung von Variablen in Funktionen ermöglicht es Ihnen, Daten zu speich
 
 Zusätzlich zur grundlegenden Syntax von Funktionen bietet Linux erweiterte Funktionen, die mehr Flexibilität und Kontrolle innerhalb von Funktionen ermöglichen. In diesem Abschnitt werden wir einige dieser erweiterten Syntaxoptionen untersuchen, darunter:
 
-- Übergabe von Argumenten per Referenz
-- Verwendung von lokalen und globalen Variablen
-- Behandlung des Gültigkeitsbereichs von Variablen
-- Rückgabe von Werten aus Funktionen
+* Übergabe von Argumenten per Referenz
+* Verwendung von lokalen und globalen Variablen
+* Behandlung des Gültigkeitsbereichs von Variablen
+* Rückgabe von Werten aus Funktionen
 
 Lassen Sie uns jeden dieser Punkte genauer betrachten:
 
@@ -251,17 +247,13 @@ Mit den oben diskutierten erweiterten Syntaxoptionen kann man die Möglichkeiten
 
 Häufig verwendete Funktionen in Linux beziehen sich auf Funktionen, die häufig für verschiedene Aufgaben verwendet werden und grundlegende Operationen in den Bereichen Mathematik, Zeichenkettenmanipulation, Array-Verarbeitung und Dateioperationen bieten. Durch die Nutzung dieser häufig verwendeten Funktionen können Sie häufig auftretende Aufgaben effizient und effektiv in Ihren Linux-Skripten ausführen.
 
-* ## [Mathematik](#mathematische-funktionen "Mathematische Funktionen")
+* ### [Mathematik](functions.md#mathematische-funktionen)
+* ### [Zeichenkette](functions.md#zeichenkettenfunktionen)
+* ### [Array](functions.md#array-funktionen)
+* ### [Datei](functions.md#datei-funktionen)
 
-* ## [Zeichenkette](#zeichenkettenfunktionen "Zeichenkettenfunktionen")
+***
 
-* ## [Array](#array-funktionen "Array-Funktionen")
-
-* ## [Datei](#datei-funktionen "Datei-Funktionen")
-
----
-
-<!-- ====================== Mathematik ====================== -->
 ### Mathematische Funktionen
 
 Mathematische Funktionen in Linux bieten eine Reihe von Operationen zur Durchführung mathematischer Berechnungen. Hier sind einige häufig verwendete mathematische Funktionen:
@@ -360,7 +352,7 @@ echo "Natürlicher Logarithmus: $result"
 
 Dies sind nur einige Beispiele für die in Linux verfügbaren mathematischen Funktionen. Sie können den Befehl `bc` und andere mathematische Bibliotheken erkunden, um komplexere Berechnungen durchzuführen und fortgeschrittene mathematische Funktionen zu nutzen.
 
----
+***
 
 ### Zeichenkettenfunktionen
 
@@ -458,7 +450,7 @@ fi
 
 Dies sind nur einige Beispiele für die in Linux verfügbaren Zeichenkettenfunktionen. Sie können weitere Zeichenkettenmanipulationsbefehle und -techniken erkunden, um fortgeschrittenere Operationen an Zeichenketten durchzuführen.
 
----
+***
 
 ### Array-Funktionen
 
@@ -541,7 +533,7 @@ echo "Aktualisiertes Array: ${fruits[@]}"
 
 Dies sind nur einige Beispiele für die in Linux verfügbaren Array-Funktionen. Sie können weitere Array-Manipulationstechniken und -funktionen erkunden, um effektiv mit Arrays zu arbeiten.
 
----
+***
 
 ### Datei-Funktionen
 
@@ -603,6 +595,3 @@ echo "Die Datei wurde umbenannt in: $newname"
 ```
 
 Dies sind nur einige Beispiele für die in Linux verfügbaren Datei-Funktionen. Man kann weitere Dateioperationen und -techniken erkunden, um Dateien effektiv zu verwalten und zu manipulieren.
-
-<!-- ## **Grundlagen**
-## **[Häufig verwendete Funktionen](content/function-common.md "Häufig verwendete Funktionen")** -->

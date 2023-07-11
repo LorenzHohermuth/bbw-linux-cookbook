@@ -1,4 +1,4 @@
-# 🏠 Home
+# 🛠 Installation / Deinstallation
 
 Dieses [Linux Cookbook](https://bbw-linux-cookbook.gitbook.io/) ist ein Projekt der Klasse **5IA22b** im **Modul 431**. Das Hauptziel dieses Projekts besteht darin, ein grundlegendes Verständnis über Linux zu erlangen und dieses Wissen sowohl für unseren eigenen weiteren Lehrgang als auch für zukünftige Schülerinnen und Schüler der [BBW](https://www.bbw.ch/) zugänglich zu machen. Dieses resultierte **BBW Linux Cookbook** dient als ein eigenes Nachschlagewerk, das von **BBW Schülerinnen und Schülern** für **BBW Schülerinnen und Schüler** erstellt wurde.
 
