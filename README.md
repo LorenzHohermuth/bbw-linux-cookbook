@@ -10,5 +10,5 @@ Im weiteren Verlauf werden verschiedene Aspekte der Systemadministration behande
 > 
 > *Der Pull Request mit den Änderungen wird dann von den Maintainern dieses Projektes angeschaut und gemerged sobald es seine Richtigkeit hat.*
 
-*"Es war eine unfassbare Erfahrung und eine Reise auf der jeder seinen Beitrag leistete und immernoch leistet. Ein Klassenprojekt wie dieses ist jeder Klasse zu empfehlen und mit der richtigen Umsetzung kann als Klasse alles erreicht werden."*
-**~ Maintainer vom BBW Linux Cookbook**
+*"Es war eine unfassbare Erfahrung und eine Reise auf der jeder seinen Beitrag leistete und immernoch leistet. Ein Klassenprojekt wie dieses ist jeder Klasse zu empfehlen und mit der richtigen Umsetzung kann als Klasse alles erreicht werden."* <br />
+**\~ Maintainer vom BBW Linux Cookbook**
