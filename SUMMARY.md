@@ -12,7 +12,7 @@
   * [Nutzerverwaltung](aufbau-von-linux/nutzerverwaltung.md)
   * [👮 Permissions](aufbau-von-linux/permission.md)
 * [📦 Paketverwaltung](paketverwaltung/index.md)
-  * [:family_man_woman_girl: Distributionsfamilien](paketverwaltung/distributionsfamilien/distributionsfamilien.md)
+  * [Distributionsfamilien](paketverwaltung/distributionsfamilien/distributionsfamilien.md)
   * [📚 Repositories](paketverwaltung/repositories.md)
 * [🖥 Software](software/index/index.md)
   * [🛠 Installation / Deinstallation](software/installation-deinstallation.md)
