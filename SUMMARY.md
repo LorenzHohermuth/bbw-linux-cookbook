@@ -9,7 +9,7 @@
 * [🐧 Aufbau von Linux](aufbau-von-linux/index.md)
   * [💻 Kernelstruktur](aufbau-von-linux/kernel-struktur.md)
   * [📁 Dateistruktur](aufbau-von-linux/datei-struktur.md)
-  * [:family_man_woman_boy_boy: Nutzerverwaltung](aufbau-von-linux/nutzerverwaltung.md)
+  * [Nutzerverwaltung](aufbau-von-linux/nutzerverwaltung.md)
   * [👮 Permissions](aufbau-von-linux/permission.md)
 * [📦 Paketverwaltung](paketverwaltung/index.md)
   * [:family_man_woman_girl: Distributionsfamilien](paketverwaltung/distributionsfamilien/distributionsfamilien.md)
