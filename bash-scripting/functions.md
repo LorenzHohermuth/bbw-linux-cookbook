@@ -235,9 +235,7 @@ product=$(multiply 5 3)  # Ruft die Funktion 'multiply' auf und speichert den zu
 echo "Das Produkt ist: $product"
 ```
 
-In diesem Beispiel multipliziert die Funktion `multiply` die ersten beiden Argumente (`$1` und `$2`) und speichert das Ergebnis in der Variablen `result`. Die `return`-Anweisung wird verwendet, um den Wert von `result` aus der Funktion zurückzugeben. Der zurückgegebene Wert wird dann mit der Zuweisung `$(multiply 5 3)` in der Variablen `product` erfasst. Schließlich wird der in `product` gespeicherte Wert ausgegeben, was zu der Ausgabe "Das Produkt ist
-
-: 15" führt.
+In diesem Beispiel multipliziert die Funktion `multiply` die ersten beiden Argumente (`$1` und `$2`) und speichert das Ergebnis in der Variablen `result`. Die `return`-Anweisung wird verwendet, um den Wert von `result` aus der Funktion zurückzugeben. Der zurückgegebene Wert wird dann mit der Zuweisung `$(multiply 5 3)` in der Variablen `product` erfasst. Schließlich wird der in `product` gespeicherte Wert ausgegeben, was zu der Ausgabe "Das Produkt ist: 15" führt.
 
 Die Rückgabe von Werten aus Funktionen ermöglicht es Ihnen, Berechnungen oder Operationen innerhalb der Funktion durchzuführen und Ergebnisse zu erhalten, die in Ihrem Skript weiterverwendet werden können.
 
