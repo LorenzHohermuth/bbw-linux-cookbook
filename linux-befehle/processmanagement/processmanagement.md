@@ -16,7 +16,7 @@ Das Verwalten von Prozessen in Linux ist ein wichtiges Thema, das es zu erlernen
 
 Linux verfügt über einen Systemmonitor namens GNOME, der die laufenden Prozesse dynamisch anzeigt. Um den Systemmonitor zu starten, drücken Sie die Windows-Taste und geben Sie "Systemmonitor" ein. Klicken Sie dann auf das entsprechende Symbol, um ihn zu öffnen. Dort können Sie die Prozesse in Spalten anzeigen. Durch einen Rechtsklick auf die Prozesse können Sie diese beenden, anhalten oder die Prozesspriorität (renice) ändern.
 
-![System Monitor](../../befehle/pul-system\_monitor.webp)
+![System Monitor](pul-system_monitor.webp)
 
 Die laufenden Prozesse werden mit den Benutzerkonten in alphabetischer Reihenfolge angezeigt. Sie können die Prozesse nach beliebigen Spaltenüberschriften wie CPU, Speicher usw. sortieren. Klicken Sie einfach auf die entsprechende Überschrift, und die Prozesse werden sortiert. Wenn Sie beispielsweise auf "CPU" klicken, können Sie sehen, welcher Prozess die meiste CPU-Leistung verbraucht. Um Prozesse zu verwalten, klicken Sie mit der rechten Maustaste auf sie und wählen Sie die gewünschte Option aus. Um den Prozess zu verwalten, wählen Sie die folgenden Optionen.
 
