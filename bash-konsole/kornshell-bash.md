@@ -1,12 +1,12 @@
 # 🥊 Bash vs KSH (Kornshell)
 
-***
+---
 
 ## Kurzfassung
 
 Korn Shell wurde von David Korn einige Jahre vor der Bash-Shell entwickelt. Sie kombiniert Eigenschaften vieler anderer Shell-Typen wie der Bourne Shell oder der C-Shell. Da sie jedoch ziemlich alt ist, hat sie im Vergleich zur Bash eine begrenzte Anzahl von Nutzern. Bash ist insbesondere bei Linux-Liebhabern verbreitet, aufgrund von Funktionen wie assoziativen Arrays, Schleifenverarbeitung oder dem Druckbefehl.
 
-***
+---
 
 ## Features
 
@@ -25,7 +25,8 @@ Korn Shell bietet eine Vielzahl von Features. Hier sind einige wichtige Beispiel
 **Fortgeschrittene Skripting-Fähigkeiten** Mit der Korn Shell können komplexe Skripts erstellt werden, die bedingte Anweisungen, Funktionen, Dateioperationen und andere fortgeschrittene Programmierkonstrukte enthalten. Dies ermöglicht die Automatisierung von Aufgaben und die Entwicklung umfangreicher Skripts.
 
 \
-\### Bash Shell Die Bash Shell verfügt ebenfalls über eine Reihe nützlicher Features. Hier sind einige wichtige Beispiele:
+
+### Bash Shell Die Bash Shell verfügt ebenfalls über eine Reihe nützlicher Features. Hier sind einige wichtige Beispiele:
 
 **History-Funktion** Bash speichert die Befehlshistorie, so dass Benutzer frühere Befehle leicht wieder aufrufen und bearbeiten können. Dies erleichtert die Navigation und den Zugriff auf zuvor verwendete Befehle.
 
@@ -37,9 +38,9 @@ Korn Shell bietet eine Vielzahl von Features. Hier sind einige wichtige Beispiel
 
 **Skripting-Funktionen** Die Bash Shell ermöglicht die Erstellung von Skripts, die bedingte Anweisungen, Schleifen, Funktionen und andere Programmierkonstrukte enthalten. Dies erleichtert die Automatisierung von Aufgaben und die Entwicklung komplexer Skripts.
 
-***
+---
 
-## Technische Unterschide
+## Technische Unterschiede
 
 Die Korn Shell (KSH) und die Bash Shell unterscheiden sich in mehreren technischen Aspekten. Hier sind einige aufgelistet:
 
@@ -53,7 +54,7 @@ Die Korn Shell (KSH) und die Bash Shell unterscheiden sich in mehreren technisch
 
 **Erweiterbarkeit** Beide Shells unterstützen die Möglichkeit, eigene Funktionen und Skripte zu erstellen. Die Bash Shell bietet jedoch eine breitere Palette an Erweiterungsmöglichkeiten und Add-Ons, da sie in der Linux-Community weit verbreitet und aktiv weiterentwickelt wird.
 
-***
+---
 
 ## Direkter Vergleich
 

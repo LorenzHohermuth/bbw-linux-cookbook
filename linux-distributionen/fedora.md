@@ -12,8 +12,8 @@ Fedora hat eine lebendige und engagierte Community von Benutzern und Entwicklern
 
 ### Aktualisierungszyklus
 
-* Halbjährlicher Veröffentlichungszyklus mit neuen Versionen alle sechs Monate.
-* Neue Funktionen und Aktualisierungen bestehender Software in jeder Version.
+-   Halbjährlicher Veröffentlichungszyklus mit neuen Versionen alle sechs Monate.
+-   Neue Funktionen und Aktualisierungen bestehender Software in jeder Version.
 
 ### Paketverwaltung
 
@@ -21,13 +21,13 @@ Fedora verwendet das Paketverwaltungssystem "DNF" (Dandified Yum), das RPM-Paket
 
 ### Desktop-Umgebungen
 
-* Unterstützung verschiedener offizieller Desktop-Umgebungen wie GNOME, KDE Plasma, Xfce und LXQt.
-* Auswahl der gewünschten Desktop-Umgebung während der Installation oder nachträgliche Installation möglich.
+-   Unterstützung verschiedener offizieller Desktop-Umgebungen wie GNOME, KDE Plasma, Xfce und LXQt.
+-   Auswahl der gewünschten Desktop-Umgebung während der Installation oder nachträgliche Installation möglich.
 
 ### Fedora-Spins
 
-* Spezielle Varianten von Fedora für bestimmte Anwendungen oder Benutzergruppen.
-* Beispiele: Fedora Workstation, Fedora Server, Fedora KDE Spin, Fedora LXQt Spin.
+-   Spezielle Varianten von Fedora für bestimmte Anwendungen oder Benutzergruppen.
+-   Beispiele: Fedora Workstation, Fedora Server, Fedora KDE Spin, Fedora LXQt Spin.
 
 ### Sicherheitsfokus
 
@@ -37,10 +37,6 @@ Fedora ist kostenlos verfügbar und kann von der offiziellen Website (getfedora.
 
 ### Unterstützung und Updates
 
-* Updates und Sicherheitspatches für jede veröffentlichte Version.
-* Ca. 13 Monate lang Updates, bevor eine Version End-of-Life erreicht.
-* Empfehlung, auf die neueste Version zu aktualisieren.
-
-## Hauptthema
-
-* [Linux](fedora.md)
+-   Updates und Sicherheitspatches für jede veröffentlichte Version.
+-   Ca. 13 Monate lang Updates, bevor eine Version End-of-Life erreicht.
+-   Empfehlung, auf die neueste Version zu aktualisieren.
