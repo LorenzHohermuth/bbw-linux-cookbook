@@ -1,4 +1,4 @@
-# 🧱 Firwall-Konfiguration
+# 🧱 Firewall-Konfiguration
 
 * _Was ist eine Firewall?_ Eine Firewall ist eine Sicherheitsvorrichtung oder eine Software, die den Datenverkehr zwischen Netzwerken überwacht und filtert. Sie dient als Schutzbarriere, um unerwünschten Datenverkehr zu blockieren und das Netzwerk vor Bedrohungen zu schützen.
 
