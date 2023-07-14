@@ -40,7 +40,7 @@
   * [🏠 IP-Adresse zuweisen](netzwerkkonfiguration/ip-adresse-zuweisen.md)
   * [🏡 Netzverbindung aufbauen](netzwerkkonfiguration/netzverbindung-aufbauen.md)
   * [🏘 DNS-Konfiguration](netzwerkkonfiguration/dns-konfiguration.md)
-  * [🧱 Firwall-Konfiguration](netzwerkkonfiguration/firewall-konfiguration.md)
+  * [🧱 Firewall-Konfiguration](netzwerkkonfiguration/firewall-konfiguration.md)
 * [🖼 Grafische Oberflächen](grafische-oberflaechen/index.md)
   * [👣 GNOME](grafische-oberflaechen/gnome/gnome.md)
   * [⚙ KDE](grafische-oberflaechen/kde/kde.md)
