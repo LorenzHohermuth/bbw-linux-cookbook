@@ -94,10 +94,3 @@ Dann, damit die Änderungen in Kraft treten, führst du folgenden Command in der
 `sudo systemctl restart networking.service`
 
 ---
-
-## 5. VPNs 
-
-Mit einer VPN (Virtual Private Network) kannst du unter anderem deine Daten schützen, dazu gehört dein Standort. 
-
-Wenn du die VPN einschaltest, wählst du ein Land aus, drückst auf den Start Button und zack! Du hast eine neue IP-Adresse, die nicht auf dich zurückführbar ist.
-
