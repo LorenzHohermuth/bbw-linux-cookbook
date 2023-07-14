@@ -2,14 +2,15 @@
 
 Damit jeder weiss, wie er eigenen Einträge zu unserem **Linux Cookbook** beitragen kann, steht hier eine klare Anleitung.
 
--   [Repository aufsetzen](#repository-aufsetzen)
--   [Eintrag erstellen](#eintrag-erstellen)
--   [Eintrag ins Hauptrepository mergen](#eintrag-ins-hauptrepository-mergen)
--   [Eigener Fork synchronisieren](#eigener-fork-synchronisieren)
+* [Leitfaden zum Beitragen](leitfaden-zum-beitragen.md#leitfaden-zum-beitragen)
+  * [Repository aufsetzen](leitfaden-zum-beitragen.md#repository-aufsetzen)
+  * [Eintrag erstellen](leitfaden-zum-beitragen.md#eintrag-erstellen)
+  * [Eintrag ins Hauptrepository mergen](leitfaden-zum-beitragen.md#eintrag-ins-hauptrepository-mergen)
+  * [Eigener Fork synchronisieren](leitfaden-zum-beitragen.md#eigener-fork-synchronisieren)
 
 > ℹ️ Fork = geklontes Repository auf dem eigenen Account
 
-📝 **[Markdown Cheatsheet](https://www.markdownguide.org/cheat-sheet/)**
+📝 [**Markdown Cheatsheet**](https://www.markdownguide.org/cheat-sheet/)
 
 ## Repository aufsetzen
 
@@ -50,7 +51,7 @@ Nach dem Beenden deines Eintrages muss er jetzt in das Hauptrepository gemergt w
 5. Beschreibe falls nötig kurz deine Veränderungen
 6. Warte bis dein Pull Request von den Leads angeschaut wird und möglicherweise nach Revisionen gefragt wird
 
-Nachdem dein Eintrag angenommen wurde, beginnt das ganze wieder von vorne. Nicht vergessen deinen [Fork zu synchronisieren](#eigener-fork-synchronisieren).
+Nachdem dein Eintrag angenommen wurde, beginnt das ganze wieder von vorne. Nicht vergessen deinen [Fork zu synchronisieren](leitfaden-zum-beitragen.md#eigener-fork-synchronisieren).
 
 ## Eigener Fork synchronisieren
 

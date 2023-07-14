@@ -1,4 +1,4 @@
-# Dateistruktur von Linux:
+# 📁 Dateistruktur
 
 Die Dateistruktur von Linux folgt einem hierarchischen System, das als "Filesystem Hierarchy Standard" (FHS) bezeichnet wird. Hier ist eine grobe Übersicht über die wichtigsten Verzeichnisse:
 
