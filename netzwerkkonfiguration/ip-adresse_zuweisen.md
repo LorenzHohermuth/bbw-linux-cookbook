@@ -1,4 +1,4 @@
-# IP-Adresse zuweisen
+# 🏠 IP-Adresse zuweisen
 
 
 ## Was ist eine IP-Adresse / Wieso will ich sie ändern?
@@ -7,9 +7,9 @@ Jedes digitale Gerät mit einer Internet-Verbindung hat heutzutage eine IP-Adres
 
 >Ich werde sie hier nicht ausführlich erklären, aber wäre gut wenn man **wüsste**, womit man hier zu tun hat, wenn du sie ändern willst!
 
----
+***
 
-## 1. Der "ip" Command 
+## 1. Der "ip" Command
 
 Die intuitivste Variante ist der ip-command. Kopieren sie und setzen sie ein (eckige Klammern weglassen):
 
@@ -17,10 +17,10 @@ Die intuitivste Variante ist der ip-command. Kopieren sie und setzen sie ein (ec
 
 Beim Wort "interface" geht bei dir sicher ein Fragezeichen auf, aber es ist gar nicht so kompliziert.
 
-Die Haupt-Interfaces sind die Ethernet und WLAN interfaces, weil sie natürlich die einzigen sind, mit denen man sich mit dem Internet verbinden kann. 
+Die Haupt-Interfaces sind die Ethernet und WLAN interfaces, weil sie natürlich die einzigen sind, mit denen man sich mit dem Internet verbinden kann.
 
-- eth0, eth1 ...
-- wlan0, wlan1 ...
+* eth0, eth1 ...
+* wlan0, wlan1 ...
 
 Bevor du den vorherigen command ausführst, solltest du dich für ein Interface entscheiden. So kannst du deine aktiven Verbindungen sehen:
 
@@ -34,33 +34,31 @@ Dann gibst du den Command vom Anfang ein, als Bespiel:
 
 > "sudo" bedeutet "super user do". Manche Sachen kann nur der Admin auf dem Gerät tun, aber dieses Wort erleichtert dir das.
 
----
+***
 
 ## 3. Der "ifconfig" Command
 
-Um die IP-Adresse auf Linux zu ändern, kan man den Befehl "ifconfig" verwenden. 
+Um die IP-Adresse auf Linux zu ändern, kan man den Befehl "ifconfig" verwenden.
 
-Um herauszufinden, welche Interfaces dein System hat, gib `ifconfig -a` ein. 
-Oder um herauszufinden, welche verfügbar sind, gib `ifconfig -l` ein.
-Oder gib `ifconfig -u` ein, um zu sehen, welche aktiv sind.
+Um herauszufinden, welche Interfaces dein System hat, gib `ifconfig -a` ein. Oder um herauszufinden, welche verfügbar sind, gib `ifconfig -l` ein. Oder gib `ifconfig -u` ein, um zu sehen, welche aktiv sind.
 
-Um eine Adresse zu ändern, gib "ifconfig" gefolgt vom interface und der neuen IP-Adresse ein. 
+Um eine Adresse zu ändern, gib "ifconfig" gefolgt vom interface und der neuen IP-Adresse ein.
 
 Bsp: `sudo ifconfig eth0 192.168.56.21/24`
 
 Die neue IP-Adresse wird dieser Schnittstelle zugewiesen.
 
----
+***
 
-## 3. Mit dem GUI (für Desktop Benutzer) 
+## 3. Mit dem GUI (für Desktop Benutzer)
 
 Öffne die Einstellungen vom GNOME dashboard und wähle "Netzwerk". Klicke das Zahnrad-Icon auf deiner Verbindung.
 
-Geh zum "IPv4"-Tab und stelle um auf "Manuell", um deine Anpassungen vorzunehmen. 
+Geh zum "IPv4"-Tab und stelle um auf "Manuell", um deine Anpassungen vorzunehmen.
 
-Wenn du die Verbindung neu startest, sollten die Änderungen Eintreffen! 
+Wenn du die Verbindung neu startest, sollten die Änderungen Eintreffen!
 
----
+***
 
 ## 4. IP-Adressen permanent machen
 
@@ -70,12 +68,12 @@ Im file "/etc/network/interfaces" wirst du sehen, dass deine IP gerade noch von 
 
 So sollte der File-Content aussehen:
 
-``` 
+```
 auto eth0 
 iface eth0 inet dhcp
 ```
 
-Editiere das File, dass es sich neu so liest: 
+Editiere das File, dass es sich neu so liest:
 
 ```
 auto enp0s3
