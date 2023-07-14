@@ -6,7 +6,7 @@ Jedes digitale Gerät mit einer Internet-Verbindung hat heutzutage eine IP-Adres
 
 > Ich werde sie hier nicht ausführlich erklären, aber wäre gut wenn man **wüsste**, womit man hier zu tun hat, wenn du sie ändern willst!
 
-***
+---
 
 ## 1. Der "ip" Command
 
@@ -18,8 +18,8 @@ Beim Wort "interface" geht bei dir sicher ein Fragezeichen auf, aber es ist gar 
 
 Die Haupt-Interfaces sind die Ethernet und WLAN interfaces, weil sie natürlich die einzigen sind, mit denen man sich mit dem Internet verbinden kann.
 
-* eth0, eth1 ...
-* wlan0, wlan1 ...
+-   eth0, eth1 ...
+-   wlan0, wlan1 ...
 
 Bevor du den vorherigen command ausführst, solltest du dich für ein Interface entscheiden. So kannst du deine aktiven Verbindungen sehen:
 
@@ -33,7 +33,7 @@ Dann gibst du den Command vom Anfang ein, als Bespiel:
 
 > "sudo" bedeutet "super user do". Manche Sachen kann nur der Admin auf dem Gerät tun, aber dieses Wort erleichtert dir das.
 
-***
+---
 
 ## 3. Der "ifconfig" Command
 
@@ -47,7 +47,7 @@ Bsp: `sudo ifconfig eth0 192.168.56.21/24`
 
 Die neue IP-Adresse wird dieser Schnittstelle zugewiesen.
 
-***
+---
 
 ## 3. Mit dem GUI (für Desktop Benutzer)
 
@@ -57,7 +57,7 @@ Geh zum "IPv4"-Tab und stelle um auf "Manuell", um deine Anpassungen vorzunehmen
 
 Wenn du die Verbindung neu startest, sollten die Änderungen Eintreffen!
 
-***
+---
 
 ## 4. IP-Adressen permanent machen
 
@@ -68,7 +68,7 @@ Im file "/etc/network/interfaces" wirst du sehen, dass deine IP gerade noch von 
 So sollte der File-Content aussehen:
 
 ```
-auto eth0 
+auto eth0
 iface eth0 inet dhcp
 ```
 
@@ -89,11 +89,3 @@ gateway 192.168.40.31
 Dann, damit die Änderungen in Kraft treten, führst du folgenden Command in der Konsole aus:
 
 `sudo systemctl restart networking.service`
-
-***
-
-## 5. VPNs
-
-Mit einer VPN (Virtual Private Network) kannst du unter anderem deine Daten schützen, dazu gehört dein Standort.
-
-Wenn du die VPN einschaltest, wählst du ein Land aus, drückst auf den Start Button und zack! Du hast eine neue IP-Adresse, die nicht auf dich zurückführbar ist.
